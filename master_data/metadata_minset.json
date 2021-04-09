@@ -1,0 +1,1787 @@
+[
+    {
+        "INDICATOR_ID": "1",
+        "INDICATOR_NUM": "1",
+        "INDICATOR_DESC": "Average number of hours spent on unpaid domestic and care work, by sex, age and location",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "C.2, F.1, H.3",
+        "MDG": "nan",
+        "AgencyID": "14/15",
+        "AgenciesLabel": "UNSD/UN Women",
+        "SDG_IndicatorID": "5.4.1",
+        "Comment": "Needs to convert percentage into hours; should be hours per day?",
+        "series": [
+            {
+                "MINSET_SERIES": "72",
+                "MINSET_SERIES_DESC": "Average number of hours spent on domestic chores and care work, by sex, age and location",
+                "Retired": "0",
+                "SDG_SeriesID": "SL_DOM_TSPD"
+            },
+            {
+                "MINSET_SERIES": "87",
+                "MINSET_SERIES_DESC": "Average number of hours spent on unpaid domestic chores, by sex, age and location",
+                "Retired": "0",
+                "SDG_SeriesID": "SL_DOM_TSPDDC"
+            },
+            {
+                "MINSET_SERIES": "88",
+                "MINSET_SERIES_DESC": "Average number of hours spent on unpaid care work, by sex, age and location",
+                "Retired": "0",
+                "SDG_SeriesID": "SL_DOM_TSPDCW"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "2",
+        "INDICATOR_NUM": "2",
+        "INDICATOR_DESC": "Average number of hours spent on total work (total work burden), by sex",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.1, H.3",
+        "MDG": "nan",
+        "AgencyID": "14",
+        "AgenciesLabel": "UNSD",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "73",
+                "MINSET_SERIES_DESC": "Average number of hours spent on total work combined (total work burden), by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "3",
+        "INDICATOR_NUM": "3",
+        "INDICATOR_DESC": "Labour force participation rates for persons aged 15-24 and 15+, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "8.0",
+        "EdgeName": "Labour force participation rates for 15-24 and 15+, by sex",
+        "BPFA": "F.1, H.3",
+        "MDG": "nan",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "1",
+                "MINSET_SERIES_DESC": "Labour force participation rate for persons aged 15-24, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "2",
+                "MINSET_SERIES_DESC": "Labour force participation rate for persons aged 15+, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "4",
+        "INDICATOR_NUM": "4",
+        "INDICATOR_DESC": "Proportion of employed who are own-account workers, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "15.0",
+        "EdgeName": "Proportion of employed who are own-account workers, by sex",
+        "BPFA": "F.2",
+        "MDG": "Goal 1, target B",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "3",
+                "MINSET_SERIES_DESC": "Proportion of employed who are own-account workers, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "5",
+        "INDICATOR_NUM": "5",
+        "INDICATOR_DESC": "Proportion of employed who are contributing family workers, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "H.3",
+        "MDG": "Goal 1, target B",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "4",
+                "MINSET_SERIES_DESC": "Proportion of employed who are contributing family workers, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "6",
+        "INDICATOR_NUM": "6",
+        "INDICATOR_DESC": "Proportion of employed who are employers, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "14.0",
+        "EdgeName": "Proportion of employed who are employer, by sex",
+        "BPFA": "F.1",
+        "MDG": "nan",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "5",
+                "MINSET_SERIES_DESC": "Proportion of employed who are employers, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "7",
+        "INDICATOR_NUM": "7",
+        "INDICATOR_DESC": "Percentage of adult population who are entrepreneurs, by sex",
+        "Qualitative": "0",
+        "Tier": "3",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "13.0",
+        "EdgeName": "Percentage of firms owned by women",
+        "BPFA": "F.1, F.2",
+        "MDG": "nan",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "79",
+                "MINSET_SERIES_DESC": "Percentage of firms owned by women, by size",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "8",
+        "INDICATOR_NUM": "8",
+        "INDICATOR_DESC": "Percentage distribution of employed population by sector, each sex (Sectors here refer to Agriculture; Industry; Services)",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "9.0",
+        "EdgeName": "Percentage distribution of the employed population by sector, each sex",
+        "BPFA": "F.5, H.3",
+        "MDG": "nan",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "6",
+                "MINSET_SERIES_DESC": "Percentage distribution of employed population in agricultural sector, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "7",
+                "MINSET_SERIES_DESC": "Percentage distribution of employed population in industrial sector, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "8",
+                "MINSET_SERIES_DESC": "Percentage distribution of employed population in service sector, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "9",
+        "INDICATOR_NUM": "9",
+        "INDICATOR_DESC": "Proportion of informal employment in non agriculture employment, by sex",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.2, H.3",
+        "MDG": "nan",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "8.3.1",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "74",
+                "MINSET_SERIES_DESC": "Proportion of informal employment in non-agriculture employment, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "SL_ISV_IFEM"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "10",
+        "INDICATOR_NUM": "10",
+        "INDICATOR_DESC": "Unemployment rate, by sex, age and persons with disabilities",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "10.0",
+        "EdgeName": "Youth unemployment, by sex",
+        "BPFA": "F.1",
+        "MDG": "nan",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "8.5.2",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "9",
+                "MINSET_SERIES_DESC": "Unemployment rate, by sex, age and persons with disabilities",
+                "Retired": "0",
+                "SDG_SeriesID": "SL_TLF_UEM; SL_TLF_UEMDIS"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "11",
+        "INDICATOR_NUM": "11",
+        "INDICATOR_DESC": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "16.0",
+        "EdgeName": "Proportion of population with access to credit by sex",
+        "BPFA": "F.1, F.2",
+        "MDG": "nan",
+        "AgencyID": "12",
+        "AgenciesLabel": "WB",
+        "SDG_IndicatorID": "8.10.2",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "80",
+                "MINSET_SERIES_DESC": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "FB_BNK_ACCSS"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "12",
+        "INDICATOR_NUM": "12",
+        "INDICATOR_DESC": "Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "17.0",
+        "EdgeName": "Proportion of (adult) population who own land, by sex",
+        "BPFA": "A.1, A.2",
+        "MDG": "nan",
+        "AgencyID": "1",
+        "AgenciesLabel": "FAO",
+        "SDG_IndicatorID": "5.a.1",
+        "Comment": "no data yet",
+        "series": [
+            {
+                "MINSET_SERIES": "81",
+                "MINSET_SERIES_DESC": "Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "13",
+        "INDICATOR_NUM": "13",
+        "INDICATOR_DESC": "Gender gap in wages, by occupation, age and persons with disabilities",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.1, F.5",
+        "MDG": "nan",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "8.5.1",
+        "Comment": "Data for this indicator are obtained directly from SDG indicator 8.5.1. However the title of the indicator is revised to show gender gap in wages, calculated as the ratio of women's wage and men's wage.",
+        "series": [
+            {
+                "MINSET_SERIES": "82",
+                "MINSET_SERIES_DESC": "Gender gap in wages, by occupation, age and persons with disabilities <- Average hourly earnings of employees by sex and occupation (local currency)",
+                "Retired": "0",
+                "SDG_SeriesID": "SL_EMP_EARN"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "14",
+        "INDICATOR_NUM": "14",
+        "INDICATOR_DESC": "Proportion of employed working part-time, by sex",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.5",
+        "MDG": "nan",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "10",
+                "MINSET_SERIES_DESC": "Proportion of employed working part-time, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "15",
+        "INDICATOR_NUM": "15",
+        "INDICATOR_DESC": "Employment rate of persons aged 25-49 with a child under age 3 living in a household and with no children living in the household, by sex",
+        "Qualitative": "0",
+        "Tier": "3",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.6",
+        "MDG": "nan",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "83",
+                "MINSET_SERIES_DESC": "Employment rate of persons aged 25-49 with a child under age 3 living in a household and with no children living in the household, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "16",
+        "INDICATOR_NUM": "16",
+        "INDICATOR_DESC": "Proportion of children under age 3 in formal care",
+        "Qualitative": "0",
+        "Tier": "3",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.6",
+        "MDG": "nan",
+        "AgencyID": "5",
+        "AgenciesLabel": "OECD",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "85",
+                "MINSET_SERIES_DESC": "Proportion of children under age 3 in formal care",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "17",
+        "INDICATOR_NUM": "17",
+        "INDICATOR_DESC": "Proportion of individuals using the Internet, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.3",
+        "MDG": "Goal 8, target F",
+        "AgencyID": "4",
+        "AgenciesLabel": "ITU",
+        "SDG_IndicatorID": "17.8.1",
+        "Comment": "Data in SDG database is not yet disaggregated by sex",
+        "series": [
+            {
+                "MINSET_SERIES": "11",
+                "MINSET_SERIES_DESC": "Proportion of individuals using the Internet, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "18",
+        "INDICATOR_NUM": "18",
+        "INDICATOR_DESC": "Proportion of individuals who own a mobile telephone, by sex",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.3",
+        "MDG": "Goal 8, target F",
+        "AgencyID": "4",
+        "AgenciesLabel": "ITU",
+        "SDG_IndicatorID": "5.b.1",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "12",
+                "MINSET_SERIES_DESC": "Proportion of individuals who own a mobile telephone, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "IT_MOB_OWN"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "19",
+        "INDICATOR_NUM": "19",
+        "INDICATOR_DESC": "Proportion of households with access to mass media (radio, TV, Internet), by sex of household head",
+        "Qualitative": "0",
+        "Tier": "3",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.3",
+        "MDG": "nan",
+        "AgencyID": "4",
+        "AgenciesLabel": "ITU",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "86",
+                "MINSET_SERIES_DESC": "Proportion of households with access to mass media (radio, TV, Internet), by sex of household head",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "20",
+        "INDICATOR_NUM": "20",
+        "INDICATOR_DESC": "Youth literacy rate of persons aged 15-24 years, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "2",
+        "DomainName": "Education",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "B.2, L.4",
+        "MDG": "Goal 2",
+        "AgencyID": "6",
+        "AgenciesLabel": "UIS",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "13",
+                "MINSET_SERIES_DESC": "Youth literacy rate of persons (15-24 years), by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "21",
+        "INDICATOR_NUM": "21",
+        "INDICATOR_DESC": "Adjusted net enrolment rate in primary education by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "2",
+        "DomainName": "Education",
+        "EdgeID": "4.0",
+        "EdgeName": "Adjusted net enrolment ratio in primary education, by sex",
+        "BPFA": "B.1, L.4",
+        "MDG": "Goal 2",
+        "AgencyID": "6",
+        "AgenciesLabel": "UIS",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "14",
+                "MINSET_SERIES_DESC": "Adjusted net enrolment rate in primary education by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "22",
+        "INDICATOR_NUM": "22",
+        "INDICATOR_DESC": "Gross enrolment ratio in secondary education, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "2",
+        "DomainName": "Education",
+        "EdgeID": "5.0",
+        "EdgeName": "Gross enrolment ratio in secondary education, by sex",
+        "BPFA": "B.1",
+        "MDG": "Goal 3",
+        "AgencyID": "6",
+        "AgenciesLabel": "UIS",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "15",
+                "MINSET_SERIES_DESC": "Gross enrolment ratio in secondary education, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "23",
+        "INDICATOR_NUM": "23",
+        "INDICATOR_DESC": "Gross enrolment ratio in tertiary education, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "2",
+        "DomainName": "Education",
+        "EdgeID": "6.0",
+        "EdgeName": "Gross enrolment ratios in tertiary education, by sex",
+        "BPFA": "B.1",
+        "MDG": "nan",
+        "AgencyID": "6",
+        "AgenciesLabel": "UIS",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "16",
+                "MINSET_SERIES_DESC": "Gross enrolment ratio in tertiary education, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "24",
+        "INDICATOR_NUM": "24",
+        "INDICATOR_DESC": "Gender parity index of the gross enrolment ratios in primary, secondary and tertiary education",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "2",
+        "DomainName": "Education",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "B.1, L.4",
+        "MDG": "Goal 3",
+        "AgencyID": "6",
+        "AgenciesLabel": "UIS",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "17",
+                "MINSET_SERIES_DESC": "Gender parity index of the gross enrolment ratios in primary education",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "18",
+                "MINSET_SERIES_DESC": "Gender parity index of the gross enrolment ratios in secondary education",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "19",
+                "MINSET_SERIES_DESC": "Gender parity index of the gross enrolment ratios in tertiary education",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "25",
+        "INDICATOR_NUM": "25",
+        "INDICATOR_DESC": "Share of female science, technology, engineering and mathematics graduates at tertiary level",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "2",
+        "DomainName": "Education",
+        "EdgeID": "7.0",
+        "EdgeName": "Share of tertiary education graduates in science, engineering, manufacturing and construction who are women",
+        "BPFA": "B.3, B.4, L.4",
+        "MDG": "nan",
+        "AgencyID": "6",
+        "AgenciesLabel": "UIS",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "55",
+                "MINSET_SERIES_DESC": "Share of female science, technology, engineering and mathematics graduates at tertiary level",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "26",
+        "INDICATOR_NUM": "26",
+        "INDICATOR_DESC": "Proportion of females among tertiary education teachers or professors",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "2",
+        "DomainName": "Education",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "B.4, L.4",
+        "MDG": "nan",
+        "AgencyID": "6",
+        "AgenciesLabel": "UIS",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "56",
+                "MINSET_SERIES_DESC": "Proportion of females among tertiary education teachers or professors",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "27",
+        "INDICATOR_NUM": "27",
+        "INDICATOR_DESC": "Adjusted net intake rate to the first grade of primary education, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "2",
+        "DomainName": "Education",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "B.1",
+        "MDG": "nan",
+        "AgencyID": "6",
+        "AgenciesLabel": "UIS",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "20",
+                "MINSET_SERIES_DESC": "Adjusted net intake rate to the first grade of primary education, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "28",
+        "INDICATOR_NUM": "28",
+        "INDICATOR_DESC": "Primary education completion rate (proxy), by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "2",
+        "DomainName": "Education",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "B.1",
+        "MDG": "nan",
+        "AgencyID": "6",
+        "AgenciesLabel": "UIS",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "21",
+                "MINSET_SERIES_DESC": "Primary education completion rate (proxy), by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "29",
+        "INDICATOR_NUM": "29",
+        "INDICATOR_DESC": "Gross graduation ratio from lower secondary education, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "2",
+        "DomainName": "Education",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "B.1",
+        "MDG": "nan",
+        "AgencyID": "6",
+        "AgenciesLabel": "UIS",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "22",
+                "MINSET_SERIES_DESC": "Gross graduation ratio from lower secondary education, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "30",
+        "INDICATOR_NUM": "30",
+        "INDICATOR_DESC": "Effective transition rate from primary to secondary education (general programmes), by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "2",
+        "DomainName": "Education",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "B.1",
+        "MDG": "nan",
+        "AgencyID": "6",
+        "AgenciesLabel": "UIS",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "23",
+                "MINSET_SERIES_DESC": "Effective transition rate from primary to secondary education (general programmes), by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "31",
+        "INDICATOR_NUM": "31",
+        "INDICATOR_DESC": "Educational attainment of the population aged 25 and older by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "2",
+        "DomainName": "Education",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "B.1",
+        "MDG": "nan",
+        "AgencyID": "6",
+        "AgenciesLabel": "UIS",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "46",
+                "MINSET_SERIES_DESC": "Educational attainment (minimum lower secondary) of the population aged 25 and older, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "48",
+                "MINSET_SERIES_DESC": "Educational attainment (minimum upper secondary) of the population aged 25 and older, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "50",
+                "MINSET_SERIES_DESC": "Educational attainment (minimum post-secondary) of the population aged 25 and older, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "51",
+                "MINSET_SERIES_DESC": "Educational attainment (minimum tertiary) of the population aged 25 and older, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "54",
+                "MINSET_SERIES_DESC": "Educational attainment (minimum primary) of the population aged 25 and older, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "32",
+        "INDICATOR_NUM": "32",
+        "INDICATOR_DESC": "Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "3",
+        "DomainName": "Health and related services",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "C.1, C.2",
+        "MDG": "Goal 5",
+        "AgencyID": "11",
+        "AgenciesLabel": "UNPD",
+        "SDG_IndicatorID": "3.7.1",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "25",
+                "MINSET_SERIES_DESC": "Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods",
+                "Retired": "0",
+                "SDG_SeriesID": "SH_FPL_MTMM"
+            },
+            {
+                "MINSET_SERIES": "91",
+                "MINSET_SERIES_DESC": "Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods: estimates",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "33",
+        "INDICATOR_NUM": "33",
+        "INDICATOR_DESC": "Under-five mortality rate, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "3",
+        "DomainName": "Health and related services",
+        "EdgeID": "3.0",
+        "EdgeName": "Under-five mortality rate by sex",
+        "BPFA": "C.1",
+        "MDG": "Goal 4",
+        "AgencyID": "9/11/13",
+        "AgenciesLabel": "UNICEF/UNPD/WHO",
+        "SDG_IndicatorID": "3.2.1",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "26",
+                "MINSET_SERIES_DESC": "Under-five mortality rate, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "SH_DYN_MORT"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "34",
+        "INDICATOR_NUM": "34",
+        "INDICATOR_DESC": "Maternal mortality ratio",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "3",
+        "DomainName": "Health and related services",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "C.1",
+        "MDG": "Goal 5, target A",
+        "AgencyID": "13/9/8",
+        "AgenciesLabel": "WHO/UNICEF/UNFPA",
+        "SDG_IndicatorID": "3.1.1",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "27",
+                "MINSET_SERIES_DESC": "Maternal mortality ratio",
+                "Retired": "0",
+                "SDG_SeriesID": "SH_STA_MORT"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "35",
+        "INDICATOR_NUM": "35",
+        "INDICATOR_DESC": "Antenatal care coverage",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "3",
+        "DomainName": "Health and related services",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "C.1",
+        "MDG": "Goal 5, target B",
+        "AgencyID": "9",
+        "AgenciesLabel": "UNICEF",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "28",
+                "MINSET_SERIES_DESC": "Antenatal care coverage, at least one visit",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "29",
+                "MINSET_SERIES_DESC": "Antenatal care coverage, at least four visits",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "36",
+        "INDICATOR_NUM": "36",
+        "INDICATOR_DESC": "Proportion of births attended by skilled health personnel",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "3",
+        "DomainName": "Health and related services",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "C.1",
+        "MDG": "Goal 5, target A",
+        "AgencyID": "9",
+        "AgenciesLabel": "UNICEF",
+        "SDG_IndicatorID": "3.1.2",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "30",
+                "MINSET_SERIES_DESC": "Proportion of births attended by skilled health personnel",
+                "Retired": "0",
+                "SDG_SeriesID": "SH_STA_BRTC"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "37",
+        "INDICATOR_NUM": "37",
+        "INDICATOR_DESC": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "3",
+        "DomainName": "Health and related services",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "C.2",
+        "MDG": "nan",
+        "AgencyID": "13",
+        "AgenciesLabel": "WHO",
+        "SDG_IndicatorID": "3.a.1",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "31",
+                "MINSET_SERIES_DESC": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "SH_PRV_SMOK"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "38",
+        "INDICATOR_NUM": "38",
+        "INDICATOR_DESC": "Proportion of adults who are obese, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "3",
+        "DomainName": "Health and related services",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "C.1, C.2",
+        "MDG": "nan",
+        "AgencyID": "13",
+        "AgenciesLabel": "WHO",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "32",
+                "MINSET_SERIES_DESC": "Proportion of adults who are obese, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "39",
+        "INDICATOR_NUM": "39",
+        "INDICATOR_DESC": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "3",
+        "DomainName": "Health and related services",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "C.3",
+        "MDG": "Goal 6, target A",
+        "AgencyID": "7",
+        "AgenciesLabel": "UNAIDS",
+        "SDG_IndicatorID": "3.3.1",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "33",
+                "MINSET_SERIES_DESC": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
+                "Retired": "0",
+                "SDG_SeriesID": "SH_HIV_INCD"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "40",
+        "INDICATOR_NUM": "40",
+        "INDICATOR_DESC": "Access to anti-retroviral drug, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "3",
+        "DomainName": "Health and related services",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "C.3",
+        "MDG": "Goal 6, target B and Goal 8, target E",
+        "AgencyID": "13",
+        "AgenciesLabel": "WHO",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "34",
+                "MINSET_SERIES_DESC": "Access to anti-retroviral drug, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "41",
+        "INDICATOR_NUM": "41",
+        "INDICATOR_DESC": "Life expectancy at age 60, by sex",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "3",
+        "DomainName": "Health and related services",
+        "EdgeID": "1.0",
+        "EdgeName": "Life expectancy at age 60, by sex",
+        "BPFA": "C.1, C.2",
+        "MDG": "nan",
+        "AgencyID": "11",
+        "AgenciesLabel": "UNPD",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "35",
+                "MINSET_SERIES_DESC": "Life expectancy at age 60, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "42",
+        "INDICATOR_NUM": "42",
+        "INDICATOR_DESC": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease, by sex",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "3",
+        "DomainName": "Health and related services",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "C.1, C.2",
+        "MDG": "nan",
+        "AgencyID": "13",
+        "AgenciesLabel": "WHO",
+        "SDG_IndicatorID": "3.4.1",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "42",
+                "MINSET_SERIES_DESC": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease, by sex",
+                "Retired": "0",
+                "SDG_SeriesID": "SH_DTH_NCOM"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "43",
+        "INDICATOR_NUM": "43",
+        "INDICATOR_DESC": "Women\u2019s share of government ministerial positions",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "4",
+        "DomainName": "Public life and decision-making",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "G.1",
+        "MDG": "nan",
+        "AgencyID": "3",
+        "AgenciesLabel": "IPU",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "36",
+                "MINSET_SERIES_DESC": "Women\u2019s share of government ministerial positions",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "44",
+        "INDICATOR_NUM": "44",
+        "INDICATOR_DESC": "Proportion of seats held by women in national parliament and local governments",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "4",
+        "DomainName": "Public life and decision-making",
+        "EdgeID": "11.0",
+        "EdgeName": "Proportion of seats held by women in national parliament",
+        "BPFA": "G.1",
+        "MDG": "Goal 3",
+        "AgencyID": "3/15",
+        "AgenciesLabel": "IPU/UN Women",
+        "SDG_IndicatorID": "5.5.1",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "37",
+                "MINSET_SERIES_DESC": "Proportion of seats held by women in national parliament",
+                "Retired": "0",
+                "SDG_SeriesID": "SG_GEN_PARL"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "45",
+        "INDICATOR_NUM": "45",
+        "INDICATOR_DESC": "Proportion of women in managerial positions",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "4",
+        "DomainName": "Public life and decision-making",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.1, F.5, G.1",
+        "MDG": "nan",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "5.5.2",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "38",
+                "MINSET_SERIES_DESC": "Proportion of women in managerial positions",
+                "Retired": "0",
+                "SDG_SeriesID": "IC_GEN_MGTL"
+            },
+            {
+                "MINSET_SERIES": "90",
+                "MINSET_SERIES_DESC": "Proportion of women in senior and middle management positions",
+                "Retired": "0",
+                "SDG_SeriesID": "IC_GEN_MGTN"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "46",
+        "INDICATOR_NUM": "46",
+        "INDICATOR_DESC": "Share of female police officers",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "4",
+        "DomainName": "Public life and decision-making",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "I.2",
+        "MDG": "nan",
+        "AgencyID": "10",
+        "AgenciesLabel": "UNODC",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "75",
+                "MINSET_SERIES_DESC": "Share of female police officers",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "47",
+        "INDICATOR_NUM": "47",
+        "INDICATOR_DESC": "Share of female judges",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "4",
+        "DomainName": "Public life and decision-making",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "I.2",
+        "MDG": "nan",
+        "AgencyID": "10",
+        "AgenciesLabel": "UNODC",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "76",
+                "MINSET_SERIES_DESC": "Share of female judges",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "48",
+        "INDICATOR_NUM": "48",
+        "INDICATOR_DESC": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "5",
+        "DomainName": "Human rights of women and girl children",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "D.1, D.2",
+        "MDG": "nan",
+        "AgencyID": "13/14/9/15/10/8",
+        "AgenciesLabel": "WHO/UNSD/UNICEF/UN Women/UNODC/UNFPA",
+        "SDG_IndicatorID": "5.2.1",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "77",
+                "MINSET_SERIES_DESC": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",
+                "Retired": "0",
+                "SDG_SeriesID": "VC_VAW_MARR"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "49",
+        "INDICATOR_NUM": "49",
+        "INDICATOR_DESC": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "5",
+        "DomainName": "Human rights of women and girl children",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "D.1, D.2",
+        "MDG": "nan",
+        "AgencyID": "13/14/9/15/10/8",
+        "AgenciesLabel": "WHO/UNSD/UNICEF/UN Women/UNODC/UNFPA",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "78",
+                "MINSET_SERIES_DESC": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "50",
+        "INDICATOR_NUM": "50",
+        "INDICATOR_DESC": "Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "5",
+        "DomainName": "Human rights of women and girl children",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "I.2",
+        "MDG": "nan",
+        "AgencyID": "9",
+        "AgenciesLabel": "UNICEF",
+        "SDG_IndicatorID": "5.3.2",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "39",
+                "MINSET_SERIES_DESC": "Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age",
+                "Retired": "0",
+                "SDG_SeriesID": "SH_STA_FGMS"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "51",
+        "INDICATOR_NUM": "51",
+        "INDICATOR_DESC": "Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18",
+        "Qualitative": "0",
+        "Tier": "2",
+        "DomainID": "5",
+        "DomainName": "Human rights of women and girl children",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "L.1, L.2",
+        "MDG": "nan",
+        "AgencyID": "9",
+        "AgenciesLabel": "UNICEF",
+        "SDG_IndicatorID": "5.3.1",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "40",
+                "MINSET_SERIES_DESC": "Proportion of women aged 20-24 years who were married or in a union before age 18",
+                "Retired": "0",
+                "SDG_SeriesID": "SP_DYN_MRBF18"
+            },
+            {
+                "MINSET_SERIES": "89",
+                "MINSET_SERIES_DESC": "Proportion of women aged 20-24 years who were married or in a union before age 15",
+                "Retired": "0",
+                "SDG_SeriesID": "SP_DYN_MRBF15"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "52",
+        "INDICATOR_NUM": "52",
+        "INDICATOR_DESC": "Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group",
+        "Qualitative": "0",
+        "Tier": "1",
+        "DomainID": "5",
+        "DomainName": "Human rights of women and girl children",
+        "EdgeID": "2.0",
+        "EdgeName": "Adolescent fertility rate",
+        "BPFA": "L.1, L.2",
+        "MDG": "Goal 5, target B",
+        "AgencyID": "11",
+        "AgenciesLabel": "UNPD",
+        "SDG_IndicatorID": "3.7.2",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "41",
+                "MINSET_SERIES_DESC": "Adolescent birth rate (aged 15-19 years) per 1,000 women in that age group",
+                "Retired": "0",
+                "SDG_SeriesID": "SP_DYN_ADKL"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "54",
+        "INDICATOR_NUM": "1",
+        "INDICATOR_DESC": "Extent of country commitment to gender equality in employment",
+        "Qualitative": "1",
+        "Tier": "1",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.1, F.5",
+        "MDG": "nan",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "57",
+                "MINSET_SERIES_DESC": "Whether or not ratified ILO convention 100 on equal remuneration for women and men",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "58",
+                "MINSET_SERIES_DESC": "Whether or not ratified ILO convention 111 on discrimination in employment and occupation",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "55",
+        "INDICATOR_NUM": "2",
+        "INDICATOR_DESC": "Extent of country commitment to support reconciliation of work and family life",
+        "Qualitative": "1",
+        "Tier": "1",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.1, F.5, F.6",
+        "MDG": "nan",
+        "AgencyID": "2",
+        "AgenciesLabel": "ILO",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "59",
+                "MINSET_SERIES_DESC": "Whether or not ratified ILO convention 156 on workers with familiy responsibilities",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "60",
+                "MINSET_SERIES_DESC": "Whether or not ratified ILO convention 175 on part-time work",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "61",
+                "MINSET_SERIES_DESC": "Whether or not ratified ILO convention 177 on home work",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "62",
+                "MINSET_SERIES_DESC": "Whether or not ratified ILO convention 183 on maternity protection",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "56",
+        "INDICATOR_NUM": "3",
+        "INDICATOR_DESC": "Length of maternity leave",
+        "Qualitative": "1",
+        "Tier": "1",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "12.0",
+        "EdgeName": "Family friendly policies: Length of maternity leave (weeks)",
+        "BPFA": "F.1, F.6",
+        "MDG": "nan",
+        "AgencyID": "2/14",
+        "AgenciesLabel": "ILO/UNSD",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "63",
+                "MINSET_SERIES_DESC": "Length of maternity leave",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "57",
+        "INDICATOR_NUM": "4",
+        "INDICATOR_DESC": "Percentage of wages paid during maternity leave",
+        "Qualitative": "1",
+        "Tier": "1",
+        "DomainID": "1",
+        "DomainName": "Economic structures, participation in productive activities and access to resources",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.1, F.6",
+        "MDG": "nan",
+        "AgencyID": "2/14",
+        "AgenciesLabel": "ILO/UNSD",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "64",
+                "MINSET_SERIES_DESC": "Percentage of wages paid during maternity leave",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "58",
+        "INDICATOR_NUM": "5",
+        "INDICATOR_DESC": "Presence of a gender quota for parliament (reserved seats and legal candidate quotas)",
+        "Qualitative": "1",
+        "Tier": "1",
+        "DomainID": "4",
+        "DomainName": "Public life and decision-making",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "G.1",
+        "MDG": "nan",
+        "AgencyID": "3",
+        "AgenciesLabel": "IPU",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "65",
+                "MINSET_SERIES_DESC": "Presence of a gender quota for parliament (reserved seats and legal candidate quotas)",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "59",
+        "INDICATOR_NUM": "6",
+        "INDICATOR_DESC": "Presence of a gender quota for parliament (voluntary party quotas)",
+        "Qualitative": "1",
+        "Tier": "1",
+        "DomainID": "4",
+        "DomainName": "Public life and decision-making",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "G.1",
+        "MDG": "nan",
+        "AgencyID": "3",
+        "AgenciesLabel": "IPU",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "66",
+                "MINSET_SERIES_DESC": "Presence of a gender quota for parliament (voluntary party quotas)",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "60",
+        "INDICATOR_NUM": "7",
+        "INDICATOR_DESC": "Existence of law on gender statistics",
+        "Qualitative": "1",
+        "Tier": "2",
+        "DomainID": "4",
+        "DomainName": "Public life and decision-making",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "nan",
+        "MDG": "nan",
+        "AgencyID": "14",
+        "AgenciesLabel": "UNSD",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "67",
+                "MINSET_SERIES_DESC": "Existence of law on gender statistics",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "61",
+        "INDICATOR_NUM": "8",
+        "INDICATOR_DESC": "Whether or not reservation to article 16 of CEDAW",
+        "Qualitative": "1",
+        "Tier": "1",
+        "DomainID": "5",
+        "DomainName": "Human rights of women and girl children",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "I.1",
+        "MDG": "nan",
+        "AgencyID": "15",
+        "AgenciesLabel": "UNW",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "68",
+                "MINSET_SERIES_DESC": "Whether or not reservation to article 16 of CEDAW",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "99",
+                "MINSET_SERIES_DESC": "CEDAW Status",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "100",
+                "MINSET_SERIES_DESC": "Optional Protocol",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "101",
+                "MINSET_SERIES_DESC": "Reservations to CEDAW - Compatibility with religious laws or traditional codes",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "102",
+                "MINSET_SERIES_DESC": "Reservations to CEDAW - Elimination of discrimination",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "103",
+                "MINSET_SERIES_DESC": "Reservations to CEDAW - Equality in employment",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "104",
+                "MINSET_SERIES_DESC": "Reservations to CEDAW - Equality of nationality",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "105",
+                "MINSET_SERIES_DESC": "Reservations to CEDAW - Equality to choose residence",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "106",
+                "MINSET_SERIES_DESC": "Reservations to CEDAW - Equal rights in marriage and family",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "107",
+                "MINSET_SERIES_DESC": "Reservations to CEDAW - Other concerns",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "62",
+        "INDICATOR_NUM": "9",
+        "INDICATOR_DESC": "Existence of laws on domestic violence",
+        "Qualitative": "1",
+        "Tier": "1",
+        "DomainID": "5",
+        "DomainName": "Human rights of women and girl children",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "D.1",
+        "MDG": "nan",
+        "AgencyID": "15",
+        "AgenciesLabel": "UNW",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "69",
+                "MINSET_SERIES_DESC": "Existence of laws on domestic violence",
+                "Retired": "1",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "92",
+                "MINSET_SERIES_DESC": "Existence of laws on domestic violence",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "93",
+                "MINSET_SERIES_DESC": "Existence of laws on marital rape",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "94",
+                "MINSET_SERIES_DESC": "Existence of laws on sexual harassment",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "63",
+        "INDICATOR_NUM": "10",
+        "INDICATOR_DESC": "Whether or not inheritance rights discriminate against women and girls (forthcoming)",
+        "Qualitative": "1",
+        "Tier": "1",
+        "DomainID": "5",
+        "DomainName": "Human rights of women and girl children",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "F.1, L1",
+        "MDG": "nan",
+        "AgencyID": "5/12/14",
+        "AgenciesLabel": "OECD/WB/UNSD",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "70",
+                "MINSET_SERIES_DESC": "Whether or not inheritance rights discriminate against women and girls",
+                "Retired": "1",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "95",
+                "MINSET_SERIES_DESC": "Whether or not inheritance rights discriminate against widows",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "96",
+                "MINSET_SERIES_DESC": "Whether or not inheritance rights discriminate against daughters",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    },
+    {
+        "INDICATOR_ID": "64",
+        "INDICATOR_NUM": "11",
+        "INDICATOR_DESC": "Legal minimum age at marriage, by sex",
+        "Qualitative": "1",
+        "Tier": "1",
+        "DomainID": "5",
+        "DomainName": "Human rights of women and girl children",
+        "EdgeID": "nan",
+        "EdgeName": "nan",
+        "BPFA": "L.1",
+        "MDG": "nan",
+        "AgencyID": "14",
+        "AgenciesLabel": "UNSD",
+        "SDG_IndicatorID": "nan",
+        "Comment": "nan",
+        "series": [
+            {
+                "MINSET_SERIES": "71",
+                "MINSET_SERIES_DESC": "Legal minimum age at marriage, by sex",
+                "Retired": "1",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "97",
+                "MINSET_SERIES_DESC": "Minimum age for legal marriage - Without parental consent",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            },
+            {
+                "MINSET_SERIES": "98",
+                "MINSET_SERIES_DESC": "Minimum age for legal marriage - With parental consent",
+                "Retired": "0",
+                "SDG_SeriesID": "nan"
+            }
+        ]
+    }
+]
