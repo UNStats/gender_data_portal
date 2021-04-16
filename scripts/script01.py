@@ -13,7 +13,14 @@ print(minset_series_catalog[0])
 metadata = []
 
 for i in minset_indicators_catalog:
+    
+    for k in i.keys():
+        if i[k] == 'nan':
+            i[k] = None
+    
     i['series'] = []
+
+
     for s in minset_series_catalog:
         series_detail = dict()
         if s['INDICATOR_ID'] == i['INDICATOR_ID']:
@@ -21,6 +28,11 @@ for i in minset_indicators_catalog:
             series_detail['MINSET_SERIES_DESC'] = s['MINSET_SERIES_DESC']
             series_detail['Retired'] = s['Retired']
             series_detail['SDG_SeriesID'] = s['SDG_SeriesID']
+
+            for k in series_detail.keys():
+                if series_detail[k] == 'nan':
+                    series_detail[k] = None
+
             i['series'].append(series_detail)
     metadata.append(i)
 
