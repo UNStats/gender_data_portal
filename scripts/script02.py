@@ -9,21 +9,20 @@ from os.path import isfile, join
 datafiles = [f for f in listdir('source_data/') if isfile(join('source_data/', f))]
 
 series_source = []
+
 for i in datafiles:
-    x = utils.unique_dicts(
-            utils.subdict_list(
-                utils.xlsx2dict('source_data/'+ i, 0), ['INDICATOR_ID','MINSET_SERIES']
-            )
-        )
-    for j in x:
-        j['file'] = i
-    
+
+    x = utils.xlsx2dict('source_data/'+ i, 0)
+
+    x_list = utils.unique_dicts( utils.subdict_list(x, ['INDICATOR_ID','MINSET_SERIES'] ) )
+
+    for j in x_list:
+        # j['file'] = i
+
+        file_name = 'ind_'+j['INDICATOR_ID']+'__series_' + j['MINSET_SERIES'] + '.csv'
+
+        data = utils.select_dict(x, { 'INDICATOR_ID': j['INDICATOR_ID'], 'MINSET_SERIES': j['MINSET_SERIES']})
+
+        utils.dictList2tsv(data, 'series_data/' + file_name)
+        
     print(i)
-
-    series_source.extend(x)
-
-print(series_source)
-
-
-with open('master_data/series_sources.json', 'w') as fout:
-    json.dump(series_source, fout,  indent=4)
