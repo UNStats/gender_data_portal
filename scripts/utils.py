@@ -140,10 +140,14 @@ def xlsx2dict(file, sheet_name):
     '''
     Read a sheet form an excel file and convert each record to a dictionary
     '''
-    x = pd.read_excel(file, sheet_name).to_dict('records')
+    x = pd.read_excel(file, sheet_name=0).to_dict('records')
     for r in x:
         for k, v in r.items():
-            r[k] = clean_str(v)
+            clean_v = clean_str(v)
+            if clean_v =='nan':
+                r[k] = None
+            else:
+                r[k] = clean_v
     return x
 
 

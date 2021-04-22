@@ -53,12 +53,6 @@ for i in minset_indicators_catalog:
                 metadata_dict['SOURCE_YEAR']= m['SOURCE_YEAR']
 
                 series_detail['Metadata'].append(metadata_dict)
-                                    
-
-
-            for k in series_detail.keys():
-                if series_detail[k] == 'nan':
-                    series_detail[k] = None
 
             i['series'].append(series_detail)    
 
