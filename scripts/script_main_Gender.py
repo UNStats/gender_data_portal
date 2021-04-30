@@ -54,6 +54,8 @@ un_github_raw = un_github_data.replace('github.com', 'raw.githubusercontent.com'
 un_github_csv = un_github_raw +"/main/series_data/" + sdg_key + ".csv"
 un_github_metadata = un_github_raw +"/main/master_data/metadata_minset.json"
 
+
+
 #---------------------
 print(un_github_metadata)
 metadata = requests.get(un_github_metadata)
@@ -135,18 +137,6 @@ print(published_polygon_layer)
 
 #-------------------------------------------------------
 
-# Building the Metadata Cards
-# Create a dictionary that contains all of the item's metadata information to be presented on ArcGIS Online.
-
-#choose language - 'english', 'french'
-card_lang = 'english'
-
-language_dict = {'english': 'EN', 'spanish': 'ES', 'french': 'FR', 'russian': 'RU', 'chinese': 'ZN'}
-lang_str = language_dict[card_lang]
-
-#-----
-
-
 series_card = dict()
 series_desc = series_dict['MINSET_SERIES_DESC'].replace('%', 'percent').replace(',', ' ').replace('/', ' ')
 title = 'Indicator ' + indicator_dict['INDICATOR_DESC'] + ': ' + series_desc
@@ -180,10 +170,12 @@ series_card['tags'] = ['Minimum Gender Data Set']
 print(series_card)
 
 #-----------------
-point_layer.update(series_card,thumbnail= )
 
+thumbnail = 'https://raw.githubusercontent.com/UNStats/gender_data_portal/main/thumbnails/ww2020_thumbnail.png'
+point_layer.update(series_card,thumbnail= thumbnail)
+
+#-----------------
 
 series_title = series_card["title"]
 if len(series_title) > 256:
     series_title = series_title[:250] + '..'
-
