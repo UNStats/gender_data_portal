@@ -1,5 +1,4 @@
-# This module allows to render HTML code snippets created in this notebook:
-from IPython.core.display import display, HTML
+
 
 # This module allows to make HTTP requests:
 import requests
