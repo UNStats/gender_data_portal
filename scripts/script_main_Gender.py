@@ -132,3 +132,58 @@ print(feature_layer_key)
 published_polygon_layer = countries_df.spatial.to_featurelayer(feature_layer_key)
 
 print(published_polygon_layer)
+
+#-------------------------------------------------------
+
+# Building the Metadata Cards
+# Create a dictionary that contains all of the item's metadata information to be presented on ArcGIS Online.
+
+#choose language - 'english', 'french'
+card_lang = 'english'
+
+language_dict = {'english': 'EN', 'spanish': 'ES', 'french': 'FR', 'russian': 'RU', 'chinese': 'ZN'}
+lang_str = language_dict[card_lang]
+
+#-----
+
+
+series_card = dict()
+series_desc = series_dict['MINSET_SERIES_DESC'].replace('%', 'percent').replace(',', ' ').replace('/', ' ')
+title = 'Indicator ' + indicator_dict['INDICATOR_DESC'] + ': ' + series_desc
+series_card['title'] = (title[:250] + '..') if len(title) > 250 else title
+layer_title = 'Indicator_' + \
+    indicator_dict['INDICATOR_ID'] + '__Series_' + series_dict['MINSET_SERIES']
+series_card['layer_title'] = layer_title[:89] if len(layer_title) > 88 else layer_title  
+series_card['snippet'] = series_card['title']
+
+series_card['description'] =  \
+        '<div style="background-color: #f78b33; color:#fff; padding: 15px">' + \
+        '<ul style="list-style: none;">' + \
+        '<li><strong> Series Name:</strong> ' + series_desc + '</li>' + \
+        '<li><strong>Series Code:</strong> ' + series_dict['MINSET_SERIES'] + '</li>' + \
+        '</ul>' + \
+        '</div>' + \
+        '<div style="background-color: #f4f4f4; padding: 15px">' + \
+        '<p> This dataset is the part of the Minimum Set of Gender Indicators compiled ' + \
+        'through the United Nations Statistics Division.' + \
+        '</p>' + \
+        '<p><strong>Indicator ' + indicator_dict['INDICATOR_ID'] + ': </strong>' + indicator_dict['INDICATOR_DESC'] + \
+        '</p>' +  \
+        '<p><em>For more information on the compilation methodology of this dataset, ' +\
+        ' see <a href="https://unstats.un.org/" target="_blank">https://unstats.un.org/' + \
+        '</a></em></p>' + \
+        '</div>'
+
+
+series_card['tags'] = ['Minimum Gender Data Set']
+
+print(series_card)
+
+#-----------------
+point_layer.update(series_card,thumbnail= )
+
+
+series_title = series_card["title"]
+if len(series_title) > 256:
+    series_title = series_title[:250] + '..'
+
