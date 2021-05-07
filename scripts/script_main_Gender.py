@@ -14,47 +14,46 @@ import pandas as pd
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
+# This module contains a few utility functions with frequent tasks, like reading and writing files.
 import utils_arcgis
 
+# This is the main arcGIS library for python. 
 from arcgis.gis import GIS
+
+#--------------------------------------------------------------------
 # Establish ArcGIS connection
 online_username, gis = utils_arcgis.connect_to_arcGIS()
 print(gis)
 
 #--------------------------------------------------------------------
-import pandas as pd
-pd.set_option('display.max_columns', None)
-pd.set_option('display.max_rows', 50)
-#--------------------------------------------------------------------
 
-#chose the indicator and series for this data
+# Choose the indicator and series to be published
 set_indicator = "1"
 set_series = "72"
 
-
 #--------------------------------------------------------------------
-#Country Layer to join Data to
+
+# Country Layer to join Data to (boundary data)
 un_country_layer_id = '25c570fd7f074471b98f5108792aaa84'
+
 #--------------------------------------------------------------------
 
-#Statistic Variable
+# This is the column in the dataset that contains the variable to be displayed. Statistic Variable
 statistic_field = "OBS_VALUE"
 
 #--------------------------------------------------------------------
 
-sdg_key = "ind_" + str(set_indicator) + "__series_" + str(set_series)
+miset_key = "ind_" + str(set_indicator) + "__series_" + str(set_series)
 
 #create timestamp to allow rerunning
 stamp = str(time.time() * 1000).replace(".","")
 
-print('Processing SDG Information for', sdg_key, stamp)
+print('Processing SDG Information for', miset_key, stamp)
 #--------------------------------------------------------------------
 un_github_data = "https://github.com/UNStats/gender_data_portal"
 un_github_raw = un_github_data.replace('github.com', 'raw.githubusercontent.com')
-un_github_csv = un_github_raw +"/main/series_data/" + sdg_key + ".csv"
+un_github_csv = un_github_raw +"/main/series_data/" + miset_key + ".csv"
 un_github_metadata = un_github_raw +"/main/master_data/metadata_minset.json"
-
-
 
 #---------------------
 print(un_github_metadata)
@@ -84,7 +83,6 @@ for m in series_metadata:
     for s in m['series']:
         if s['MINSET_SERIES'] != set_series:
             continue
-
         series_dict = s
 
     del indicator_dict['series']
@@ -109,14 +107,17 @@ print(tabular_df.info())
 
 #-----------------------------------------------------
 
-csv_file = 'series_data_prepared/' + sdg_key + "_" + stamp +'.csv'
+stamp = str(time.time() * 1000).replace(".","")
+csv_file = 'series_data_prepared/' + miset_key + "_" + stamp +'.csv'
+#-----------------------------------------------------
+    
 tabular_df.to_csv(csv_file, encoding="utf-8", index=False)
 csv_item = gis.content.add({}, csv_file)
-print(csv_item)
-publish_parameters={'type': 'csv', 'name': sdg_key, 'locationType': 'coordinates', 'longitudeFieldName': 'longitude' , 'latitudeFieldName': 'latitude'}
-point_layer = csv_item.publish(None, publish_parameters)
-point_layer
+#Analyze the CSV File for Publishing
+analyze_item = gis.content.analyze(item=csv_item,location_type='coordinates')
+publish_parameters=analyze_item['publishParameters']
 
+point_layer = csv_item.publish()
 #-----------------------------------------------------
 un_country_item = gis.content.get(un_country_layer_id)
 print(un_country_item)
@@ -129,7 +130,7 @@ countries_df = pd.merge(un_country_features, tabular_df, left_on='ISO3', right_o
 countries_df.drop(columns=['FID','POP2005', 'REGION', 'LON', 'LAT','Shape__Area','Shape__Length'], inplace=True)
 countries_df.info()
 
-feature_layer_key = sdg_key + "_" + stamp
+feature_layer_key = miset_key + "_" + stamp
 print(feature_layer_key)
 published_polygon_layer = countries_df.spatial.to_featurelayer(feature_layer_key)
 
@@ -173,6 +174,7 @@ print(series_card)
 
 thumbnail = 'https://raw.githubusercontent.com/UNStats/gender_data_portal/main/thumbnails/ww2020_thumbnail.png'
 point_layer.update(series_card,thumbnail= thumbnail)
+published_polygon_layer.update(series_card,thumbnail= thumbnail)
 
 #-----------------
 
