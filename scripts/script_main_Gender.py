@@ -75,8 +75,10 @@ for i in series_metadata:
         
         series_dict = s
 
-        # if set_series != set_series_test:
-        #     continue
+        series_metadata = s['Metadata']
+
+        if set_series != set_series_test:
+            continue
 
         miset_key = "ind_" + str(set_indicator) + "__series_" + str(set_series)
 
@@ -156,21 +158,31 @@ for i in series_metadata:
 
         series_card['description'] =  \
                 '<div style="background-color: #f78b33; color:#fff; padding: 15px">' + \
-                '<ul style="list-style: none;">' + \
-                '<li><strong> Series Name:</strong> ' + series_desc + '</li>' + \
-                '<li><strong>Series Code:</strong> ' + series_dict['MINSET_SERIES'] + '</li>' + \
-                '</ul>' + \
+                '  <ul style="list-style: none;">' + \
+                '    <li><strong> Series:</strong> ' +  series_dict['MINSET_SERIES_DESC'] + '</li>' + \
+                '    <li><strong> Indicator: </strong>' + indicator_dict['INDICATOR_DESC'] + \
+                '  </ul>' + \
                 '</div>' + \
                 '<div style="background-color: #f4f4f4; padding: 15px">' + \
-                '<p> This dataset is the part of the Minimum Set of Gender Indicators compiled ' + \
-                'through the United Nations Statistics Division.' + \
-                '</p>' + \
-                '<p><strong>Indicator ' + indicator_dict['INDICATOR_ID'] + ': </strong>' + indicator_dict['INDICATOR_DESC'] + \
-                '</p>' +  \
-                '<p><em>For more information on the compilation methodology of this dataset, ' +\
-                ' see <a href="https://unstats.un.org/" target="_blank">https://unstats.un.org/' + \
-                '</a></em></p>' + \
+                '  <p> This dataset is the part of the Minimum Set of Gender Indicators compiled ' + \
+                '      through the United Nations Statistics Division. </p>'
+
+        for sm in series_metadata:
+            if sm['METADATA_CATEGORY'] in ("2", "3", "4", "5", "6", "7"):
+                series_card['description'] = series_card['description']  + \
+                    '  <h3>' + sm['METADATA_CATEGORY_DESC'] + '</h3> ' + \
+                    '  <p>' +  sm['METADATA_DESCRIPTION']  + '</p> ' + \
+                    '  <hl>'
+
+        series_card['description'] =  series_card['description'] + \
+                '  <p><em>For more information on the compilation methodology of this dataset, ' +\
+                '     see <a href="https://unstats.un.org/unsd/demographic-social/gender/" target="_blank"> ' +\
+                '         Social and Gender Statistics Section, United Nations Statistics Division' + \
+                '     </a></em></p>' + \
                 '</div>'
+
+
+
 
 
         series_card['tags'] = ['Minimum Gender Data Set']
