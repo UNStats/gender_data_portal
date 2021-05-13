@@ -1261,7 +1261,7 @@
         "series": [
             {
                 "MINSET_SERIES": "82",
-                "MINSET_SERIES_DESC": "Gender gap in wages, by occupation, age and persons with disabilities <- Average hourly earnings of employees by sex and occupation (local currency)",
+                "MINSET_SERIES_DESC": "Gender gap in wages, by occupation, age and persons with disabilities",
                 "Retired": "0",
                 "SDG_SeriesID": "SL_EMP_EARN",
                 "Metadata": [
@@ -6220,7 +6220,7 @@
             {
                 "MINSET_SERIES": "68",
                 "MINSET_SERIES_DESC": "Whether or not reservation to article 16 of CEDAW",
-                "Retired": "0",
+                "Retired": "1",
                 "SDG_SeriesID": null,
                 "Metadata": [
                     {

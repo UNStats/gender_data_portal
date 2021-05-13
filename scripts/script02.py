@@ -12,8 +12,8 @@ series_source = []
 
 for f in datafiles:
 
-    if f != 'Qual_11_data.xlsx':
-        continue
+    # if f != 'Qual_11_data.xlsx':
+    #     continue
 
     x = utils.xlsx2dict('source_data/'+ f, 0)
 
