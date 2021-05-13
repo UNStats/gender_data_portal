@@ -21,6 +21,10 @@ import utils_arcgis
 # This is the main arcGIS library for python. 
 from arcgis.gis import GIS
 
+# This will be used to see whether files exist
+import os.path
+from os import path
+
 #--------------------------------------------------------------------
 # Establish ArcGIS connection
 online_username, gis = utils_arcgis.connect_to_arcGIS()
@@ -51,7 +55,7 @@ series_metadata = metadata.json()
 #--------------------------------------------------------------------
 
 # Choose the indicator and series to be published
-set_indicator_test = "1"
+set_indicator_test = "11"
 set_series_test = "72"
 #--------------------------------------------------------------------
 
@@ -62,8 +66,8 @@ for i in series_metadata:
     set_indicator = indicator_dict['INDICATOR_ID']
 
 
-    # if set_indicator != set_indicator_test:
-    #     continue
+    if set_indicator != set_indicator_test:
+        continue
 
 
     del indicator_dict['series']
@@ -103,7 +107,20 @@ for i in series_metadata:
 
         #-----------------------------------------------------
 
+
         print(un_github_csv)
+
+
+        r = requests.get(un_github_csv)
+        
+        try:
+            r.raise_for_status()
+        except:
+            pass
+        if r.status_code != 200:
+            print ("Website Error: ", url, r)
+            continue
+
         tabular = requests.get(un_github_csv).content
         tabular_df = pd.read_csv(io.StringIO(tabular.decode('utf-8')), sep='\t')
         print(tabular_df.head(5))

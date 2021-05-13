@@ -1,5 +1,11 @@
+#------------------
+# Create metadata_minset.json
+#-------------------
+
 import utils
 import json
+
+
 
 # Read minset_indicators_catalog
 minset_indicators_catalog = utils.xlsx2dict('master_data/MINSET_Indicators.xlsx', 'CL_INDICATORS')
