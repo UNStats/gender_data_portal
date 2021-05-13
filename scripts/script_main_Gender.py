@@ -62,8 +62,8 @@ for i in series_metadata:
     set_indicator = indicator_dict['INDICATOR_ID']
 
 
-    if set_indicator != set_indicator_test:
-        continue
+    # if set_indicator != set_indicator_test:
+    #     continue
 
 
     del indicator_dict['series']
@@ -77,8 +77,8 @@ for i in series_metadata:
 
         series_metadata = s['Metadata']
 
-        if set_series != set_series_test:
-            continue
+        # if set_series != set_series_test:
+        #     continue
 
         miset_key = "ind_" + str(set_indicator) + "__series_" + str(set_series)
 
