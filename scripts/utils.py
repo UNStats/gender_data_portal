@@ -374,3 +374,9 @@ def year_intervals(years_list):
 
     x = ",".join(interval_yy)
     return(x)
+
+
+def none_str_to_empty(s):
+    if s is None:
+        return ''
+    return str(s)

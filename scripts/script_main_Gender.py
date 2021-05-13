@@ -18,6 +18,8 @@ pd.set_option('display.max_rows', None)
 # This module contains a few utility functions with frequent tasks, like reading and writing files.
 import utils_arcgis
 
+import utils
+
 # This is the main arcGIS library for python. 
 from arcgis.gis import GIS
 
@@ -55,7 +57,7 @@ series_metadata = metadata.json()
 #--------------------------------------------------------------------
 
 # Choose the indicator and series to be published
-set_indicator_test = "11"
+set_indicator_test = "12"
 set_series_test = "72"
 #--------------------------------------------------------------------
 
@@ -118,10 +120,10 @@ for i in series_metadata:
         except:
             pass
         if r.status_code != 200:
-            print ("Website Error: ", url, r)
+            print ("Website Error: ", un_github_csv, r)
             continue
 
-        tabular = requests.get(un_github_csv).content
+        tabular = r.content
         tabular_df = pd.read_csv(io.StringIO(tabular.decode('utf-8')), sep='\t')
         print(tabular_df.head(5))
 
@@ -184,12 +186,21 @@ for i in series_metadata:
                 '  <p> This dataset is the part of the Minimum Set of Gender Indicators compiled ' + \
                 '      through the United Nations Statistics Division. </p>'
 
+
+
         for sm in series_metadata:
             if sm['METADATA_CATEGORY'] in ("2", "3", "4", "5", "6", "7"):
+
+                category_desc = sm['METADATA_CATEGORY_DESC']
+                metadata_desc = sm['METADATA_DESCRIPTION']
+
                 series_card['description'] = series_card['description']  + \
-                    '  <h3>' + sm['METADATA_CATEGORY_DESC'] + '</h3> ' + \
-                    '  <p>' +  sm['METADATA_DESCRIPTION']  + '</p> ' + \
+                    '  <h3>' + utils.none_str_to_empty(category_desc) + '</h3> ' + \
+                    '  <p>' +  utils.none_str_to_empty(metadata_desc)  + '</p> ' + \
                     '  <hl>'
+
+
+        print(series_card['description'])
 
         series_card['description'] =  series_card['description'] + \
                 '  <p><em>For more information on the compilation methodology of this dataset, ' +\
