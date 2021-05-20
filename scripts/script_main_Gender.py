@@ -57,8 +57,8 @@ series_metadata = metadata.json()
 #--------------------------------------------------------------------
 
 # Choose the indicator and series to be published
-set_indicator_test = "12"
-set_series_test = "72"
+set_indicator_test = "54"
+#set_series_test = "72"
 #--------------------------------------------------------------------
 
 for i in series_metadata:
