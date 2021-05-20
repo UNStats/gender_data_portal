@@ -8,12 +8,17 @@ from os.path import isfile, join
 
 datafiles = [f for f in listdir('source_data/') if isfile(join('source_data/', f))]
 
+print(datafiles)
+
 series_source = []
 
 for f in datafiles:
 
-    # if f != 'Qual_11_data.xlsx':
+    # if f != 'Qual_1_data.xlsx':
     #     continue
+
+    if not f.startswith('Qual'):
+        continue
 
     x = utils.xlsx2dict('source_data/'+ f, 0)
 

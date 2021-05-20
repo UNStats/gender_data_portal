@@ -1,4 +1,4 @@
-INDICATOR_ID	INDICATOR_NUM	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	REF_AREA	REF_AREA_DESC	ISO3	x	y	SDG_REGION	VALUE_CATEGORY	VALUE_CATEGORY_DESC	COMMENT_OBS	SOURCE_YEAR
+INDICATOR_ID	INDICATOR_NUM	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	REF_AREA	REF_AREA_DESC	ISO3	X	Y	SDG_REGION	VALUE_CATEGORY	VALUE_CATEGORY_DESC	COMMENT_OBS	SOURCE_YEAR
 61	8	Whether or not reservation to article 16 of CEDAW	99	CEDAW Status	275	State of Palestine	PSE	35.25694122	31.94347933	Northern Africa and Western Asia	10	Not applicable		2017
 61	8	Whether or not reservation to article 16 of CEDAW	99	CEDAW Status	344	China, Hong Kong Special Administrative Region	HKG	114.0266445	22.41749934	Eastern and South-Eastern Asia	10	Not applicable		2017
 61	8	Whether or not reservation to article 16 of CEDAW	99	CEDAW Status	364	Iran (Islamic Republic of)	IRN	54.19766348	32.74370885	Central and Southern Asia	3	Not signed or ratified		2017

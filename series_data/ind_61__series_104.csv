@@ -1,4 +1,4 @@
-INDICATOR_ID	INDICATOR_NUM	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	REF_AREA	REF_AREA_DESC	ISO3	x	y	SDG_REGION	VALUE_CATEGORY	VALUE_CATEGORY_DESC	COMMENT_OBS	SOURCE_YEAR
+INDICATOR_ID	INDICATOR_NUM	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	REF_AREA	REF_AREA_DESC	ISO3	X	Y	SDG_REGION	VALUE_CATEGORY	VALUE_CATEGORY_DESC	COMMENT_OBS	SOURCE_YEAR
 61	8	Whether or not reservation to article 16 of CEDAW	104	Reservations to CEDAW - Equality of nationality	364	Iran (Islamic Republic of)	IRN	54.19766348	32.74370885	Central and Southern Asia	10	Not applicable		2017
 61	8	Whether or not reservation to article 16 of CEDAW	104	Reservations to CEDAW - Equality of nationality	840	United States of America	USA	-99.13830311	39.5277871	Europe and Northern America	10	Not applicable		2017
 61	8	Whether or not reservation to article 16 of CEDAW	104	Reservations to CEDAW - Equality of nationality	520	Nauru	NRU	166.92313	-0.528742623	Oceania, exc. Australia and New Zealand	10	Not applicable		2017

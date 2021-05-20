@@ -1,4 +1,4 @@
-INDICATOR_ID	INDICATOR_NUM	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	REF_AREA	REF_AREA_DESC	ISO3	x	y	SDG_REGION	VALUE_CATEGORY	VALUE_CATEGORY_DESC	COMMENT_OBS	SOURCE_YEAR
+INDICATOR_ID	INDICATOR_NUM	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	REF_AREA	REF_AREA_DESC	ISO3	X	Y	SDG_REGION	VALUE_CATEGORY	VALUE_CATEGORY_DESC	COMMENT_OBS	SOURCE_YEAR
 60	7	Existence of law on gender statistics	67	Existence of law on gender statistics	4	Afghanistan	AFG	66.02688198	33.83160199	Central and Southern Asia	21	No information		2017
 60	7	Existence of law on gender statistics	67	Existence of law on gender statistics	144	Sri Lanka	LKA	80.70489654	7.614693343	Central and Southern Asia	21	No information		2017
 60	7	Existence of law on gender statistics	67	Existence of law on gender statistics	524	Nepal	NPL	83.94678863	28.25866332	Central and Southern Asia	21	No information		2017

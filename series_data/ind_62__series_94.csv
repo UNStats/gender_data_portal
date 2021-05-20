@@ -1,4 +1,4 @@
-INDICATOR_ID	INDICATOR_NUM	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	REF_AREA	REF_AREA_DESC	SDG_REGION	ISO3	x	y	VALUE_CATEGORY	VALUE_CATEGORY_DESC	COMMENT_OBS	SOURCE_YEAR
+INDICATOR_ID	INDICATOR_NUM	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	REF_AREA	REF_AREA_DESC	SDG_REGION	ISO3	X	Y	VALUE_CATEGORY	VALUE_CATEGORY_DESC	COMMENT_OBS	SOURCE_YEAR
 62	9	Existence of laws on domestic violence	94	Existence of laws on sexual harassment	148	Chad	Sub-Saharan Africa	TCD	18.66618401	15.36279341	9	No	ACGSD 2010.	2017
 62	9	Existence of laws on domestic violence	94	Existence of laws on sexual harassment	174	Comoros	Sub-Saharan Africa	COM	43.34234565	-11.66121732	8	Yes	ACGSD 2010.	2017
 62	9	Existence of laws on domestic violence	94	Existence of laws on sexual harassment	268	Georgia	Northern Africa and Western Asia	GEO	43.3713615	42.04813028	9	No	Council of Europe 2009a.	2017
