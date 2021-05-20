@@ -68,7 +68,7 @@ for i in series_metadata:
     set_indicator = indicator_dict['INDICATOR_ID']
 
 
-    if set_indicator != set_indicator_test:
+    if set_indicator < set_indicator_test:
         continue
 
 
