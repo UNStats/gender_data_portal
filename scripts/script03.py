@@ -5,33 +5,100 @@ from os.path import isfile, join
 
 # Read csv file
 
-f = utils.tsv2dictlist('series_data/ind_1__series_72.csv')
-print(f[0])
+# f = utils.tsv2dictlist('series_data/ind_1__series_72.csv')
 
-# Get the list of "columns"
+datafiles = [f for f in listdir('series_data/') if isfile(join('series_data/', f))]
 
-all_columns = f[0].keys()
 
-print(all_columns)
 
-# Get the list of "dimension columns" (those thare are used to identify time series)
+all_columns_list = set()
 
-non_TSK_columns = ['TIME_PERIOD', 
-                   'TIME_DETAIL', 
-                   'OBS_VALUE', 
-                   'NATURE', 'NATURE_DESC', 
-                   'COMMENT_OBS', 
-                   'SOURCE_YEAR']
+for df in datafiles:
+    f = utils.tsv2dictlist('series_data/'+df)
+    all_columns = set(f[0].keys())
 
-# TSK_columns = [x for x in all_columns if x not in non_TSK_columns]
-# print(TSK_columns)
+    #---------------------------------
+    # Check that X,Y and SORUCE_DETAIL_URL are all uppercase
+    #---------------------------------
+    if ('x' in all_columns):
+        print (f"x Exists in {df}")
 
-unique_TSK_values = utils.unique_dicts(utils.subdict_list(f, non_TSK_columns, exclude=True))
+    if ('y' in all_columns):
+        print (f"y Exists in {df}")
 
-#for ts in unique_TSK_values:
-ts = unique_TSK_values[12]
-x = utils.select_dict(f, ts)
+    if ('SOURCE_DETAIL_url' in all_columns):
+        print (f"SOURCE_DETAIL_url Exists in {df}")
 
-print(x)
+    all_columns_list.update(all_columns)
 
-# For each combination of time series key, identify the latest year
+all_columns_list = list(all_columns_list)
+
+all_columns_list.sort()
+
+print(f'\nList of all columns across all files:\n{all_columns_list}')
+
+
+#----------- Iterate here ---------#
+for f in datafiles:
+
+    print(f"\nCurrent file: {f}")
+
+    f2 = utils.tsv2dictlist('series_data/' + f)
+    
+    # Get the list of "columns" in current file
+    all_columns = f2[0].keys()
+    
+    # Get the list of "dimension columns" (those thare are used to identify time series)
+
+    non_TSK_columns = ['TIME_PERIOD',
+                    'COMMENT_OBS',
+                    'INDICATOR_NUM',
+                    'ISO3',
+                    'LOWER_BOUND',
+                    'LOWER_BOUND_MODIFIER',
+                    'NATURE',
+                    'NATURE_DESC',
+                    'OBS_VALUE',
+                    'OBS_VALUE_MODIFIER',
+                    'SDG_REGION',
+                    'SOURCE_DETAIL',
+                    'SOURCE_DETAIL_URL',
+                    'SOURCE_YEAR',
+                    'TIME_DETAIL',
+                    'UNIT_MEASURE',
+                    'UNIT_MEASURE_DESC',
+                    'UPPER_BOUND',
+                    'UPPER_BOUND_MODIFIER',
+                    'VALUE_CATEGORY',
+                    'VALUE_CATEGORY_DESC',
+                    'X',
+                    'Y']
+
+    TSK_columns = [x for x in all_columns if x not in non_TSK_columns]
+    
+    unique_TSK_values = utils.unique_dicts(utils.subdict_list(f2, non_TSK_columns, exclude=True))
+
+
+
+    #------------------------
+    # Test for unique records
+    #------------------------
+
+
+    has_duplicates = []
+
+    for ts in unique_TSK_values:
+
+        # Number of records in time series group:
+        x = utils.select_dict(f2, ts)
+        N = len(x)
+
+        # Number of unique years in time series group:
+        unique_years = utils.unique_dicts(utils.subdict_list(x, ['TIME_PERIOD']))
+        n = len(unique_years)
+
+        if (N != n):
+            has_duplicates.append(ts)
+
+    if(len(has_duplicates)>0):
+        print(f"file {f} has_duplicates")

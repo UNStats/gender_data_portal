@@ -2,6 +2,7 @@ import utils
 import json
 from os import listdir
 from os.path import isfile, join
+import copy 
 
 # # Read minset_indicators_catalog
 # minset_indicators_catalog = utils.xlsx2dict('master_data/MINSET_Indicators.xlsx', 'CL_INDICATORS')
@@ -14,14 +15,27 @@ series_source = []
 
 for f in datafiles:
 
-    # if f != 'Qual_1_data.xlsx':
-    #     continue
+    # if f != '49_data.xlsx':
+    #      continue
 
-    if not f.startswith('Qual'):
-        continue
+    # if not f.startswith('Qual'):
+    #     continue
 
     x = utils.xlsx2dict('source_data/'+ f, 0)
 
+    #-----------------------------------------
+    # Make sure all column names are uppercase
+    #-----------------------------------------
+
+    new_x = []
+    for i in x:
+        newdict = dict()
+
+        for k in i.keys():
+            newdict[k.upper()] = i[k]
+        new_x.append(newdict)
+    x = new_x
+        
     # list of unique indicator-series-sourceYear combinations:
     x1_list = utils.unique_dicts( utils.subdict_list(x, ['INDICATOR_ID','MINSET_SERIES', 'SOURCE_YEAR'] ) )
 
