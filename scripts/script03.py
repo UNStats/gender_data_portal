@@ -5,6 +5,10 @@ from os.path import isfile, join
 
 # Read csv file
 
+geo = utils.xlsx2dict('master_data/CL_AREA.xlsx', 0)
+
+
+
 datafiles = [f for f in listdir('series_data/') if isfile(join('series_data/', f))]
 
 all_columns_list = set()
@@ -43,6 +47,7 @@ all_columns_list = set()
 availability = []
 
 for f in datafiles:
+
     # if f !='ind_1__series_72.csv':
     #     continue
 
@@ -87,6 +92,8 @@ for f in datafiles:
 
     # print(unique_TSK_values[0])
 
+
+
     utils.dictList2tsv(unique_TSK_values, 'test.txt')
 
     #------------------------
@@ -122,9 +129,22 @@ for f in datafiles:
 
         ts_availability = dict(ts)  # or orig.copy()
 
+        ref_area = ts['REF_AREA']
+        print(ref_area)
+
+        geo_info = utils.select_dict(geo, {'REF_AREA': ref_area}, keep=True)
+        print(geo_info[0])
+
+        ts_availability['UNmember'] = geo_info[0]['UNmember']
+        ts_availability['GEOLEVEL'] = geo_info[0]['GEOLEVEL']
+        ts_availability['GEOLEVEL_Desc'] = geo_info[0]['GEOLEVEL_Desc']
+        ts_availability['SDG_REGION'] = geo_info[0]['SDG_REGION']
+
         # Get list of years (as integers):
 
-        ts_years = utils.subdict_list(utils.select_dict(f2, ts, keep=True), ['TIME_PERIOD'])   
+        ts_years = utils.subdict_list(utils.select_dict(f2, ts, keep=True), ['TIME_PERIOD'])  
+        
+         
         years = []
         for y in ts_years:
             years.append(int(float(y['TIME_PERIOD'])))
@@ -136,25 +156,28 @@ for f in datafiles:
         ts_availability['max_year'] = max(years)
         ts_availability['N_years'] = len(years)
 
+
         availability.append(ts_availability)
+
+
 
 utils.dictList2tsv(availability, 'availability_data/ts_series_availability.txt')
 
 
 ## Aggregate availability
 
-# 1. How many countries have data (at least 1 data point/year) for each series.
+# # 1. How many countries have data (at least 1 data point/year) for each series.
 
- series = utils.subdict_list(availability, 'MINSET_SERIES')
+#  series = utils.subdict_list(availability, 'MINSET_SERIES')
 
- for s in series:
-     n_countries = len(unique.select_dict(availability, {'MINSET_SERIES': s['MINSET_SERIES']}, keep=True))
+#  for s in series:
+#      n_countries = len(unique.select_dict(availability, {'MINSET_SERIES': s['MINSET_SERIES']}, keep=True))
  
  
- utils.subdict_list(availability, ['INDICATOR_ID','INDICATOR_DESC','MINSET_SERIES','MINSET_SERIES_DESC'])
+#  utils.subdict_list(availability, ['INDICATOR_ID','INDICATOR_DESC','MINSET_SERIES','MINSET_SERIES_DESC'])
 
 
-# 2. How many countries have at least 1 data point since 2015? At least 2 data points since 2015?
+# # 2. How many countries have at least 1 data point since 2015? At least 2 data points since 2015?
 
 
 
