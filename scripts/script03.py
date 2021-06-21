@@ -1,4 +1,4 @@
-import utils
+import utils 
 import json
 from os import listdir
 from os.path import isfile, join
@@ -6,8 +6,6 @@ from os.path import isfile, join
 # Read csv file
 
 geo = utils.xlsx2dict('master_data/CL_AREA.xlsx', 0)
-
-
 
 datafiles = [f for f in listdir('series_data/') if isfile(join('series_data/', f))]
 
@@ -44,10 +42,10 @@ all_columns_list = set()
 
 # #----------- Iterate here ---------#
 
-availability = []
 
 for f in datafiles:
-
+    
+    availability = []
     # if f !='ind_1__series_72.csv':
     #     continue
 
@@ -130,10 +128,10 @@ for f in datafiles:
         ts_availability = dict(ts)  # or orig.copy()
 
         ref_area = ts['REF_AREA']
-        print(ref_area)
+        #print(ref_area)
 
         geo_info = utils.select_dict(geo, {'REF_AREA': ref_area}, keep=True)
-        print(geo_info[0])
+        #print(geo_info[0])
 
         ts_availability['UNmember'] = geo_info[0]['UNmember']
         ts_availability['GEOLEVEL'] = geo_info[0]['GEOLEVEL']
@@ -161,7 +159,7 @@ for f in datafiles:
 
 
 
-utils.dictList2tsv(availability, 'availability_data/ts_series_availability.txt')
+    utils.dictList2tsv(availability, 'availability_data/ts_availability'+f+'.txt')
 
 
 ## Aggregate availability
