@@ -144,15 +144,21 @@ for f in datafiles:
         
          
         years = []
+        years_2015 = []
         for y in ts_years:
-            years.append(int(float(y['TIME_PERIOD'])))
-        # print(years)
+            y['TIME_PERIOD']=int(float(y['TIME_PERIOD']))
+            years.append(y['TIME_PERIOD'])
+            if y['TIME_PERIOD']>2014:
+                years_2015.append(y['TIME_PERIOD'])
+
+        #print(years)
         years.sort()
-    # Get availability stats: min(years), max (years), Number of years
+    # Get availability stats: min(years), max (years), Number of years, Number of years after 2015
         ts_availability['years'] = years
         ts_availability['min_year'] = min(years)
         ts_availability['max_year'] = max(years)
         ts_availability['N_years'] = len(years)
+        ts_availability['N_years_2015'] = len(years_2015)
 
 
         availability.append(ts_availability)
