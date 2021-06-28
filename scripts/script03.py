@@ -3,6 +3,13 @@ import json
 from os import listdir
 from os.path import isfile, join
 
+#---------------
+# Set availability parameters
+#---------------
+
+# What is the latest year that has passed
+current_year = 2020
+
 # Read csv file
 
 geo = utils.xlsx2dict('master_data/CL_AREA.xlsx', 0)
@@ -42,12 +49,14 @@ all_columns_list = set()
 
 # #----------- Iterate here ---------#
 
+availability_by_country = []
 
 for f in datafiles:
     
     availability = []
-    # if f !='ind_1__series_72.csv':
-    #     continue
+
+    if f not in ['ind_1__series_72.csv', 'ind_1__series_87.csv']:
+        continue
 
     print(f"\nCurrent file: {f}")
 
@@ -122,6 +131,7 @@ for f in datafiles:
     #---------------------------------------
 
     
+    
 
     for ts in unique_TSK_values:
 
@@ -144,12 +154,9 @@ for f in datafiles:
         
          
         years = []
-        years_2015 = []
         for y in ts_years:
             y['TIME_PERIOD']=int(float(y['TIME_PERIOD']))
             years.append(y['TIME_PERIOD'])
-            if y['TIME_PERIOD']>2014:
-                years_2015.append(y['TIME_PERIOD'])
 
         #print(years)
         years.sort()
@@ -158,18 +165,151 @@ for f in datafiles:
         ts_availability['min_year'] = min(years)
         ts_availability['max_year'] = max(years)
         ts_availability['N_years'] = len(years)
-        ts_availability['N_years_2015'] = len(years_2015)
+        ts_availability['N_years_lag2'] = len([y for y in years if y >= current_year - 2])
+        ts_availability['N_years_lag5'] = len([y for y in years if y >= current_year - 5])
+        ts_availability['N_years_lag10'] = len([y for y in years if y >= current_year - 10])
 
 
         availability.append(ts_availability)
 
-
-
+    
     utils.dictList2tsv(availability, 'availability_data/ts_availability'+f+'.txt')
 
+    # Select TS for each country
 
-## Aggregate availability
+    countries =  utils.unique_dicts(utils.subdict_list(availability, ['REF_AREA']) )
 
+    countries =  [ i['REF_AREA'] for i in countries]
+
+
+    for c in countries:
+        # Select TS for country c:
+
+        availability_country = dict()
+
+        # if c not in ['8','32']:
+        #     continue
+
+        print(f"passed {c} in ['8','32']")
+
+        data = utils.select_dict(availability, {'REF_AREA': c})
+
+        availability_country['INDICATOR_ID'] = data[0]['INDICATOR_ID']
+        availability_country['INDICATOR_DESC'] = data[0]['INDICATOR_DESC']
+        availability_country['MINSET_SERIES'] = data[0]['MINSET_SERIES']
+        availability_country['MINSET_SERIES_DESC'] = data[0]['MINSET_SERIES_DESC']
+        availability_country['REF_AREA'] = data[0]['REF_AREA']
+        availability_country['REF_AREA_DESC'] = data[0]['REF_AREA_DESC']
+
+        availability_country['max_year'] = max([ ts['max_year'] for ts in data ])
+        availability_country['min_year'] = min([ ts['min_year'] for ts in data ])
+        availability_country['data_points'] = sum([ ts['N_years'] for ts in data ])
+        availability_country['data_points_lag5'] = sum([ ts['N_years_lag5'] for ts in data ])
+
+        years = []
+        age_categories = []
+        sex_categories = []
+        for ts in data:
+            years.extend(ts['years'])
+            if('SEX' in ts.keys()):
+                sex_categories.append(ts['SEX'])
+            if('AGE' in ts.keys()):
+                age_categories.append(ts['AGE'])
+        
+        years = list(set(years))
+        age_categories = list(set(age_categories))
+        sex_categories = list(set(sex_categories))
+
+        print(years)
+        print(age_categories)
+        print(sex_categories)
+
+        # Age disaggregation by year:
+
+        d_age = dict()
+
+        for k in age_categories:
+            
+            merged_years = []
+
+            data_k = utils.select_dict(data, {'AGE': k})
+        
+            for i in data_k:
+                merged_years.extend(i['years'])
+
+            d_age[k] = list(set(merged_years))
+
+        print(d_age)
+
+        # Sex disaggregation by year:
+
+        d_sex = dict()
+
+        for k in sex_categories:
+            
+            merged_years = []
+
+            data_k = utils.select_dict(data, {'SEX': k})
+        
+            for i in data_k:
+                merged_years.extend(i['years'])
+
+            d_sex[k] = list(set(merged_years))
+
+        print(d_sex)
+
+        # -----------------------------
+
+        years_d_sex = []
+        for y in years:
+            n = 0
+            for i in sex_categories:
+                if y in d_sex[i]:
+                    n = n + 1
+            if n>1:
+                years_d_sex.append(y)
+        
+        print(years_d_sex)
+
+        # -----------------------------
+
+        years_d_age = []
+        for y in years:
+            n = 0
+            for i in age_categories:
+                if y in d_age[i]:
+                    n = n + 1
+            if n>1:
+                years_d_age.append(y)
+        
+        print(years_d_age)
+
+
+        availability_country['disaggregated_by_age'] = years_d_age
+        availability_country['disaggregated_by_age_n'] = len(years_d_age)
+        availability_country['disaggregated_by_sex'] = years_d_sex
+        availability_country['disaggregated_by_sex_n'] = len(years_d_sex)
+
+        availability_by_country.append(availability_country)
+
+
+utils.dictList2tsv(availability_by_country, 'availability_data/availability_by_country.txt')
+
+
+
+            
+
+
+
+
+        
+
+  #      Years for which there is any data = list(set(years(1) + years(2) + ... ))
+
+
+
+
+#=======================================================================================
 # # 1. How many countries have data (at least 1 data point/year) for each series.
 
 #  series = utils.subdict_list(availability, 'MINSET_SERIES')
