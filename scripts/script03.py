@@ -165,7 +165,6 @@ for f in datafiles:
         ts_availability['min_year'] = min(years)
         ts_availability['max_year'] = max(years)
         ts_availability['N_years'] = len(years)
-        ts_availability['N_years_lag2'] = len([y for y in years if y >= current_year - 2])
         ts_availability['N_years_lag5'] = len([y for y in years if y >= current_year - 5])
         ts_availability['N_years_lag10'] = len([y for y in years if y >= current_year - 10])
 
@@ -205,6 +204,7 @@ for f in datafiles:
         availability_country['min_year'] = min([ ts['min_year'] for ts in data ])
         availability_country['data_points'] = sum([ ts['N_years'] for ts in data ])
         availability_country['data_points_lag5'] = sum([ ts['N_years_lag5'] for ts in data ])
+        availability_country['data_points_lag10'] = sum([ ts['N_years_lag10'] for ts in data ])
 
         years = []
         age_categories = []
