@@ -12,7 +12,7 @@ minset_indicators_catalog = utils.xlsx2dict('master_data/MINSET_Indicators.xlsx'
 #print(minset_indicators_catalog[0])
 
 # Read geographic areas catalog
-geo = utils.xlsx2dict('master_data/CL_AREA.xlsx', 0)
+geo = utils.xlsx2dict('master_data/CL_AREA.xlsx',0)
 #print(geo)
 
 # List of source data files
@@ -25,7 +25,7 @@ for f in datafiles:
 
     #print(f'file: {f}')
 
-    if f != '10_data.xlsx':
+    if f != '39_data_test.xlsx':
          continue
 
     # if not f.startswith('Qual'):
@@ -119,16 +119,29 @@ for f in datafiles:
         print(f'TSK_columns: {TSK_columns}')
 
         # Obtain the list of Time-series identifiers (composed by TSK dimensions)
-        unique_TSK_values = utils.unique_dicts(utils.subdict_list(x, non_TSK_columns, exclude=True))
+        unique_TSK_values = utils.unique_dicts(utils.subdict_list(data, non_TSK_columns, exclude=True))
         print(f"this dataset has {len(unique_TSK_values)} time series.")
         print(unique_TSK_values[0])
 
+        # Add empty column in data, which will hold the "isLatestYear" boolean
+        new_data = []
+
         has_duplicates = []
 
-        for ts in unique_TSK_values:
+        for idx, ts in enumerate(unique_TSK_values):
+
+            # if idx!=0:
+            #     continue
+
+            print('-------------')
+            print(ts)
+            print('-------------')
 
             # Number of records in time series group:
-            x_ts = utils.select_dict(x, ts )
+            x_ts = utils.select_dict(data, ts )
+
+            # print(x_ts)
+            print('------')
             N = len(x_ts)
 
             # Number of unique years in time series group:
@@ -136,11 +149,12 @@ for f in datafiles:
             for i in utils.unique_dicts(utils.subdict_list(x_ts, ['TIME_PERIOD'])):
                 unique_years.append(int(float(i['TIME_PERIOD'])))
 
-            print(f'unique_years: {unique_years}')
             unique_years.sort()
+            print(f'unique_years: {unique_years}')
 
-            print(unique_years)
             n = len(unique_years)
+
+            print(f'N={N}, n={n}')
 
             if (N != n):
                 has_duplicates.append(ts)
@@ -152,29 +166,56 @@ for f in datafiles:
             y_max = max(unique_years)
             print(y_max)
 
-            # # Latest year value:
-            # value_y_max = utils.subdict_list(x_ts, {'TIME_PERIOD': str(y_max)})[0]['OBS_VALUE']
-            # print(value_y_max)
-            # print('------')
+            # Latest year value:
+            value_y_max = utils.select_dict(x_ts, {'TIME_PERIOD': str(y_max)})[0]['OBS_VALUE']
+            print(value_y_max)
+
+            # if(isinstance(y_max, int)):
+            #     print(f"y_max is integer")
+            # if(isinstance(y_max, str)):
+            #     print(f"y_max is string")
+
+            print('------')
+
+            # Add "isLatestYear"value
+            for r in x_ts:
+                # if(isinstance(r['TIME_PERIOD'], int)):
+                #     print(f"r['TIME_PERIOD'] is integer")
+                # if(isinstance(r['TIME_PERIOD'], str)):
+                #     print(f"r['TIME_PERIOD'] is string")
+
+                # print(f"r['TIME_PERIOD'] = {r['TIME_PERIOD']}")
+                # print(f"value_y_max = {y_max}")
+                # print(f"r['TIME_PERIOD'] == value_y_max is {r['TIME_PERIOD'] == y_max}")
+                # print('--------------------')
+
+                if r['TIME_PERIOD'] == str(y_max):
+                    r['isLatestValue'] = True
+                else:
+                    r['isLatestValue'] = False
+
+            new_data.extend(x_ts)
+            
+
+
+        utils.dictList2tsv(new_data, 'series_data/' + file_name)
+
+# # # # 2. Read / Validate Indicators metadata
 
 
 
-# # # 2. Read / Validate Indicators metadata
-
-
-
-# # # 3. Read / Validate Indicators source data
-# # #    - All column names are uppercase
+# # # # 3. Read / Validate Indicators source data
+# # # #    - All column names are uppercase
 
 
 
 
 
-# # #    - No duplicate records for same indicator/series/source year
-# # #    - No empty values
-# # #    - No empty dimensions
-# # # 4. Create formatted indicators file
-# # #    - Take only latest source year
-# # #    - Idetify distinct time series
-# # #      - catalog of dimensions / values
-# # #      - data availability
+# # # #    - No duplicate records for same indicator/series/source year
+# # # #    - No empty values
+# # # #    - No empty dimensions
+# # # # 4. Create formatted indicators file
+# # # #    - Take only latest source year
+# # # #    - Idetify distinct time series
+# # # #      - catalog of dimensions / values
+# # # #      - data availability

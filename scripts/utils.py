@@ -150,6 +150,8 @@ def xlsx2dict(file, sheet_name):
                 r[k] = clean_v
     return x
 
+    wb1 = load_workbook(filename=path, read_only=True)
+
 
 def open_json(file):
     '''Open a local json file
