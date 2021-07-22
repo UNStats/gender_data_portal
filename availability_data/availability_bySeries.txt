@@ -1,0 +1,5 @@
+INDICATOR_ID	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	N_countries	N_countries_lag10	N_countries_lag5	N_countries_sex	N_countries_age
+1	Average number of hours spent on unpaid domestic and care work, by sex, age and location	72	Average number of hours spent on domestic chores and care work, by sex, age and location	2	2	0	2	2
+1	Average number of hours spent on unpaid domestic and care work, by sex, age and location	88	Average number of hours spent on unpaid care work, by sex, age and location	2	2	0	1	2
+1	Average number of hours spent on unpaid domestic and care work, by sex, age and location	87	Average number of hours spent on unpaid domestic chores, by sex, age and location	2	2	0	1	2
+2	Average number of hours spent on total work (total work burden), by sex	73	Average number of hours spent on total work combined (total work burden), by sex	2	2	0	1	2
