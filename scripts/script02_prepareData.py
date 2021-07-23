@@ -125,7 +125,7 @@ for f in datafiles:
         # Obtain the list of Time-series identifiers (composed by TSK dimensions)
         unique_TSK_values = utils.unique_dicts(utils.subdict_list(data, non_TSK_columns, exclude=True))
         print(f"this dataset has {len(unique_TSK_values)} time series.")
-        print(unique_TSK_values[0])
+        # print(unique_TSK_values[0])
 
         # Add empty column in data, which will hold the "isLatestYear" boolean
         new_data = []
@@ -233,8 +233,8 @@ for f in datafiles:
         
             d = dict()
 
-            if c not in ['8','32']:
-                    continue
+            # if c not in ['8','32']:
+            #         continue
             
             # Select TS availability for this country
             data = utils.select_dict(availability, {'REF_AREA': c})
@@ -276,9 +276,9 @@ for f in datafiles:
             sex_categories = list(set(sex_categories))
 
 
-            print(years)
-            print(age_categories)
-            print(sex_categories)
+            # print(years)
+            # print(age_categories)
+            # print(sex_categories)
 
             # Age disaggregation by year:
 
@@ -297,7 +297,7 @@ for f in datafiles:
 
                 d_age[k] = list(set(merged_years))
 
-            print(f"{d_age=}")
+            # print(f"{d_age=}")
 
             # Sex disaggregation by year:
 
@@ -314,7 +314,7 @@ for f in datafiles:
 
                 d_sex[k] = list(set(merged_years))
 
-            print(d_sex)
+            # print(d_sex)
 
             # -----------------------------
             # Which years are disaggregated by sex?
@@ -332,7 +332,7 @@ for f in datafiles:
                     years_d_sex.append(y)
             
             # List of years that have more than 2 sex categories:
-            print(years_d_sex)
+            # print(years_d_sex)
 
             
             # -----------------------------
@@ -349,7 +349,7 @@ for f in datafiles:
                     years_d_age.append(y)
             
             # List of years that have more than 2 age categories:
-            print(years_d_age)
+            # print(years_d_age)
 
             d['disaggregated_by_age'] = years_d_age
             d['disaggregated_by_age_n'] = len(years_d_age)
@@ -379,7 +379,7 @@ for s in series:
 
     keys = list(data_s[0].keys())
 
-    print(f"{keys=}")
+    # print(f"{keys=}")
 
     d2 = dict()
 
@@ -404,9 +404,9 @@ for s in series:
         if c['data_points_lag5'] > 0:
             d2['N_countries_lag5'] += 1
         if c['disaggregated_by_age_n'] > 0:
-            d2['N_countries_sex'] += 1
-        if c['disaggregated_by_sex_n'] > 0:
             d2['N_countries_age'] += 1
+        if c['disaggregated_by_sex_n'] > 0:
+            d2['N_countries_sex'] += 1
 
     availability_by_series.append(d2)
             
