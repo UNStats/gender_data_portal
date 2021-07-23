@@ -28,8 +28,8 @@ for f in datafiles:
 
     #print(f'file: {f}')
 
-    if f not in ['01_data.xlsx', '02_data.xlsx']:
-         continue
+    # if f not in ['01_data.xlsx', '02_data.xlsx']:
+    #      continue
     
     # if not f.startswith('Qual'):
     #     continue
@@ -167,7 +167,17 @@ for f in datafiles:
             y_max = max(unique_years)
 
             # Latest year value:
-            value_y_max = utils.select_dict(x_ts, {'TIME_PERIOD': str(y_max)})[0]['OBS_VALUE']
+
+            keys = x_ts[0].keys()
+            # print(f'{keys=}')
+
+            if 'OBS_VALUE' in keys:
+                # print('------------1-------------')
+                value_y_max = utils.select_dict(x_ts, {'TIME_PERIOD': str(y_max)})[0]['OBS_VALUE']
+            else:
+                # print('------------2-------------')
+                value_y_max = utils.select_dict(x_ts, {'TIME_PERIOD': str(y_max)})[0]['VALUE_CATEGORY_DESC']
+
 
             # Add "isLatestYear"value
             for r in x_ts:
