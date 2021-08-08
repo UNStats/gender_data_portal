@@ -1,5 +1,7 @@
 import utils
 import utils2
+import json
+import copy
 from os import listdir
 from os.path import isfile, join
 
@@ -28,8 +30,8 @@ for f in datafiles:
 
     #print(f'file: {f}')
 
-    # if f not in ['01_data.xlsx', '02_data.xlsx']:
-    #      continue
+    if f not in ['01_data.xlsx', '02_data.xlsx']:
+         continue
     
     # if not f.startswith('Qual'):
     #     continue
@@ -57,7 +59,7 @@ for f in datafiles:
     # Trasformations on individual series
     #-----------------------------------
 
-    for j in x2_list:
+    for jdx, j in enumerate(x2_list):
 
         #current indicator and series id's:
         i = j['INDICATOR_ID']
@@ -120,12 +122,43 @@ for f in datafiles:
         
         TSK_columns = [x for x in all_columns if x not in non_TSK_columns]
         
-        # print(f'TSK_columns: {TSK_columns}')
+        print(f'TSK_columns: {TSK_columns}')
+
+        TSK_sub = [x for x in TSK_columns 
+                     if x not in ['INDICATOR_ID', 'INDICATOR_DESC', 'MINSET_SERIES', 'MINSET_SERIES_DESC', 'REF_AREA', 'REF_AREA_DESC'] and 
+                        not x.endswith('_DESC')]
+
+        # print(TSK_sub)
+
+        
 
         # Obtain the list of Time-series identifiers (composed by TSK dimensions)
         unique_TSK_values = utils.unique_dicts(utils.subdict_list(data, non_TSK_columns, exclude=True))
         print(f"this dataset has {len(unique_TSK_values)} time series.")
-        # print(unique_TSK_values[0])
+
+        
+        for u in unique_TSK_values:
+
+            TSK_sub_values = []
+            TSK_sub_descriptions = []
+            for tsk in TSK_sub:
+                TSK_sub_values.append(u[tsk])
+                TSK_sub_descriptions.append(u[tsk+'_DESC'])
+                
+            u["TSK_sub_dims"] ='__'.join(TSK_sub)
+            u["TSK_sub_id"] ='__'.join(TSK_sub_values)
+            u["TSK_sub_desc"] = ', '.join(TSK_sub_descriptions).capitalize()
+
+
+        # print(unique_TSK_values)
+
+            
+
+        if jdx == 0:
+            with open('test/ts_keys.json', 'w') as fp:
+                json.dump(unique_TSK_values, fp, indent=2)
+
+
 
         # Add empty column in data, which will hold the "isLatestYear" boolean
         new_data = []
@@ -139,10 +172,19 @@ for f in datafiles:
             # if idx!=0:
             #     continue
 
-            #print(ts)
+            # print(ts)
+
+            TSK_sub_dims = ts['TSK_sub_dims']
+            TSK_sub_id = ts['TSK_sub_id']
+            TSK_sub_desc = ts['TSK_sub_desc']
+
+            ts_1 = {k: ts[k] for k in ts.keys() if k not in ['TSK_sub_dims','TSK_sub_id','TSK_sub_desc']}
+
 
             # Number of records in time series group:
-            x_ts = utils.select_dict(data, ts )
+            x_ts = utils.select_dict(data, ts_1)
+
+            
 
             # print(x_ts)
             N = len(x_ts)
@@ -179,8 +221,11 @@ for f in datafiles:
                 value_y_max = utils.select_dict(x_ts, {'TIME_PERIOD': str(y_max)})[0]['VALUE_CATEGORY_DESC']
 
 
-            # Add "isLatestYear"value
+            # Add ts keys and "isLatestYear"value
             for r in x_ts:
+                r['TSK_sub_dims'] = TSK_sub_dims
+                r['TSK_sub_id'] = TSK_sub_id
+                r['TSK_sub_desc'] = TSK_sub_desc
                 if r['TIME_PERIOD'] == str(y_max):
                     r['isLatestValue'] = True
                 else:
@@ -199,8 +244,7 @@ for f in datafiles:
 
             geo_info = utils.select_dict(geo, {'REF_AREA': ref_area}, keep=True)
             #print(geo_info[0])
-
-            
+   
             ts_availability['X'] = geo_info[0]['X']
             ts_availability['Y'] = geo_info[0]['Y']
             ts_availability['UNmember'] = geo_info[0]['UNmember']
@@ -213,7 +257,6 @@ for f in datafiles:
             ts_availability['N_years'] = len(unique_years)
             ts_availability['N_years_lag5'] = len([y for y in unique_years if y >= current_year - 5])
             ts_availability['N_years_lag10'] = len([y for y in unique_years if y >= current_year - 10])
-
             
             # Get availability stats: min(years), max (years), Number of years, Number of years after 2015
             availability.append(ts_availability)
