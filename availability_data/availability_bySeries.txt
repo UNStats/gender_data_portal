@@ -6,7 +6,7 @@ INDICATOR_ID	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	N_countries	N_count
 3	Labour force participation rates for persons aged 15-24 and 15+, by sex	2	Labour force participation rate for persons aged 15+, by sex	219	190	133	215	0
 3	Labour force participation rates for persons aged 15-24 and 15+, by sex	1	Labour force participation rate for persons aged 15-24, by sex	207	165	120	205	0
 4	Proportion of employed who are own-account workers, by sex	3	Proportion of employed who are own-account workers, by sex	183	157	113	180	0
-5	Proportion of employed who are contributing family workers, by sex	4	Proportion of employed who are contributing family workers, by sex	364	302	218	362	1
+5	Proportion of employed who are contributing family workers, by sex	4	Proportion of employed who are contributing family workers, by sex	182	151	109	181	1
 6	Proportion of employed who are employers, by sex	5	Proportion of employed who are employers, by sex	180	153	112	179	0
 8	Percentage distribution of employed population by sector, each sex (Sectors here refer to Agriculture; Industry; Services)	8	Percentage distribution of employed population in service sector, by sex	140	128	98	138	0
 8	Percentage distribution of employed population by sector, each sex (Sectors here refer to Agriculture; Industry; Services)	7	Percentage distribution of employed population in industrial sector, by sex	141	129	99	139	0

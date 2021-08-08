@@ -150,8 +150,8 @@ for f in datafiles:
 
             # Number of unique years in time series group:
             unique_years = []
-            for i in utils.unique_dicts(utils.subdict_list(x_ts, ['TIME_PERIOD'])):
-                unique_years.append(int(float(i['TIME_PERIOD'])))
+            for record in utils.unique_dicts(utils.subdict_list(x_ts, ['TIME_PERIOD'])):
+                unique_years.append(int(float(record['TIME_PERIOD'])))
 
             unique_years.sort()
 
@@ -226,7 +226,7 @@ for f in datafiles:
 
         # Obtain the list of all countries that have data for this series
         countries =  utils.unique_dicts(utils.subdict_list(availability, ['REF_AREA']) )
-        countries =  [ i['REF_AREA'] for i in countries]
+        countries =  [ c['REF_AREA'] for c in countries]
 
         #For each country, obtain series availability (with detail for disaggregation)
         for c in countries:
@@ -292,8 +292,8 @@ for f in datafiles:
 
                 data_k = utils.select_dict(data, {'AGE': k})
             
-                for i in data_k:
-                    merged_years.extend(i['years'])
+                for record in data_k:
+                    merged_years.extend(record['years'])
 
                 d_age[k] = list(set(merged_years))
 
@@ -309,8 +309,8 @@ for f in datafiles:
 
                 data_k = utils.select_dict(data, {'SEX': k})
             
-                for i in data_k:
-                    merged_years.extend(i['years'])
+                for record in data_k:
+                    merged_years.extend(record['years'])
 
                 d_sex[k] = list(set(merged_years))
 
@@ -324,9 +324,9 @@ for f in datafiles:
             
             for y in years:
                 n = 0
-                for i in sex_categories:
+                for value_sex in sex_categories:
                     # If year y has data for sext category i: 
-                    if y in d_sex[i]:
+                    if y in d_sex[value_sex]:
                         n = n + 1
                 if n>1:
                     years_d_sex.append(y)
@@ -341,9 +341,9 @@ for f in datafiles:
             years_d_age = []
             for y in years:
                 n = 0
-                for i in age_categories:
+                for value_age in age_categories:
                     # If year y has data for age category i:
-                    if y in d_age[i]:
+                    if y in d_age[value_age]:
                         n = n + 1
                 if n>1:
                     years_d_age.append(y)
@@ -358,7 +358,7 @@ for f in datafiles:
 
             availability_by_series_and_country.append(d)
         
-        utils.dictList2tsv(availability, 'availability_data/availability_ts_'+ s + '.txt')
+        utils.dictList2tsv(availability, 'availability_data/availability_ts_ind_'+i+'__series_' + s + '.txt')
 
 utils.dictList2tsv(availability_by_series_and_country, 'availability_data/availability_bySeriesCountry.txt')
             
