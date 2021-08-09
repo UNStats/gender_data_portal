@@ -47,12 +47,20 @@ for fdx, f in enumerate(old_datafiles):
         print(new_record)
         print('---')
 
+        indicator_label = str(new_record['INDICATOR_LABEL'])
+        indicator_id = str(new_record['INDICATOR_ID'])
+
         for record in x:
             if record['MINSET_SERIES'] == old_series_id:
                 d = dict()
+                d['INDICATOR_LABEL'] = indicator_label
                 for k in record.keys():
                     if k == 'INDICATOR_NUM':
-                        d['INDICATOR_LABEL'] = new_record['INDICATOR_LABEL']
+                        continue
+                    elif k == 'INDICATOR_ID':
+                        d[k] = str(new_record[k])
+                    elif k == 'MINSET_SERIES':
+                        d[k] = str(new_record[k])
                     elif k in new_record.keys():
                         d[k] = new_record[k]
                     else:
@@ -75,4 +83,4 @@ for fdx, f in enumerate(old_datafiles):
     for record in new_x:
         sheet.append(list(record.values()))
 
-    wb.save('source_data/'+ f)
+    wb.save('source_data/Ind_'+ indicator_label.replace('.','_')+ '__' + indicator_id+'_data.xlsx')

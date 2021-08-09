@@ -1,0 +1,90 @@
+INDICATOR_ID	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	N_countries	N_countries_lag10	N_countries_lag5	N_countries_sex	N_countries_age
+c5db0b34	Life expectancy at age 60, by sex	c5db0b34	Life expectancy at age 60, by sex	199	199	199	199	0
+bdc928a3	Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease, by sex	bdc928a3	Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease, by sex	206	206	206	206	0
+97572e77	Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods	97572e77	Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods	151	136	75	0	0
+97572e77	Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods	ad5532a0	Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods: estimates	185	185	185	0	0
+d3190c3e	Under-five mortality rate, by sex	d3190c3e	Under-five mortality rate, by sex	232	232	232	232	0
+75250979	Maternal mortality ratio	75250979	Maternal mortality ratio	183	183	183	0	0
+682508c0	Antenatal care coverage	5b5c0fcb	Antenatal care coverage, at least one visit	166	121	49	0	0
+682508c0	Antenatal care coverage	7cdd10b8	Antenatal care coverage, at least four visits	148	128	48	0	0
+784515d6	Proportion of births attended by skilled health personnel	784515d6	Proportion of births attended by skilled health personnel	206	195	145	0	0
+c68a22f4	Age-standardized prevalence of current tobacco use among persons aged 15 years and older, by sex	c68a22f4	Age-standardized prevalence of current tobacco use among persons aged 15 years and older, by sex	170	170	170	168	0
+555b0f6a	Proportion of adults who are obese, by sex	555b0f6a	Proportion of adults who are obese, by sex	191	191	191	191	0
+ed2520f0	Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations	ed2520f0	Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations	150	150	150	147	148
+121f0e02	Access to anti-retroviral drug, by sex	121f0e02	Access to anti-retroviral drug, by sex	135	135	134	135	0
+d2dc1714	Gross graduation ratio from lower secondary education, by sex	d2dc1714	Gross graduation ratio from lower secondary education, by sex (retired)	173	170	143	168	0
+18f221cb	Effective transition rate from primary to secondary education (general programmes), by sex	18f221cb	Effective transition rate from primary to secondary education (general programmes), by sex (retired)	192	160	88	190	0
+229b17ac	Educational attainment of the population aged 25 and older by sex	42192176	Educational attainment (minimum lower secondary) of the population aged 25 and older, by sex	182	117	55	181	0
+229b17ac	Educational attainment of the population aged 25 and older by sex	216a2120	Educational attainment (minimum post-secondary) of the population aged 25 and older, by sex	178	115	52	177	0
+229b17ac	Educational attainment of the population aged 25 and older by sex	339b1e69	Educational attainment (minimum primary) of the population aged 25 and older, by sex	158	107	52	158	0
+229b17ac	Educational attainment of the population aged 25 and older by sex	56e81ed9	Educational attainment (minimum tertiary) of the population aged 25 and older, by sex	158	118	55	158	0
+229b17ac	Educational attainment of the population aged 25 and older by sex	42da2179	Educational attainment (minimum upper secondary) of the population aged 25 and older, by sex	170	120	58	169	0
+2e391327	Youth literacy rate of persons aged 15-24 years, by sex	ed7f11c7	Youth literacy rate of persons (15-24 years), by sex	162	122	37	162	0
+456b14be	Adjusted net enrolment rate in primary education by sex	456b14be	Adjusted net enrolment rate in primary education by sex (retired)	195	178	142	189	0
+0d771394	Gross enrolment ratio in secondary education, by sex	0d771394	Gross enrolment ratio in secondary education, by sex	202	181	152	200	0
+fae61340	Gross enrolment ratio in tertiary education, by sex	fae61340	Gross enrolment ratio in tertiary education, by sex	202	167	128	200	0
+856d2383	Gender parity index of the gross enrolment ratios in primary, secondary and tertiary education	a10d1a88	Gender parity index of the gross enrolment ratios in primary education	201	191	167	0	0
+856d2383	Gender parity index of the gross enrolment ratios in primary, secondary and tertiary education	d6c01b4c	Gender parity index of the gross enrolment ratios in secondary education	200	179	150	0	0
+856d2383	Gender parity index of the gross enrolment ratios in primary, secondary and tertiary education	bc8f1af8	Gender parity index of the gross enrolment ratios in tertiary education (retired)	200	165	125	0	0
+27d72270	Share of female science, technology, engineering and mathematics graduates at tertiary level	27d72270	Share of female science, technology, engineering and mathematics graduates at tertiary level (retired)	150	121	102	0	0
+a00b1ab7	Proportion of females among tertiary education teachers or professors	a00b1ab7	Proportion of females among tertiary education teachers or professors	196	146	106	0	0
+c4bf1a5f	Adjusted net intake rate to the first grade of primary education, by sex	c4bf1a5f	Adjusted net intake rate to the first grade of primary education, by sex	194	175	139	194	0
+d42f1231	Primary education completion rate (proxy), by sex	d42f1231	Primary education completion rate (proxy), by sex (retired)	195	177	144	193	0
+3afe1f42	Presence of a gender quota for parliament (reserved seats and legal candidate quotas)	3afe1f42	Presence of a gender quota for parliament (reserved seats and legal candidate quotas)	125	125	125	0	0
+22b614cb	Women’s share of government ministerial positions	22b614cb	Women’s share of government ministerial positions	195	194	192	0	0
+2f5318b1	Presence of a gender quota for parliament (voluntary party quotas)	2f5318b1	Presence of a gender quota for parliament (voluntary party quotas)	191	191	191	0	0
+836a1d80	Proportion of seats held by women in national parliament and local governments	5867152a	Proportion of seats held by women in national parliament	231	230	230	0	0
+04c00dff	Existence of law on gender statistics	04c00dff	Existence of law on gender statistics	192	192	192	0	0
+6b4d10a8	Proportion of women in managerial positions	6b4d10a8	Proportion of women in managerial positions	178	160	133	0	0
+6b4d10a8	Proportion of women in managerial positions	ca981746	Proportion of women in senior and middle management positions	89	85	66	0	0
+b3320b80	Share of female police officers	b3320b80	Share of female police officers	104	101	65	0	0
+5aac0815	Share of female judges	5aac0815	Share of female judges	93	92	67	0	0
+a3981659	Unemployment rate, by sex, age and persons with disabilities	d5a60c11	Unemployment rate, by sex and age	201	178	142	196	185
+0d5c350a	Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider, by sex	0d5c350a	Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider, by sex	177	177	162	177	0
+5bf21940	Gender gap in wages, by occupation, age and persons with disabilities	d1cf0c58	Gender gap in wages, by occupation	65	61	23	64	0
+c6bf121c	Proportion of employed working part-time, by sex	c6bf121c	Proportion of employed working part-time, by sex	138	133	102	138	0
+13151395	Proportion of individuals using the Internet, by sex	13151395	Proportion of individuals using the Internet, by sex	88	88	0	82	0
+b8e91664	Proportion of individuals who own a mobile telephone, by sex	b8e91664	Proportion of individuals who own a mobile telephone, by sex	68	68	63	58	0
+d2261786	Extent of country commitment to gender equality in employment	c8071d98	Whether or not ratified ILO convention 100 on equal remuneration for women and men	173	6	2	0	0
+d2261786	Extent of country commitment to gender equality in employment	a9af20cf	Whether or not ratified ILO convention 111 on discrimination in employment and occupation	175	6	3	0	0
+98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	997d1fdb	Average number of hours spent on domestic chores and care work, by sex, age and location	91	65	23	91	55
+98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	0db81b0d	Average number of hours spent on unpaid care work, by sex, age and location	82	63	23	81	44
+98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	c59d1d8b	Average number of hours spent on unpaid domestic chores, by sex, age and location	82	63	23	82	44
+a18d1dbf	Extent of country commitment to support reconciliation of work and family life	edf11ece	Whether or not ratified ILO convention 156 on workers with familiy responsibilities	44	4	1	0	0
+a18d1dbf	Extent of country commitment to support reconciliation of work and family life	909d1569	Whether or not ratified ILO convention 175 on part-time work	17	6	3	0	0
+a18d1dbf	Extent of country commitment to support reconciliation of work and family life	299b1381	Whether or not ratified ILO convention 177 on home work	10	4	0	0	0
+a18d1dbf	Extent of country commitment to support reconciliation of work and family life	1dd41836	Whether or not ratified ILO convention 183 on maternity protection	34	17	5	0	0
+c62a19e8	Average number of hours spent on total work (total work burden), by sex	ad2e1d29	Average number of hours spent on total work combined (total work burden), by sex	83	57	13	83	11
+79580982	Length of maternity leave	79580982	Length of maternity leave	185	185	185	0	0
+a7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	ab331582	Labour force participation rate for persons aged 15+, by sex	219	190	133	215	0
+a7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	d4e715ea	Labour force participation rate for persons aged 15-24, by sex	207	165	120	205	0
+a4f411bc	Percentage of wages paid during maternity leave	a4f411bc	Percentage of wages paid during maternity leave	185	185	185	0	0
+8bd915c9	Proportion of employed who are own-account workers, by sex	8bd915c9	Proportion of employed who are own-account workers, by sex	183	157	113	180	0
+51881915	Proportion of employed who are contributing family workers, by sex	51881915	Proportion of employed who are contributing family workers, by sex	182	151	109	181	1
+c273120e	Proportion of employed who are employers, by sex	c273120e	Proportion of employed who are employers, by sex	180	153	112	179	0
+0cfd2d68	Percentage distribution of employed population by sector, each sex (Sectors here refer to Agriculture; Industry; Services)	f8fc1b6d	Percentage distribution of employed population in service sector, by sex	140	128	98	138	0
+0cfd2d68	Percentage distribution of employed population by sector, each sex (Sectors here refer to Agriculture; Industry; Services)	51b31cbb	Percentage distribution of employed population in industrial sector, by sex	141	129	99	139	0
+0cfd2d68	Percentage distribution of employed population by sector, each sex (Sectors here refer to Agriculture; Industry; Services)	8d681d8b	Percentage distribution of employed population in agricultural sector, by sex	138	127	96	137	0
+ddba1b3e	Proportion of informal employment in non agriculture employment, by sex	df4d1b4b	Proportion of informal employment in non-agriculture employment, by sex	71	68	52	71	0
+c6261123	Whether or not reservation to article 16 of CEDAW	17230409	CEDAW Status (retired)	194	194	194	0	0
+c6261123	Whether or not reservation to article 16 of CEDAW	3bd306b9	Optional Protocol (retired)	117	117	117	0	0
+c6261123	Whether or not reservation to article 16 of CEDAW	62451ce4	Reservations to CEDAW - Compatibility with religious laws or traditional codes (retired)	31	31	31	0	0
+c6261123	Whether or not reservation to article 16 of CEDAW	00981365	Reservations to CEDAW - Elimination of discrimination (retired)	26	26	26	0	0
+c6261123	Whether or not reservation to article 16 of CEDAW	70db14f7	Reservations to CEDAW - Equal rights in marriage and family (retired)	39	39	39	0	0
+c6261123	Whether or not reservation to article 16 of CEDAW	822110a9	Reservations to CEDAW - Equality in employment (retired)	16	16	16	0	0
+c6261123	Whether or not reservation to article 16 of CEDAW	92b51109	Reservations to CEDAW - Equality of nationality (retired)	29	29	29	0	0
+c6261123	Whether or not reservation to article 16 of CEDAW	eb9312be	Reservations to CEDAW - Equality to choose residence (retired)	17	17	17	0	0
+c6261123	Whether or not reservation to article 16 of CEDAW	08bb0d77	Reservations to CEDAW - Other concerns (retired)	28	28	28	0	0
+a8b55125	Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age	a8b55125	Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age	126	108	48	0	67
+158e0e5f	Existence of laws on domestic violence	158e0e5f	Existence of laws on domestic violence	167	167	167	0	0
+158e0e5f	Existence of laws on domestic violence	d11d0c44	Existence of laws on marital rape	166	166	166	0	0
+158e0e5f	Existence of laws on domestic violence	158d0e7a	Existence of laws on sexual harassment	167	167	167	0	0
+be0d4226	Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence	be0d4226	Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence	66	40	0	0	0
+b0e21aa2	Whether or not inheritance rights discriminate against women and girls	cfd91785	Whether or not inheritance rights discriminate against widows	186	186	186	0	0
+b0e21aa2	Whether or not inheritance rights discriminate against women and girls	181218af	Whether or not inheritance rights discriminate against daughters	186	186	186	0	0
+241a26cf	Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age	241a26cf	Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age	31	28	15	0	0
+fdb90d43	Legal minimum age at marriage by sex	174413b8	Minimum age for legal marriage - With parental consent	125	125	125	125	0
+fdb90d43	Legal minimum age at marriage by sex	583c1510	Minimum age for legal marriage - Without parental consent	125	125	125	125	0
+c36721ab	Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18	94021bf2	Proportion of women aged 20-24 years who were married or in a union before age 18	139	125	56	0	0
+c36721ab	Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18	93ff1bef	Proportion of women aged 20-24 years who were married or in a union before age 15	139	125	56	0	0
+731e1dca	Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group	9ebf1887	Adolescent birth rate (aged 15-19 years) per 1,000 women in that age group	241	213	148	0	0
