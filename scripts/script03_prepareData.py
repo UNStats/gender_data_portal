@@ -30,7 +30,7 @@ for f in datafiles:
 
     print(f'file: {f}')
 
-    # if f not in ['01_data.xlsx', '02_data.xlsx']:
+    # if f not in ['Ind_III_10__c5db0b34_data.xlsx']:
     #      continue
     
     # if not f.startswith('Qual'):
