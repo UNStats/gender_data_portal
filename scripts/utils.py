@@ -136,11 +136,11 @@ def clean_str(v):
     return str(v).replace(u'\xa0', u' ').replace(u'\u0151', u'o').replace(u'\u2011', u'-').encode("utf-8").decode("utf-8").replace('\n', ' ').replace('\r', ' ').replace('  ', ' ').strip()
 
 
-def xlsx2dict(file, sheet_name):
+def xlsx2dict(file, sheet=0, converters = {}):
     '''
     Read a sheet form an excel file and convert each record to a dictionary
     '''
-    x = pd.read_excel(file, sheet_name=0).to_dict('records')
+    x = pd.read_excel(file, sheet,converters=converters).to_dict('records')
     for r in x:
         for k, v in r.items():
             clean_v = clean_str(v)
