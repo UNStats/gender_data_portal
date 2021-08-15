@@ -30,8 +30,8 @@ for f in datafiles:
 
     print(f'file: {f}')
 
-    if f not in ['Ind_I_1__98ba1fd8_data.xlsx']:
-         continue
+    # if f not in ['Ind_I_1__98ba1fd8_data.xlsx']:
+    #      continue
 
     
     # if not f.startswith('Qual'):
@@ -432,7 +432,7 @@ def availability_by_series_region (series, sdgRegion=None):
     selector['MINSET_SERIES'] = series
     selector['Select195'] = True
     if sdgRegion:
-        selector['SDG_REGION': sdgRegion]
+        selector['SDG_REGION']= sdgRegion
 
     data_s = utils.select_dict(availability_by_series_and_country, {'MINSET_SERIES': s['MINSET_SERIES'], 'Select195': True}, keep=True)
 
@@ -488,12 +488,14 @@ sdgRegions =  [ None,
 
 availability_by_series = [] 
 
-for s in series:
+for sdgRegion in sdgRegions:
 
-    # Keep records for the current series, only 193 Member States plus 2 Observer States
-    data_s = utils.select_dict(availability_by_series_and_country, {'MINSET_SERIES': s['MINSET_SERIES'], 'Select195': True}, keep=True)
+    for s in series:
 
-    availability_by_series.append(availability_by_series_region (s, sdgRegion=None))
+        # Keep records for the current series, only 193 Member States plus 2 Observer States
+        data_s = utils.select_dict(availability_by_series_and_country, {'MINSET_SERIES': s['MINSET_SERIES'], 'Select195': True}, keep=True)
+
+        availability_by_series.append(availability_by_series_region (s, sdgRegion))
             
 #------------------------------------------------------
 
