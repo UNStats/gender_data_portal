@@ -33,12 +33,11 @@ INDICATOR_ID,INDICATOR_DESC,MINSET_SERIES,MINSET_SERIES_DESC
 28,"Primary education completion rate (proxy), by sex",21,"Primary education completion rate (proxy), by sex"
 29,"Gross graduation ratio from lower secondary education, by sex",22,"Gross graduation ratio from lower secondary education, by sex"
 30,"Effective transition rate from primary to secondary education (general programmes), by sex",23,"Effective transition rate from primary to secondary education (general programmes), by sex"
-31.0,Educational attainment of the population aged 25 and older by sex,46.0,"Educational attainment (minimum lower secondary) of the population aged 25 and older, by sex"
-31.0,Educational attainment of the population aged 25 and older by sex,50.0,"Educational attainment (minimum post-secondary) of the population aged 25 and older, by sex"
-31.0,Educational attainment of the population aged 25 and older by sex,54.0,"Educational attainment (minimum primary) of the population aged 25 and older, by sex"
-31.0,Educational attainment of the population aged 25 and older by sex,51.0,"Educational attainment (minimum tertiary) of the population aged 25 and older, by sex"
-31.0,Educational attainment of the population aged 25 and older by sex,48.0,"Educational attainment (minimum upper secondary) of the population aged 25 and older, by sex"
-,,,
+31,Educational attainment of the population aged 25 and older by sex,46,"Educational attainment (minimum lower secondary) of the population aged 25 and older, by sex"
+31,Educational attainment of the population aged 25 and older by sex,50,"Educational attainment (minimum post-secondary) of the population aged 25 and older, by sex"
+31,Educational attainment of the population aged 25 and older by sex,54,"Educational attainment (minimum primary) of the population aged 25 and older, by sex"
+31,Educational attainment of the population aged 25 and older by sex,51,"Educational attainment (minimum tertiary) of the population aged 25 and older, by sex"
+31,Educational attainment of the population aged 25 and older by sex,48,"Educational attainment (minimum upper secondary) of the population aged 25 and older, by sex"
 32,Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods,25,Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods
 32,Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods,91,Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods: estimates
 33,"Under-five mortality rate, by sex",26,"Under-five mortality rate, by sex"
@@ -60,13 +59,12 @@ INDICATOR_ID,INDICATOR_DESC,MINSET_SERIES,MINSET_SERIES_DESC
 46,Share of female police officers,75,Share of female police officers
 47,Share of female judges,76,Share of female judges
 48,"Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",77,"Proportion of ever-partnered women and girls subjected to physical and/or sexual violence by a current or former intimate partner in the previous 12 months, by age"
-49,"Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",,"Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner, since age 15"
+49,"Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",b51531fc,"Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner, since age 15"
 50,"Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age",39,"Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age"
 51,Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18,89,Proportion of women aged 20-24 years who were married or in a union before age 15
 51,Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18,40,Proportion of women aged 20-24 years who were married or in a union before age 18
 52,"Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group",41,"Adolescent birth rate (aged 15-19 years) per 1,000 women in that age group"
 a03b11e0,Gross graduation ratio from tertiary education,be822278,"Gross graduation ratio from first degree programmes (ISCED 6 and 7) in tertiary education, by sex"
-c6982113,"Prime-age employment-to-population ratio by sex, household type and presence of children",,
 c6982113,"Prime-age employment-to-population ratio by sex, household type and presence of children",21ec2428,"Prime-age employment-to-population ratio by sex, household type and number of children under age 6"
 c6982113,"Prime-age employment-to-population ratio by sex, household type and presence of children",6e1d24f4,"Prime-age employment-to-population ratio by sex, household type and presence of children under age 6"
 63,Whether or not inheritance rights discriminate against women and girls,96,Whether or not inheritance rights discriminate against daughters
