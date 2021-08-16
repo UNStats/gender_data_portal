@@ -39,38 +39,51 @@ for fdx, f in enumerate(datafiles):
     df = pd.DataFrame(x)
 
     #print(df)
-    index = []
+    index = dict()
+
+    common_columns = {'INDICATOR_LABEL': 'Indicator Label',
+               'INDICATOR_ID': 'Indicator ID', 
+               'INDICATOR_DESC': 'Indicator Description', 
+               'MINSET_SERIES': 'Series ID', 
+               'MINSET_SERIES_DESC': 'Series Description', 
+               'REF_AREA': 'Geographic Area ID', 
+               'REF_AREA_DESC': 'Geographic Area Name',
+               'ISO3': 'ISO Alpha-3 Code', 
+               'X': 'Longitude', 
+               'Y': 'Latitude', 
+               'SDG_REGION': 'SDG Region', 
+               'REPORTING_TYPE': 'Reporting Type Code',
+               'REPORTING_TYPE_DESC': 'Reporting Type Description',
+               'SOURCE_YEAR': 'Source Year',
+               'UNIT_MEASURE': 'Unit of Measurement Code',
+               'UNIT_MEASURE_DESC': 'Unit of Measurement Description',
+               'TIME_PERIOD': 'Year'
+    }
     
-    for k in ['INDICATOR_LABEL',
-               'INDICATOR_ID', 
-               'INDICATOR_DESC', 
-               'MINSET_SERIES', 
-               'MINSET_SERIES_DESC', 
-               'REF_AREA', 
-               'REF_AREA_DESC',
-               'ISO3', 
-               'X', 
-               'Y', 
-               'SDG_REGION', 
-               'REPORTING_TYPE',
-               'REPORTING_TYPE_DESC',
-               'SOURCE_YEAR',
-               'UNIT_MEASURE',
-               'UNIT_MEASURE_DESC',
-               'TIME_PERIOD'
-               ]:
+    for k,v in common_columns.items():
         if k in x[0].keys():
-            index.append(k)
+            index[k] = v
 
-    val_columns = []
+    value_columns = {
+        'OBS_VALUE': 'Value', 
+        'VALUE_CATEGORY_DESC': 'Category', 
+        'TIME_DETAIL': 'Time Detail',
+        'NATURE': 'Nature', 
+        'COMMENT_OBS': 'Comment', 
+        'isLatestValue': 'Is Latest Value'
+    }
 
-    for k in ['OBS_VALUE', 'VALUE_CATEGORY_DESC', 'TIME_DETAIL','NATURE', 'COMMENT_OBS', 'isLatestValue']:
+    val_columns = dict()
+
+    for k,v in value_columns.items():
         if k in x[0].keys():
-            val_columns.append(k)
+            val_columns[k] = v
 
-    x2 = df.pivot(index = index, columns=['TSK_sub_id','TSK_sub_desc'], values=val_columns)
+    x2 = df.pivot(index = list(index.keys()), 
+                  columns=['TSK_sub_id','TSK_sub_desc'], 
+                  values=list(val_columns.keys()))
 
-    x2 = x2.reset_index(level=index)
+    x2 = x2.reset_index(level=list(index.keys()))
 
     x2.to_excel("test/test.xlsx") 
     x3 = x2.to_dict('records')
@@ -80,7 +93,13 @@ for fdx, f in enumerate(datafiles):
     for k,v in x3[0].items():
         if k[0] in index:
             key = k[0]
-            alias = k[0]
+            alias = index[k[0]]
+        elif k[0] in val_columns:
+            key = k[0]+'__'+k[1]
+            if k[2]:
+                alias = val_columns[k[0]]+ ': ' + k[2]
+            else:
+                alias = val_columns[k[0]]
         else:
             key = k[0]+'__'+k[1]
             alias = k[0]+ ': ' + k[2]

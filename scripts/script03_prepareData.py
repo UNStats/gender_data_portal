@@ -26,15 +26,17 @@ current_year = 2020
 series_source = []
 availability_by_series_and_country = []
 
-for f in datafiles:
+for fdx, f in enumerate(datafiles):
 
     print(f'file: {f}')
 
-    # if f not in ['Ind_I_1__98ba1fd8_data.xlsx']:
+    # if f not in ['V_5__I731e1dca_data.xlsx']:
     #      continue
-
     
-    # if not f.startswith('Qual'):
+    # if fdx > 3:
+    #     continue
+
+    # if not f.startswith('Q'):
     #     continue
 
     # Read source data file:
@@ -67,6 +69,14 @@ for f in datafiles:
         s = j['MINSET_SERIES']
         i_label = j['INDICATOR_LABEL'].replace('.','_')
 
+        for mic_i in minset_indicators_catalog:
+
+            if mic_i['MINSET_SERIES'] == s:
+                sort_order=mic_i['SORT_ORDER']
+                SDG_SeriesID=mic_i['SDG_SeriesID']
+                ILO_SeriesID=mic_i['ILO_SeriesID']
+                UNESCO_SeriesID=mic_i['UNESCO_SeriesID']
+
         #extract the list of source years for current indicator and series:
         j_y = utils.select_dict(x1_list, {'INDICATOR_ID': i, 'MINSET_SERIES': s}, keep=True)
 
@@ -82,7 +92,7 @@ for f in datafiles:
         #------------------------------------------
         #Write data file name for individual series:
         #------------------------------------------
-        file_name = 'ind_'+i_label+'__'+i+'__series_' + s + '.csv'
+        file_name = i_label+'__'+i+'__' + s + '.csv'
         print(file_name)
 
         # Extract subset of records corresponding to indicator i and series s in source year y_t:
@@ -224,6 +234,10 @@ for f in datafiles:
 
             # Add ts keys and "isLatestYear"value
             for r in x_ts:
+                r['sort_order'] =sort_order
+                r['SDG_SeriesID'] =SDG_SeriesID
+                r['ILO_SeriesID'] =ILO_SeriesID
+                r['UNESCO_SeriesID'] =UNESCO_SeriesID
                 r['TSK_sub_dims'] = TSK_sub_dims
                 r['TSK_sub_id'] = TSK_sub_id
                 r['TSK_sub_desc'] = TSK_sub_desc
@@ -245,7 +259,8 @@ for f in datafiles:
 
             geo_info = utils.select_dict(geo, {'REF_AREA': ref_area}, keep=True)
             #print(geo_info[0])
-   
+
+            ts_availability['sort_order'] = sort_order
             ts_availability['ISO3'] = geo_info[0]['ISO3']
             ts_availability['X'] = geo_info[0]['X']
             ts_availability['Y'] = geo_info[0]['Y']
@@ -263,7 +278,7 @@ for f in datafiles:
             # Get availability stats: min(years), max (years), Number of years, Number of years after 2015
             availability.append(ts_availability)
 
-        utils.dictList2tsv(new_data, 'series_data/' + file_name)
+        utils.dictList2tsv(new_data, 'series_data/' + sort_order + '__' + file_name)
 
         #------------------------------------------------------
         # Within current series, obtain availability summary for each country
@@ -411,9 +426,11 @@ for f in datafiles:
             d['disaggregated_by_sex'] = years_d_sex
             d['disaggregated_by_sex_n'] = len(years_d_sex)
 
+            d['sort_order'] = sort_order
+
             availability_by_series_and_country.append(d)
         
-        utils.dictList2tsv(availability, 'availability_data/availability_ts_'+ file_name)
+        utils.dictList2tsv(availability, 'availability_data/availability_ts_'+ sort_order + '__' + file_name)
 
 utils.dictList2tsv(availability_by_series_and_country, 'availability_data/availability_bySeriesCountry.csv')
             
@@ -427,50 +444,79 @@ series =  utils.unique_dicts(utils.subdict_list(availability_by_series_and_count
 
 def availability_by_series_region (series, sdgRegion=None):
 
+    d2 = dict()
+
     selector = dict()
 
-    selector['MINSET_SERIES'] = series
+    selector['MINSET_SERIES'] = series['MINSET_SERIES']
     selector['Select195'] = True
+
+    series_data = utils.subdict_list(
+                    utils.select_dict(availability_by_series_and_country, 
+                        selector,
+                        keep=True),
+                        ['sort_order','INDICATOR_ID','INDICATOR_DESC','MINSET_SERIES','MINSET_SERIES_DESC']
+                    )
+    
+    
+    
+    d2['sort_order'] = series_data[0]['sort_order']
+    d2['INDICATOR_ID'] = series_data[0]['INDICATOR_ID']
+    d2['INDICATOR_DESC'] = series_data[0]['INDICATOR_DESC']
+    d2['MINSET_SERIES'] = series_data[0]['MINSET_SERIES']
+    d2['MINSET_SERIES_DESC'] = series_data[0]['MINSET_SERIES_DESC']
+
+    if sdgRegion:
+
+        d2['SDG_REGION'] = sdgRegion
+
+        countries_in_region = utils.select_dict(geo, {'SDG_REGION': sdgRegion, 'GEOLEVEL': '4'})
+
+        # print(f"{countries_in_region=}")
+
+        for c in countries_in_region:
+            if c['UNmember'] or  c['REF_AREA'] in ['275','336']:
+                c['c195'] = True
+
+        d2['denominator'] = sum(x.get('c195') == True for x in countries_in_region)
+
+    else:
+        d2['SDG_REGION'] = 'All'
+        d2['denominator'] = 195
+    
+    # Initialize values:
+
+
     if sdgRegion:
         selector['SDG_REGION']= sdgRegion
 
-    data_s = utils.select_dict(availability_by_series_and_country, {'MINSET_SERIES': s['MINSET_SERIES'], 'Select195': True}, keep=True)
+    # print(f"{selector=}")
 
-    # keys = list(data_s[0].keys())
-    # print(f"{keys=}")
-
-    d2 = dict()
-
-    if sdgRegion:
-        d2['SDG_REGION'] = sdgRegion
-    else:
-        d2['SDG_REGION'] = 'All'
-
-    d2['INDICATOR_ID'] = data_s[0]['INDICATOR_ID']
-    d2['INDICATOR_DESC'] = data_s[0]['INDICATOR_DESC']
-    d2['MINSET_SERIES'] = data_s[0]['MINSET_SERIES']
-    d2['MINSET_SERIES_DESC'] = data_s[0]['MINSET_SERIES_DESC']
-
-    # Initialize values:
+    data_s = utils.select_dict(availability_by_series_and_country, 
+                                selector,
+                                keep=True)
+    
     d2['N_countries'] = 0
     d2['N_countries_lag10'] = 0
     d2['N_countries_lag5'] = 0
     d2['N_countries_sex'] = 0
     d2['N_countries_age'] = 0
+    
+    if(len(data_s)>0):
+    
+        for idx, c in enumerate(data_s):
 
-    for idx, c in enumerate(data_s):
-
-        if c['data_points'] > 0:
-            d2['N_countries'] += 1
-        if c['data_points_lag10'] > 0:
-            d2['N_countries_lag10'] += 1
-        if c['data_points_lag5'] > 0:
-            d2['N_countries_lag5'] += 1
-        if c['disaggregated_by_age_n'] > 0:
-            d2['N_countries_age'] += 1
-        if c['disaggregated_by_sex_n'] > 0:
-            d2['N_countries_sex'] += 1
-
+            if c['data_points'] > 0:
+                d2['N_countries'] += 1
+            if c['data_points_lag10'] > 0:
+                d2['N_countries_lag10'] += 1
+            if c['data_points_lag5'] > 0:
+                d2['N_countries_lag5'] += 1
+            if c['disaggregated_by_age_n'] > 0:
+                d2['N_countries_age'] += 1
+            if c['disaggregated_by_sex_n'] > 0:
+                d2['N_countries_sex'] += 1
+     
     return d2
 
 sdgRegions =  [ None,
@@ -489,13 +535,15 @@ sdgRegions =  [ None,
 availability_by_series = [] 
 
 for sdgRegion in sdgRegions:
-
+    
     for s in series:
 
         # Keep records for the current series, only 193 Member States plus 2 Observer States
         data_s = utils.select_dict(availability_by_series_and_country, {'MINSET_SERIES': s['MINSET_SERIES'], 'Select195': True}, keep=True)
 
-        availability_by_series.append(availability_by_series_region (s, sdgRegion))
+        asr = availability_by_series_region (s, sdgRegion)
+        if asr:
+            availability_by_series.append(asr)
             
 #------------------------------------------------------
 

@@ -44,8 +44,6 @@ for fdx, f in enumerate(old_datafiles):
         old_series_id = y['MINSET_SERIES']
 
         new_record = utils.select_dict(catalog_mapping,{'OLD_INDICATOR_ID': old_indicator_id, 'OLD_MINSET_SERIES': old_series_id})[0]
-        print(new_record)
-        print('---')
 
         indicator_label = str(new_record['INDICATOR_LABEL'])
         indicator_id = str(new_record['INDICATOR_ID'])
@@ -83,4 +81,4 @@ for fdx, f in enumerate(old_datafiles):
     for record in new_x:
         sheet.append(list(record.values()))
 
-    wb.save('source_data/Ind_'+ indicator_label.replace('.','_')+ '__' + indicator_id+'_data.xlsx')
+    wb.save('source_data/'+ indicator_label.replace('.','_')+ '__' + indicator_id+'_data.xlsx')
