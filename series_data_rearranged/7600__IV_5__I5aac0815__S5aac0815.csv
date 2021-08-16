@@ -1,0 +1,625 @@
+INDICATOR_LABEL,INDICATOR_ID,INDICATOR_DESC,MINSET_SERIES,MINSET_SERIES_DESC,REF_AREA,REF_AREA_DESC,ISO3,X,Y,SDG_REGION,REPORTING_TYPE,REPORTING_TYPE_DESC,SOURCE_YEAR,UNIT_MEASURE,UNIT_MEASURE_DESC,TIME_PERIOD,OBS_VALUE__F,NATURE__F,isLatestValue__F
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,100,Bulgaria,BGR,25.23763153,42.75731323,Europe and Northern America,G,Global,2019,PT,Percent,2015,67,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,100,Bulgaria,BGR,25.23763153,42.75731323,Europe and Northern America,G,Global,2019,PT,Percent,2016,67,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,100,Bulgaria,BGR,25.23763153,42.75731323,Europe and Northern America,G,Global,2019,PT,Percent,2017,67,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,112,Belarus,BLR,28.04940161,53.54193075,Europe and Northern America,G,Global,2019,PT,Percent,2015,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,112,Belarus,BLR,28.04940161,53.54193075,Europe and Northern America,G,Global,2019,PT,Percent,2016,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,112,Belarus,BLR,28.04940161,53.54193075,Europe and Northern America,G,Global,2019,PT,Percent,2017,58,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,12,Algeria,DZA,2.678164227,28.15940032,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2006,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,12,Algeria,DZA,2.678164227,28.15940032,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2007,36,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,12,Algeria,DZA,2.678164227,28.15940032,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2008,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,12,Algeria,DZA,2.678164227,28.15940032,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2009,38,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,12,Algeria,DZA,2.678164227,28.15940032,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2010,39,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,12,Algeria,DZA,2.678164227,28.15940032,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2011,40,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,12,Algeria,DZA,2.678164227,28.15940032,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2012,40,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,12,Algeria,DZA,2.678164227,28.15940032,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2013,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,12,Algeria,DZA,2.678164227,28.15940032,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2014,42,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,12,Algeria,DZA,2.678164227,28.15940032,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2015,43,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,120,Cameroon,CMR,12.7419827,5.692387031,Sub-Saharan Africa,G,Global,2019,PT,Percent,2010,23,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,120,Cameroon,CMR,12.7419827,5.692387031,Sub-Saharan Africa,G,Global,2019,PT,Percent,2011,23,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,120,Cameroon,CMR,12.7419827,5.692387031,Sub-Saharan Africa,G,Global,2019,PT,Percent,2013,23,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,132,Cabo Verde,CPV,-23.63544151,15.07791834,Sub-Saharan Africa,G,Global,2019,PT,Percent,2010,36,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,132,Cabo Verde,CPV,-23.63544151,15.07791834,Sub-Saharan Africa,G,Global,2019,PT,Percent,2011,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,132,Cabo Verde,CPV,-23.63544151,15.07791834,Sub-Saharan Africa,G,Global,2019,PT,Percent,2012,36,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,132,Cabo Verde,CPV,-23.63544151,15.07791834,Sub-Saharan Africa,G,Global,2019,PT,Percent,2013,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,132,Cabo Verde,CPV,-23.63544151,15.07791834,Sub-Saharan Africa,G,Global,2019,PT,Percent,2014,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,132,Cabo Verde,CPV,-23.63544151,15.07791834,Sub-Saharan Africa,G,Global,2019,PT,Percent,2015,36,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,152,Chile,CHL,-71.23029019,-35.2652885,Latin America and the Caribbean,G,Global,2019,PT,Percent,2011,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,152,Chile,CHL,-71.23029019,-35.2652885,Latin America and the Caribbean,G,Global,2019,PT,Percent,2012,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,152,Chile,CHL,-71.23029019,-35.2652885,Latin America and the Caribbean,G,Global,2019,PT,Percent,2013,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,152,Chile,CHL,-71.23029019,-35.2652885,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,152,Chile,CHL,-71.23029019,-35.2652885,Latin America and the Caribbean,G,Global,2019,PT,Percent,2015,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,152,Chile,CHL,-71.23029019,-35.2652885,Latin America and the Caribbean,G,Global,2019,PT,Percent,2016,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,152,Chile,CHL,-71.23029019,-35.2652885,Latin America and the Caribbean,G,Global,2019,PT,Percent,2017,51,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,156,China,CHN,104.1403375,32.30955217,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2010,26,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,156,China,CHN,104.1403375,32.30955217,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2012,28,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,156,China,CHN,104.1403375,32.30955217,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2013,29,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,156,China,CHN,104.1403375,32.30955217,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2014,31,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,156,China,CHN,104.1403375,32.30955217,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2015,31,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,156,China,CHN,104.1403375,32.30955217,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2016,34,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,156,China,CHN,104.1403375,32.30955217,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2017,33,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,170,Colombia,COL,-73.07446751,3.888209046,Latin America and the Caribbean,G,Global,2019,PT,Percent,2017,44,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,188,Costa Rica,CRI,-84.19712782,9.970998683,Latin America and the Caribbean,G,Global,2019,PT,Percent,2006,49,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,188,Costa Rica,CRI,-84.19712782,9.970998683,Latin America and the Caribbean,G,Global,2019,PT,Percent,2007,49,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,188,Costa Rica,CRI,-84.19712782,9.970998683,Latin America and the Caribbean,G,Global,2019,PT,Percent,2008,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,188,Costa Rica,CRI,-84.19712782,9.970998683,Latin America and the Caribbean,G,Global,2019,PT,Percent,2009,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,188,Costa Rica,CRI,-84.19712782,9.970998683,Latin America and the Caribbean,G,Global,2019,PT,Percent,2010,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,188,Costa Rica,CRI,-84.19712782,9.970998683,Latin America and the Caribbean,G,Global,2019,PT,Percent,2011,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,188,Costa Rica,CRI,-84.19712782,9.970998683,Latin America and the Caribbean,G,Global,2019,PT,Percent,2012,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,188,Costa Rica,CRI,-84.19712782,9.970998683,Latin America and the Caribbean,G,Global,2019,PT,Percent,2013,53,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,188,Costa Rica,CRI,-84.19712782,9.970998683,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,52,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2004,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2005,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2006,65,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2007,66,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2008,66,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2009,66,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2010,67,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2011,68,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2012,69,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2013,69,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2014,69,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2015,70,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,191,Croatia,HRV,17.95874553,45.45172212,Europe and Northern America,G,Global,2019,PT,Percent,2017,71,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,196,Cyprus,CYP,33.22285964,35.05659437,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2008,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,196,Cyprus,CYP,33.22285964,35.05659437,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2009,40,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,196,Cyprus,CYP,33.22285964,35.05659437,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2010,42,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,196,Cyprus,CYP,33.22285964,35.05659437,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2011,41,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,196,Cyprus,CYP,33.22285964,35.05659437,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2012,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,196,Cyprus,CYP,33.22285964,35.05659437,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2013,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,196,Cyprus,CYP,33.22285964,35.05659437,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2014,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,196,Cyprus,CYP,33.22285964,35.05659437,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2015,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,196,Cyprus,CYP,33.22285964,35.05659437,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2016,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,196,Cyprus,CYP,33.22285964,35.05659437,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2017,50,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,20,Andorra,AND,1.576257417,42.54548611,Europe and Northern America,G,Global,2019,PT,Percent,2008,40,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,20,Andorra,AND,1.576257417,42.54548611,Europe and Northern America,G,Global,2019,PT,Percent,2009,36,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,20,Andorra,AND,1.576257417,42.54548611,Europe and Northern America,G,Global,2019,PT,Percent,2010,38,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,20,Andorra,AND,1.576257417,42.54548611,Europe and Northern America,G,Global,2019,PT,Percent,2011,38,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,20,Andorra,AND,1.576257417,42.54548611,Europe and Northern America,G,Global,2019,PT,Percent,2012,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,20,Andorra,AND,1.576257417,42.54548611,Europe and Northern America,G,Global,2019,PT,Percent,2013,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,20,Andorra,AND,1.576257417,42.54548611,Europe and Northern America,G,Global,2019,PT,Percent,2014,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,20,Andorra,AND,1.576257417,42.54548611,Europe and Northern America,G,Global,2019,PT,Percent,2015,50,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,203,Czechia,CZE,15.33151382,49.73913871,Europe and Northern America,G,Global,2019,PT,Percent,2009,62,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,203,Czechia,CZE,15.33151382,49.73913871,Europe and Northern America,G,Global,2019,PT,Percent,2010,61,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,203,Czechia,CZE,15.33151382,49.73913871,Europe and Northern America,G,Global,2019,PT,Percent,2011,61,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,203,Czechia,CZE,15.33151382,49.73913871,Europe and Northern America,G,Global,2019,PT,Percent,2012,61,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,203,Czechia,CZE,15.33151382,49.73913871,Europe and Northern America,G,Global,2019,PT,Percent,2013,61,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,208,Denmark,DNK,9.326571283,56.03829721,Europe and Northern America,G,Global,2019,PT,Percent,2008,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,208,Denmark,DNK,9.326571283,56.03829721,Europe and Northern America,G,Global,2019,PT,Percent,2009,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,208,Denmark,DNK,9.326571283,56.03829721,Europe and Northern America,G,Global,2019,PT,Percent,2010,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,208,Denmark,DNK,9.326571283,56.03829721,Europe and Northern America,G,Global,2019,PT,Percent,2011,57,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,208,Denmark,DNK,9.326571283,56.03829721,Europe and Northern America,G,Global,2019,PT,Percent,2012,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,208,Denmark,DNK,9.326571283,56.03829721,Europe and Northern America,G,Global,2019,PT,Percent,2013,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,208,Denmark,DNK,9.326571283,56.03829721,Europe and Northern America,G,Global,2019,PT,Percent,2014,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,208,Denmark,DNK,9.326571283,56.03829721,Europe and Northern America,G,Global,2019,PT,Percent,2015,56,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,208,Denmark,DNK,9.326571283,56.03829721,Europe and Northern America,G,Global,2019,PT,Percent,2016,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,208,Denmark,DNK,9.326571283,56.03829721,Europe and Northern America,G,Global,2019,PT,Percent,2017,59,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,212,Dominica,DMA,-61.3493756,15.43391378,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,212,Dominica,DMA,-61.3493756,15.43391378,Latin America and the Caribbean,G,Global,2019,PT,Percent,2015,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,212,Dominica,DMA,-61.3493756,15.43391378,Latin America and the Caribbean,G,Global,2019,PT,Percent,2016,100,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,212,Dominica,DMA,-61.3493756,15.43391378,Latin America and the Caribbean,G,Global,2019,PT,Percent,2017,100,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,214,Dominican Republic,DOM,-70.49847576,18.89832088,Latin America and the Caribbean,G,Global,2019,PT,Percent,2006,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,214,Dominican Republic,DOM,-70.49847576,18.89832088,Latin America and the Caribbean,G,Global,2019,PT,Percent,2007,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,214,Dominican Republic,DOM,-70.49847576,18.89832088,Latin America and the Caribbean,G,Global,2019,PT,Percent,2008,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,214,Dominican Republic,DOM,-70.49847576,18.89832088,Latin America and the Caribbean,G,Global,2019,PT,Percent,2009,49,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,214,Dominican Republic,DOM,-70.49847576,18.89832088,Latin America and the Caribbean,G,Global,2019,PT,Percent,2010,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,214,Dominican Republic,DOM,-70.49847576,18.89832088,Latin America and the Caribbean,G,Global,2019,PT,Percent,2011,51,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,222,El Salvador,SLV,-88.86862995,13.73603564,Latin America and the Caribbean,G,Global,2019,PT,Percent,2006,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,222,El Salvador,SLV,-88.86862995,13.73603564,Latin America and the Caribbean,G,Global,2019,PT,Percent,2007,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,222,El Salvador,SLV,-88.86862995,13.73603564,Latin America and the Caribbean,G,Global,2019,PT,Percent,2008,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,222,El Salvador,SLV,-88.86862995,13.73603564,Latin America and the Caribbean,G,Global,2019,PT,Percent,2009,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,222,El Salvador,SLV,-88.86862995,13.73603564,Latin America and the Caribbean,G,Global,2019,PT,Percent,2010,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,222,El Salvador,SLV,-88.86862995,13.73603564,Latin America and the Caribbean,G,Global,2019,PT,Percent,2011,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,222,El Salvador,SLV,-88.86862995,13.73603564,Latin America and the Caribbean,G,Global,2019,PT,Percent,2012,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,222,El Salvador,SLV,-88.86862995,13.73603564,Latin America and the Caribbean,G,Global,2019,PT,Percent,2013,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,222,El Salvador,SLV,-88.86862995,13.73603564,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,222,El Salvador,SLV,-88.86862995,13.73603564,Latin America and the Caribbean,G,Global,2019,PT,Percent,2015,47,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,234,Faroe Islands,FRO,-7.122044325,62.21228119,Europe and Northern America,G,Global,2019,PT,Percent,2014,50,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2005,40,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2006,41,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2007,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2008,44,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2009,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2010,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2011,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2012,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2013,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2014,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2015,54,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2016,55,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,246,Finland,FIN,23.308447,61.91586738,Europe and Northern America,G,Global,2019,PT,Percent,2017,56,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,250,France,FRA,2.457288129,46.62660861,Europe and Northern America,G,Global,2019,PT,Percent,2012,65,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,250,France,FRA,2.457288129,46.62660861,Europe and Northern America,G,Global,2019,PT,Percent,2013,66,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,250,France,FRA,2.457288129,46.62660861,Europe and Northern America,G,Global,2019,PT,Percent,2014,67,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,250,France,FRA,2.457288129,46.62660861,Europe and Northern America,G,Global,2019,PT,Percent,2015,68,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,268,Georgia,GEO,43.3713615,42.04813028,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2007,49,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,268,Georgia,GEO,43.3713615,42.04813028,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2008,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,268,Georgia,GEO,43.3713615,42.04813028,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2009,53,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,268,Georgia,GEO,43.3713615,42.04813028,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2010,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,268,Georgia,GEO,43.3713615,42.04813028,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2011,49,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,268,Georgia,GEO,43.3713615,42.04813028,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2012,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,268,Georgia,GEO,43.3713615,42.04813028,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2014,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,268,Georgia,GEO,43.3713615,42.04813028,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2015,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,268,Georgia,GEO,43.3713615,42.04813028,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2016,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,268,Georgia,GEO,43.3713615,42.04813028,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2017,51,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,276,Germany,DEU,10.3806066,51.08862743,Europe and Northern America,G,Global,2019,PT,Percent,2004,31,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,276,Germany,DEU,10.3806066,51.08862743,Europe and Northern America,G,Global,2019,PT,Percent,2006,33,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,276,Germany,DEU,10.3806066,51.08862743,Europe and Northern America,G,Global,2019,PT,Percent,2008,36,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,276,Germany,DEU,10.3806066,51.08862743,Europe and Northern America,G,Global,2019,PT,Percent,2010,38,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,276,Germany,DEU,10.3806066,51.08862743,Europe and Northern America,G,Global,2019,PT,Percent,2012,40,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,276,Germany,DEU,10.3806066,51.08862743,Europe and Northern America,G,Global,2019,PT,Percent,2014,42,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,276,Germany,DEU,10.3806066,51.08862743,Europe and Northern America,G,Global,2019,PT,Percent,2016,44,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,300,Greece,GRC,22.58307827,39.47301873,Europe and Northern America,G,Global,2019,PT,Percent,2010,65,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,31,Azerbaijan,AZE,50.01064725,40.39229544,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2008,12,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,31,Azerbaijan,AZE,50.01064725,40.39229544,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2009,12,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,31,Azerbaijan,AZE,50.01064725,40.39229544,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2010,11,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,31,Azerbaijan,AZE,50.01064725,40.39229544,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2011,12,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,31,Azerbaijan,AZE,50.01064725,40.39229544,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2012,11,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,31,Azerbaijan,AZE,50.01064725,40.39229544,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2013,12,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,31,Azerbaijan,AZE,50.01064725,40.39229544,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2014,12,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,31,Azerbaijan,AZE,50.01064725,40.39229544,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2017,12,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,32,Argentina,ARG,-65.14563274,-35.19446255,Latin America and the Caribbean,G,Global,2019,PT,Percent,2012,29,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,32,Argentina,ARG,-65.14563274,-35.19446255,Latin America and the Caribbean,G,Global,2019,PT,Percent,2013,29,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,32,Argentina,ARG,-65.14563274,-35.19446255,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,30,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,32,Argentina,ARG,-65.14563274,-35.19446255,Latin America and the Caribbean,G,Global,2019,PT,Percent,2015,30,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,32,Argentina,ARG,-65.14563274,-35.19446255,Latin America and the Caribbean,G,Global,2019,PT,Percent,2016,31,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,32,Argentina,ARG,-65.14563274,-35.19446255,Latin America and the Caribbean,G,Global,2019,PT,Percent,2017,31,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,320,Guatemala,GTM,-91.2312746,15.00273719,Latin America and the Caribbean,G,Global,2019,PT,Percent,2007,34,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,320,Guatemala,GTM,-91.2312746,15.00273719,Latin America and the Caribbean,G,Global,2019,PT,Percent,2008,36,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,320,Guatemala,GTM,-91.2312746,15.00273719,Latin America and the Caribbean,G,Global,2019,PT,Percent,2009,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,320,Guatemala,GTM,-91.2312746,15.00273719,Latin America and the Caribbean,G,Global,2019,PT,Percent,2010,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,320,Guatemala,GTM,-91.2312746,15.00273719,Latin America and the Caribbean,G,Global,2019,PT,Percent,2011,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,320,Guatemala,GTM,-91.2312746,15.00273719,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,43,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,328,Guyana,GUY,-58.97322037,4.788012784,Latin America and the Caribbean,G,Global,2019,PT,Percent,2009,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,328,Guyana,GUY,-58.97322037,4.788012784,Latin America and the Caribbean,G,Global,2019,PT,Percent,2010,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,328,Guyana,GUY,-58.97322037,4.788012784,Latin America and the Caribbean,G,Global,2019,PT,Percent,2011,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,328,Guyana,GUY,-58.97322037,4.788012784,Latin America and the Caribbean,G,Global,2019,PT,Percent,2012,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,328,Guyana,GUY,-58.97322037,4.788012784,Latin America and the Caribbean,G,Global,2019,PT,Percent,2013,38,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,328,Guyana,GUY,-58.97322037,4.788012784,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,42,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,328,Guyana,GUY,-58.97322037,4.788012784,Latin America and the Caribbean,G,Global,2019,PT,Percent,2015,56,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,340,Honduras,HND,-86.59974381,14.82243161,Latin America and the Caribbean,G,Global,2019,PT,Percent,2011,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,340,Honduras,HND,-86.59974381,14.82243161,Latin America and the Caribbean,G,Global,2019,PT,Percent,2015,53,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,344,"China, Hong Kong Special Administrative Region",HKG,114.0266445,22.41749934,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2007,22,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,344,"China, Hong Kong Special Administrative Region",HKG,114.0266445,22.41749934,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2008,22,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,344,"China, Hong Kong Special Administrative Region",HKG,114.0266445,22.41749934,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2009,22,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,344,"China, Hong Kong Special Administrative Region",HKG,114.0266445,22.41749934,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2010,22,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,344,"China, Hong Kong Special Administrative Region",HKG,114.0266445,22.41749934,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2011,22,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,344,"China, Hong Kong Special Administrative Region",HKG,114.0266445,22.41749934,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2012,26,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,344,"China, Hong Kong Special Administrative Region",HKG,114.0266445,22.41749934,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2013,25,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2004,71,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2005,70,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2006,70,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2007,70,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2008,70,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2009,69,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2010,69,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2011,69,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2012,69,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2013,68,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2014,69,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2015,69,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2016,69,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,348,Hungary,HUN,19.41221519,47.1651448,Europe and Northern America,G,Global,2019,PT,Percent,2017,69,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,352,Iceland,ISL,-19.02116966,64.79134763,Europe and Northern America,G,Global,2019,PT,Percent,2004,26,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,352,Iceland,ISL,-19.02116966,64.79134763,Europe and Northern America,G,Global,2019,PT,Percent,2005,30,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,352,Iceland,ISL,-19.02116966,64.79134763,Europe and Northern America,G,Global,2019,PT,Percent,2006,30,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,352,Iceland,ISL,-19.02116966,64.79134763,Europe and Northern America,G,Global,2019,PT,Percent,2007,30,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,352,Iceland,ISL,-19.02116966,64.79134763,Europe and Northern America,G,Global,2019,PT,Percent,2008,30,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,352,Iceland,ISL,-19.02116966,64.79134763,Europe and Northern America,G,Global,2019,PT,Percent,2009,30,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,352,Iceland,ISL,-19.02116966,64.79134763,Europe and Northern America,G,Global,2019,PT,Percent,2013,42,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,352,Iceland,ISL,-19.02116966,64.79134763,Europe and Northern America,G,Global,2019,PT,Percent,2017,37,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,36,Australia,AUS,134.3499412,-25.57717202,Australia and New Zealand,G,Global,2019,PT,Percent,2009,31,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,36,Australia,AUS,134.3499412,-25.57717202,Australia and New Zealand,G,Global,2019,PT,Percent,2010,32,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,36,Australia,AUS,134.3499412,-25.57717202,Australia and New Zealand,G,Global,2019,PT,Percent,2012,33,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,372,Ireland,IRL,-7.121425272,53.25274054,Europe and Northern America,G,Global,2019,PT,Percent,2010,24,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,372,Ireland,IRL,-7.121425272,53.25274054,Europe and Northern America,G,Global,2019,PT,Percent,2011,26,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,372,Ireland,IRL,-7.121425272,53.25274054,Europe and Northern America,G,Global,2019,PT,Percent,2012,26,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,376,Israel,ISR,34.62277992,31.06164552,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2011,55,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2005,41,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2006,42,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2007,41,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2008,44,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2009,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2010,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2011,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2012,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2013,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2014,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2015,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2016,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,380,Italy,ITA,12.57022427,42.79917282,Europe and Northern America,G,Global,2019,PT,Percent,2017,55,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,392,Japan,JPN,139.2716103,36.6554539,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2004,13,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,392,Japan,JPN,139.2716103,36.6554539,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2005,14,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,392,Japan,JPN,139.2716103,36.6554539,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2006,14,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,392,Japan,JPN,139.2716103,36.6554539,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2007,15,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,392,Japan,JPN,139.2716103,36.6554539,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2008,15,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,392,Japan,JPN,139.2716103,36.6554539,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2009,16,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,392,Japan,JPN,139.2716103,36.6554539,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2010,17,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,392,Japan,JPN,139.2716103,36.6554539,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2011,17,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,392,Japan,JPN,139.2716103,36.6554539,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2012,18,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,392,Japan,JPN,139.2716103,36.6554539,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2013,18,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,392,Japan,JPN,139.2716103,36.6554539,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2014,19,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,398,Kazakhstan,KAZ,66.65359159,48.01963494,Central and Southern Asia,G,Global,2019,PT,Percent,2013,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,398,Kazakhstan,KAZ,66.65359159,48.01963494,Central and Southern Asia,G,Global,2019,PT,Percent,2014,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,398,Kazakhstan,KAZ,66.65359159,48.01963494,Central and Southern Asia,G,Global,2019,PT,Percent,2015,43,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2005,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2006,44,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2007,44,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2008,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2009,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2010,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2011,49,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2012,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2013,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2014,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2015,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2016,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,40,Austria,AUT,14.14172472,47.58704857,Europe and Northern America,G,Global,2019,PT,Percent,2017,50,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,404,Kenya,KEN,37.86096816,0.534797278,Sub-Saharan Africa,G,Global,2019,PT,Percent,2013,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,404,Kenya,KEN,37.86096816,0.534797278,Sub-Saharan Africa,G,Global,2019,PT,Percent,2014,43,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,410,Republic of Korea,KOR,127.8610254,36.45201023,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2006,17,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,410,Republic of Korea,KOR,127.8610254,36.45201023,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2007,19,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,410,Republic of Korea,KOR,127.8610254,36.45201023,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2008,21,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,410,Republic of Korea,KOR,127.8610254,36.45201023,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2009,19,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,410,Republic of Korea,KOR,127.8610254,36.45201023,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2010,24,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,410,Republic of Korea,KOR,127.8610254,36.45201023,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2011,26,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,410,Republic of Korea,KOR,127.8610254,36.45201023,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2012,27,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,410,Republic of Korea,KOR,127.8610254,36.45201023,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2013,27,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,410,Republic of Korea,KOR,127.8610254,36.45201023,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2014,28,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,410,Republic of Korea,KOR,127.8610254,36.45201023,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2015,28,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,410,Republic of Korea,KOR,127.8610254,36.45201023,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2016,28,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,410,Republic of Korea,KOR,127.8610254,36.45201023,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2017,29,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,417,Kyrgyzstan,KGZ,74.52324839,41.46204516,Central and Southern Asia,G,Global,2019,PT,Percent,2010,29,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,417,Kyrgyzstan,KGZ,74.52324839,41.46204516,Central and Southern Asia,G,Global,2019,PT,Percent,2011,29,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,417,Kyrgyzstan,KGZ,74.52324839,41.46204516,Central and Southern Asia,G,Global,2019,PT,Percent,2012,29,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,417,Kyrgyzstan,KGZ,74.52324839,41.46204516,Central and Southern Asia,G,Global,2019,PT,Percent,2013,32,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,417,Kyrgyzstan,KGZ,74.52324839,41.46204516,Central and Southern Asia,G,Global,2019,PT,Percent,2015,35,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2004,73,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2005,73,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2006,72,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2007,72,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2008,72,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2009,76,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2010,78,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2011,78,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2012,78,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2013,79,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2014,79,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2015,79,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2016,80,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,428,Latvia,LVA,26.42461876,56.64196636,Europe and Northern America,G,Global,2019,PT,Percent,2017,80,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,438,Liechtenstein,LIE,9.552985019,47.14167005,Europe and Northern America,G,Global,2019,PT,Percent,2011,38,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,438,Liechtenstein,LIE,9.552985019,47.14167005,Europe and Northern America,G,Global,2019,PT,Percent,2012,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,438,Liechtenstein,LIE,9.552985019,47.14167005,Europe and Northern America,G,Global,2019,PT,Percent,2013,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,438,Liechtenstein,LIE,9.552985019,47.14167005,Europe and Northern America,G,Global,2019,PT,Percent,2014,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,438,Liechtenstein,LIE,9.552985019,47.14167005,Europe and Northern America,G,Global,2019,PT,Percent,2015,28,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,44,Bahamas,BHS,-78.05111663,24.69546597,Latin America and the Caribbean,G,Global,2019,PT,Percent,2005,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,44,Bahamas,BHS,-78.05111663,24.69546597,Latin America and the Caribbean,G,Global,2019,PT,Percent,2007,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,44,Bahamas,BHS,-78.05111663,24.69546597,Latin America and the Caribbean,G,Global,2019,PT,Percent,2008,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,44,Bahamas,BHS,-78.05111663,24.69546597,Latin America and the Caribbean,G,Global,2019,PT,Percent,2010,61,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,44,Bahamas,BHS,-78.05111663,24.69546597,Latin America and the Caribbean,G,Global,2019,PT,Percent,2012,64,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2004,53,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2005,54,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2006,54,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2007,55,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2008,55,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2009,56,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2010,57,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2011,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2012,61,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2013,60,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2014,60,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2015,61,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2016,62,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,440,Lithuania,LTU,23.90517807,55.33680309,Europe and Northern America,G,Global,2019,PT,Percent,2017,62,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,442,Luxembourg,LUX,6.092656563,49.77679538,Europe and Northern America,G,Global,2019,PT,Percent,2017,67,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,446,"China, Macao Special Administrative Region",MAC,113.5665388,22.1237259,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2008,38,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,446,"China, Macao Special Administrative Region",MAC,113.5665388,22.1237259,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2009,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,446,"China, Macao Special Administrative Region",MAC,113.5665388,22.1237259,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2010,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,446,"China, Macao Special Administrative Region",MAC,113.5665388,22.1237259,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2011,44,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,446,"China, Macao Special Administrative Region",MAC,113.5665388,22.1237259,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2012,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,446,"China, Macao Special Administrative Region",MAC,113.5665388,22.1237259,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2013,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,446,"China, Macao Special Administrative Region",MAC,113.5665388,22.1237259,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2014,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,446,"China, Macao Special Administrative Region",MAC,113.5665388,22.1237259,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2015,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,446,"China, Macao Special Administrative Region",MAC,113.5665388,22.1237259,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2016,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,446,"China, Macao Special Administrative Region",MAC,113.5665388,22.1237259,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2017,58,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,450,Madagascar,MDG,46.6982339,-19.38514785,Sub-Saharan Africa,G,Global,2019,PT,Percent,2015,51,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,470,Malta,MLT,14.44617519,35.89194275,Europe and Northern America,G,Global,2019,PT,Percent,2004,11,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,470,Malta,MLT,14.44617519,35.89194275,Europe and Northern America,G,Global,2019,PT,Percent,2005,12,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,470,Malta,MLT,14.44617519,35.89194275,Europe and Northern America,G,Global,2019,PT,Percent,2006,18,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,470,Malta,MLT,14.44617519,35.89194275,Europe and Northern America,G,Global,2019,PT,Percent,2007,22,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,470,Malta,MLT,14.44617519,35.89194275,Europe and Northern America,G,Global,2019,PT,Percent,2008,21,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,470,Malta,MLT,14.44617519,35.89194275,Europe and Northern America,G,Global,2019,PT,Percent,2009,29,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,470,Malta,MLT,14.44617519,35.89194275,Europe and Northern America,G,Global,2019,PT,Percent,2010,28,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,470,Malta,MLT,14.44617519,35.89194275,Europe and Northern America,G,Global,2019,PT,Percent,2011,30,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,470,Malta,MLT,14.44617519,35.89194275,Europe and Northern America,G,Global,2019,PT,Percent,2012,33,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,470,Malta,MLT,14.44617519,35.89194275,Europe and Northern America,G,Global,2019,PT,Percent,2013,36,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,470,Malta,MLT,14.44617519,35.89194275,Europe and Northern America,G,Global,2019,PT,Percent,2014,39,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,470,Malta,MLT,14.44617519,35.89194275,Europe and Northern America,G,Global,2019,PT,Percent,2015,43,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,480,Mauritius,MUS,57.568022,-20.28581998,Sub-Saharan Africa,G,Global,2019,PT,Percent,2007,55,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,480,Mauritius,MUS,57.568022,-20.28581998,Sub-Saharan Africa,G,Global,2019,PT,Percent,2008,44,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,480,Mauritius,MUS,57.568022,-20.28581998,Sub-Saharan Africa,G,Global,2019,PT,Percent,2009,55,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,480,Mauritius,MUS,57.568022,-20.28581998,Sub-Saharan Africa,G,Global,2019,PT,Percent,2010,54,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,480,Mauritius,MUS,57.568022,-20.28581998,Sub-Saharan Africa,G,Global,2019,PT,Percent,2011,54,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,480,Mauritius,MUS,57.568022,-20.28581998,Sub-Saharan Africa,G,Global,2019,PT,Percent,2012,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,480,Mauritius,MUS,57.568022,-20.28581998,Sub-Saharan Africa,G,Global,2019,PT,Percent,2013,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,480,Mauritius,MUS,57.568022,-20.28581998,Sub-Saharan Africa,G,Global,2019,PT,Percent,2014,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,480,Mauritius,MUS,57.568022,-20.28581998,Sub-Saharan Africa,G,Global,2019,PT,Percent,2015,61,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,484,Mexico,MEX,-102.5148166,23.93378032,Latin America and the Caribbean,G,Global,2019,PT,Percent,2010,33,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,484,Mexico,MEX,-102.5148166,23.93378032,Latin America and the Caribbean,G,Global,2019,PT,Percent,2011,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,484,Mexico,MEX,-102.5148166,23.93378032,Latin America and the Caribbean,G,Global,2019,PT,Percent,2012,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,484,Mexico,MEX,-102.5148166,23.93378032,Latin America and the Caribbean,G,Global,2019,PT,Percent,2013,39,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,484,Mexico,MEX,-102.5148166,23.93378032,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,484,Mexico,MEX,-102.5148166,23.93378032,Latin America and the Caribbean,G,Global,2019,PT,Percent,2015,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,484,Mexico,MEX,-102.5148166,23.93378032,Latin America and the Caribbean,G,Global,2019,PT,Percent,2016,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,484,Mexico,MEX,-102.5148166,23.93378032,Latin America and the Caribbean,G,Global,2019,PT,Percent,2017,32,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,492,Monaco,MCO,7.424214814,43.73532918,Europe and Northern America,G,Global,2019,PT,Percent,2009,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,492,Monaco,MCO,7.424214814,43.73532918,Europe and Northern America,G,Global,2019,PT,Percent,2013,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,492,Monaco,MCO,7.424214814,43.73532918,Europe and Northern America,G,Global,2019,PT,Percent,2015,59,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,496,Mongolia,MNG,103.0728057,46.83892054,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2010,67,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,496,Mongolia,MNG,103.0728057,46.83892054,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2011,69,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,496,Mongolia,MNG,103.0728057,46.83892054,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2012,60,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,496,Mongolia,MNG,103.0728057,46.83892054,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2013,67,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,496,Mongolia,MNG,103.0728057,46.83892054,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2014,67,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,496,Mongolia,MNG,103.0728057,46.83892054,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2015,66,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,496,Mongolia,MNG,103.0728057,46.83892054,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2016,65,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,496,Mongolia,MNG,103.0728057,46.83892054,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2017,65,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,498,Republic of Moldova,MDA,28.4650624,47.20236795,Europe and Northern America,G,Global,2019,PT,Percent,2006,33,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,498,Republic of Moldova,MDA,28.4650624,47.20236795,Europe and Northern America,G,Global,2019,PT,Percent,2007,34,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,498,Republic of Moldova,MDA,28.4650624,47.20236795,Europe and Northern America,G,Global,2019,PT,Percent,2008,36,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,498,Republic of Moldova,MDA,28.4650624,47.20236795,Europe and Northern America,G,Global,2019,PT,Percent,2009,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,498,Republic of Moldova,MDA,28.4650624,47.20236795,Europe and Northern America,G,Global,2019,PT,Percent,2010,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,498,Republic of Moldova,MDA,28.4650624,47.20236795,Europe and Northern America,G,Global,2019,PT,Percent,2011,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,498,Republic of Moldova,MDA,28.4650624,47.20236795,Europe and Northern America,G,Global,2019,PT,Percent,2014,45,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,499,Montenegro,MNE,19.25214024,42.78717043,Europe and Northern America,G,Global,2019,PT,Percent,2009,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,499,Montenegro,MNE,19.25214024,42.78717043,Europe and Northern America,G,Global,2019,PT,Percent,2010,55,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,499,Montenegro,MNE,19.25214024,42.78717043,Europe and Northern America,G,Global,2019,PT,Percent,2011,56,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,499,Montenegro,MNE,19.25214024,42.78717043,Europe and Northern America,G,Global,2019,PT,Percent,2012,56,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,499,Montenegro,MNE,19.25214024,42.78717043,Europe and Northern America,G,Global,2019,PT,Percent,2013,56,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,499,Montenegro,MNE,19.25214024,42.78717043,Europe and Northern America,G,Global,2019,PT,Percent,2014,57,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,499,Montenegro,MNE,19.25214024,42.78717043,Europe and Northern America,G,Global,2019,PT,Percent,2015,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,499,Montenegro,MNE,19.25214024,42.78717043,Europe and Northern America,G,Global,2019,PT,Percent,2016,42,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,499,Montenegro,MNE,19.25214024,42.78717043,Europe and Northern America,G,Global,2019,PT,Percent,2017,60,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,504,Morocco,MAR,-6.281942841,31.8440131,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2015,27,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,504,Morocco,MAR,-6.281942841,31.8440131,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2016,27,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,504,Morocco,MAR,-6.281942841,31.8440131,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2017,27,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,51,Armenia,ARM,44.93839317,40.29499741,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2009,21,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,51,Armenia,ARM,44.93839317,40.29499741,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2010,23,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,51,Armenia,ARM,44.93839317,40.29499741,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2011,22,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,51,Armenia,ARM,44.93839317,40.29499741,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2012,22,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,51,Armenia,ARM,44.93839317,40.29499741,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2014,23,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,51,Armenia,ARM,44.93839317,40.29499741,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2015,24,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,51,Armenia,ARM,44.93839317,40.29499741,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2016,25,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,51,Armenia,ARM,44.93839317,40.29499741,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2017,26,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,52,Barbados,BRB,-59.5346489,13.13648273,Latin America and the Caribbean,G,Global,2019,PT,Percent,2009,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,52,Barbados,BRB,-59.5346489,13.13648273,Latin America and the Caribbean,G,Global,2019,PT,Percent,2012,54,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,52,Barbados,BRB,-59.5346489,13.13648273,Latin America and the Caribbean,G,Global,2019,PT,Percent,2013,54,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,52,Barbados,BRB,-59.5346489,13.13648273,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,54,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,52,Barbados,BRB,-59.5346489,13.13648273,Latin America and the Caribbean,G,Global,2019,PT,Percent,2015,54,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,52,Barbados,BRB,-59.5346489,13.13648273,Latin America and the Caribbean,G,Global,2019,PT,Percent,2016,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,52,Barbados,BRB,-59.5346489,13.13648273,Latin America and the Caribbean,G,Global,2019,PT,Percent,2017,48,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,528,Netherlands,NLD,5.331480568,51.86728884,Europe and Northern America,G,Global,2019,PT,Percent,2006,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,528,Netherlands,NLD,5.331480568,51.86728884,Europe and Northern America,G,Global,2019,PT,Percent,2007,49,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,528,Netherlands,NLD,5.331480568,51.86728884,Europe and Northern America,G,Global,2019,PT,Percent,2008,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,528,Netherlands,NLD,5.331480568,51.86728884,Europe and Northern America,G,Global,2019,PT,Percent,2009,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,528,Netherlands,NLD,5.331480568,51.86728884,Europe and Northern America,G,Global,2019,PT,Percent,2010,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,528,Netherlands,NLD,5.331480568,51.86728884,Europe and Northern America,G,Global,2019,PT,Percent,2011,53,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,528,Netherlands,NLD,5.331480568,51.86728884,Europe and Northern America,G,Global,2019,PT,Percent,2012,54,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,528,Netherlands,NLD,5.331480568,51.86728884,Europe and Northern America,G,Global,2019,PT,Percent,2013,56,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,528,Netherlands,NLD,5.331480568,51.86728884,Europe and Northern America,G,Global,2019,PT,Percent,2014,56,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,528,Netherlands,NLD,5.331480568,51.86728884,Europe and Northern America,G,Global,2019,PT,Percent,2015,56,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,554,New Zealand,NZL,170.4755673,-43.98721568,Australia and New Zealand,G,Global,2019,PT,Percent,2011,28,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,558,Nicaragua,NIC,-85.03060315,12.84210839,Latin America and the Caribbean,G,Global,2019,PT,Percent,2005,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,558,Nicaragua,NIC,-85.03060315,12.84210839,Latin America and the Caribbean,G,Global,2019,PT,Percent,2006,56,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,558,Nicaragua,NIC,-85.03060315,12.84210839,Latin America and the Caribbean,G,Global,2019,PT,Percent,2007,62,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,558,Nicaragua,NIC,-85.03060315,12.84210839,Latin America and the Caribbean,G,Global,2019,PT,Percent,2008,73,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,558,Nicaragua,NIC,-85.03060315,12.84210839,Latin America and the Caribbean,G,Global,2019,PT,Percent,2009,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,558,Nicaragua,NIC,-85.03060315,12.84210839,Latin America and the Caribbean,G,Global,2019,PT,Percent,2010,50,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,56,Belgium,BEL,4.660976456,50.64104975,Europe and Northern America,G,Global,2019,PT,Percent,2010,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,56,Belgium,BEL,4.660976456,50.64104975,Europe and Northern America,G,Global,2019,PT,Percent,2011,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,56,Belgium,BEL,4.660976456,50.64104975,Europe and Northern America,G,Global,2019,PT,Percent,2012,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,56,Belgium,BEL,4.660976456,50.64104975,Europe and Northern America,G,Global,2019,PT,Percent,2013,49,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,56,Belgium,BEL,4.660976456,50.64104975,Europe and Northern America,G,Global,2019,PT,Percent,2014,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,56,Belgium,BEL,4.660976456,50.64104975,Europe and Northern America,G,Global,2019,PT,Percent,2015,52,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,566,Nigeria,NGA,8.097363256,9.585789025,Sub-Saharan Africa,G,Global,2019,PT,Percent,2013,20,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,578,Norway,NOR,11.47846389,61.34311134,Europe and Northern America,G,Global,2019,PT,Percent,2007,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,578,Norway,NOR,11.47846389,61.34311134,Europe and Northern America,G,Global,2019,PT,Percent,2008,33,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,578,Norway,NOR,11.47846389,61.34311134,Europe and Northern America,G,Global,2019,PT,Percent,2009,33,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,578,Norway,NOR,11.47846389,61.34311134,Europe and Northern America,G,Global,2019,PT,Percent,2010,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,578,Norway,NOR,11.47846389,61.34311134,Europe and Northern America,G,Global,2019,PT,Percent,2011,36,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,578,Norway,NOR,11.47846389,61.34311134,Europe and Northern America,G,Global,2019,PT,Percent,2012,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,578,Norway,NOR,11.47846389,61.34311134,Europe and Northern America,G,Global,2019,PT,Percent,2013,36,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,578,Norway,NOR,11.47846389,61.34311134,Europe and Northern America,G,Global,2019,PT,Percent,2014,38,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,591,Panama,PAN,-81.26616623,8.450965746,Latin America and the Caribbean,G,Global,2019,PT,Percent,2007,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,591,Panama,PAN,-81.26616623,8.450965746,Latin America and the Caribbean,G,Global,2019,PT,Percent,2008,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,591,Panama,PAN,-81.26616623,8.450965746,Latin America and the Caribbean,G,Global,2019,PT,Percent,2009,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,591,Panama,PAN,-81.26616623,8.450965746,Latin America and the Caribbean,G,Global,2019,PT,Percent,2010,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,591,Panama,PAN,-81.26616623,8.450965746,Latin America and the Caribbean,G,Global,2019,PT,Percent,2011,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,591,Panama,PAN,-81.26616623,8.450965746,Latin America and the Caribbean,G,Global,2019,PT,Percent,2012,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,591,Panama,PAN,-81.26616623,8.450965746,Latin America and the Caribbean,G,Global,2019,PT,Percent,2013,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,591,Panama,PAN,-81.26616623,8.450965746,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,53,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,591,Panama,PAN,-81.26616623,8.450965746,Latin America and the Caribbean,G,Global,2019,PT,Percent,2015,54,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,591,Panama,PAN,-81.26616623,8.450965746,Latin America and the Caribbean,G,Global,2019,PT,Percent,2016,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,591,Panama,PAN,-81.26616623,8.450965746,Latin America and the Caribbean,G,Global,2019,PT,Percent,2017,59,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,60,Bermuda,BMU,-64.78155012,32.27881922,Europe and Northern America,G,Global,2019,PT,Percent,2013,25,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,600,Paraguay,PRY,-60.54854225,-21.70216237,Latin America and the Caribbean,G,Global,2019,PT,Percent,2010,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,600,Paraguay,PRY,-60.54854225,-21.70216237,Latin America and the Caribbean,G,Global,2019,PT,Percent,2011,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,600,Paraguay,PRY,-60.54854225,-21.70216237,Latin America and the Caribbean,G,Global,2019,PT,Percent,2012,42,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,600,Paraguay,PRY,-60.54854225,-21.70216237,Latin America and the Caribbean,G,Global,2019,PT,Percent,2013,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,600,Paraguay,PRY,-60.54854225,-21.70216237,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,600,Paraguay,PRY,-60.54854225,-21.70216237,Latin America and the Caribbean,G,Global,2019,PT,Percent,2015,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,600,Paraguay,PRY,-60.54854225,-21.70216237,Latin America and the Caribbean,G,Global,2019,PT,Percent,2017,47,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,608,Philippines,PHL,120.8601418,14.16591706,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2006,28,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,608,Philippines,PHL,120.8601418,14.16591706,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2007,31,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,608,Philippines,PHL,120.8601418,14.16591706,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2008,33,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,608,Philippines,PHL,120.8601418,14.16591706,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2009,33,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,608,Philippines,PHL,120.8601418,14.16591706,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2011,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,608,Philippines,PHL,120.8601418,14.16591706,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2014,42,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,608,Philippines,PHL,120.8601418,14.16591706,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2015,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,608,Philippines,PHL,120.8601418,14.16591706,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2016,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,608,Philippines,PHL,120.8601418,14.16591706,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2017,48,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2004,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2005,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2006,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2007,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2008,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2009,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2010,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2011,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2012,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2013,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2014,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2015,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2016,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,616,Poland,POL,19.40660158,52.1226733,Europe and Northern America,G,Global,2019,PT,Percent,2017,63,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2004,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2005,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2006,49,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2007,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2008,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2009,53,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2010,56,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2011,57,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2012,57,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2013,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2014,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2015,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2016,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,620,Portugal,PRT,-7.961599811,39.68509315,Europe and Northern America,G,Global,2019,PT,Percent,2017,60,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,626,Timor-Leste,TLS,125.9451052,-8.797497247,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2015,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,626,Timor-Leste,TLS,125.9451052,-8.797497247,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2017,39,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,642,Romania,ROU,24.98481009,45.83893563,Europe and Northern America,G,Global,2019,PT,Percent,2008,72,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,642,Romania,ROU,24.98481009,45.83893563,Europe and Northern America,G,Global,2019,PT,Percent,2009,65,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,642,Romania,ROU,24.98481009,45.83893563,Europe and Northern America,G,Global,2019,PT,Percent,2010,65,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,642,Romania,ROU,24.98481009,45.83893563,Europe and Northern America,G,Global,2019,PT,Percent,2011,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,642,Romania,ROU,24.98481009,45.83893563,Europe and Northern America,G,Global,2019,PT,Percent,2012,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,642,Romania,ROU,24.98481009,45.83893563,Europe and Northern America,G,Global,2019,PT,Percent,2013,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,642,Romania,ROU,24.98481009,45.83893563,Europe and Northern America,G,Global,2019,PT,Percent,2014,65,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,642,Romania,ROU,24.98481009,45.83893563,Europe and Northern America,G,Global,2019,PT,Percent,2015,65,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,642,Romania,ROU,24.98481009,45.83893563,Europe and Northern America,G,Global,2019,PT,Percent,2016,65,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,642,Romania,ROU,24.98481009,45.83893563,Europe and Northern America,G,Global,2019,PT,Percent,2017,65,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,659,Saint Kitts and Nevis,KNA,-62.76628613,17.33994219,Latin America and the Caribbean,G,Global,2019,PT,Percent,2004,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,659,Saint Kitts and Nevis,KNA,-62.76628613,17.33994219,Latin America and the Caribbean,G,Global,2019,PT,Percent,2005,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,659,Saint Kitts and Nevis,KNA,-62.76628613,17.33994219,Latin America and the Caribbean,G,Global,2019,PT,Percent,2006,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,659,Saint Kitts and Nevis,KNA,-62.76628613,17.33994219,Latin America and the Caribbean,G,Global,2019,PT,Percent,2007,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,659,Saint Kitts and Nevis,KNA,-62.76628613,17.33994219,Latin America and the Caribbean,G,Global,2019,PT,Percent,2008,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,659,Saint Kitts and Nevis,KNA,-62.76628613,17.33994219,Latin America and the Caribbean,G,Global,2019,PT,Percent,2009,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,659,Saint Kitts and Nevis,KNA,-62.76628613,17.33994219,Latin America and the Caribbean,G,Global,2019,PT,Percent,2011,83,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,670,Saint Vincent and the Grenadines,VCT,-61.19024321,13.24627968,Latin America and the Caribbean,G,Global,2019,PT,Percent,2008,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,670,Saint Vincent and the Grenadines,VCT,-61.19024321,13.24627968,Latin America and the Caribbean,G,Global,2019,PT,Percent,2009,64,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,688,Serbia,SRB,20.805876,44.03145697,Europe and Northern America,G,Global,2019,PT,Percent,2010,71,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,688,Serbia,SRB,20.805876,44.03145697,Europe and Northern America,G,Global,2019,PT,Percent,2011,72,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,688,Serbia,SRB,20.805876,44.03145697,Europe and Northern America,G,Global,2019,PT,Percent,2012,69,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,688,Serbia,SRB,20.805876,44.03145697,Europe and Northern America,G,Global,2019,PT,Percent,2013,70,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,688,Serbia,SRB,20.805876,44.03145697,Europe and Northern America,G,Global,2019,PT,Percent,2014,70,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,688,Serbia,SRB,20.805876,44.03145697,Europe and Northern America,G,Global,2019,PT,Percent,2015,70,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,688,Serbia,SRB,20.805876,44.03145697,Europe and Northern America,G,Global,2019,PT,Percent,2016,70,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,688,Serbia,SRB,20.805876,44.03145697,Europe and Northern America,G,Global,2019,PT,Percent,2017,71,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,70,Bosnia and Herzegovina,BIH,17.78584332,44.16845548,Europe and Northern America,G,Global,2019,PT,Percent,2007,62,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,70,Bosnia and Herzegovina,BIH,17.78584332,44.16845548,Europe and Northern America,G,Global,2019,PT,Percent,2008,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,70,Bosnia and Herzegovina,BIH,17.78584332,44.16845548,Europe and Northern America,G,Global,2019,PT,Percent,2009,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,70,Bosnia and Herzegovina,BIH,17.78584332,44.16845548,Europe and Northern America,G,Global,2019,PT,Percent,2010,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,70,Bosnia and Herzegovina,BIH,17.78584332,44.16845548,Europe and Northern America,G,Global,2019,PT,Percent,2011,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,70,Bosnia and Herzegovina,BIH,17.78584332,44.16845548,Europe and Northern America,G,Global,2019,PT,Percent,2012,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,70,Bosnia and Herzegovina,BIH,17.78584332,44.16845548,Europe and Northern America,G,Global,2019,PT,Percent,2013,65,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,70,Bosnia and Herzegovina,BIH,17.78584332,44.16845548,Europe and Northern America,G,Global,2019,PT,Percent,2014,62,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,70,Bosnia and Herzegovina,BIH,17.78584332,44.16845548,Europe and Northern America,G,Global,2019,PT,Percent,2015,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,70,Bosnia and Herzegovina,BIH,17.78584332,44.16845548,Europe and Northern America,G,Global,2019,PT,Percent,2016,64,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,70,Bosnia and Herzegovina,BIH,17.78584332,44.16845548,Europe and Northern America,G,Global,2019,PT,Percent,2017,63,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,702,Singapore,SGP,103.8107883,1.361009155,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2006,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,702,Singapore,SGP,103.8107883,1.361009155,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2007,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,702,Singapore,SGP,103.8107883,1.361009155,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2008,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,702,Singapore,SGP,103.8107883,1.361009155,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2009,49,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,702,Singapore,SGP,103.8107883,1.361009155,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2010,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,702,Singapore,SGP,103.8107883,1.361009155,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2011,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,702,Singapore,SGP,103.8107883,1.361009155,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2012,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,702,Singapore,SGP,103.8107883,1.361009155,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2013,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,702,Singapore,SGP,103.8107883,1.361009155,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2014,41,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,702,Singapore,SGP,103.8107883,1.361009155,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2015,38,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,702,Singapore,SGP,103.8107883,1.361009155,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2016,41,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,702,Singapore,SGP,103.8107883,1.361009155,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2017,41,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,703,Slovakia,SVK,19.48495604,48.70741446,Europe and Northern America,G,Global,2019,PT,Percent,2006,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,703,Slovakia,SVK,19.48495604,48.70741446,Europe and Northern America,G,Global,2019,PT,Percent,2007,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,703,Slovakia,SVK,19.48495604,48.70741446,Europe and Northern America,G,Global,2019,PT,Percent,2008,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,703,Slovakia,SVK,19.48495604,48.70741446,Europe and Northern America,G,Global,2019,PT,Percent,2009,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,703,Slovakia,SVK,19.48495604,48.70741446,Europe and Northern America,G,Global,2019,PT,Percent,2010,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,703,Slovakia,SVK,19.48495604,48.70741446,Europe and Northern America,G,Global,2019,PT,Percent,2011,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,703,Slovakia,SVK,19.48495604,48.70741446,Europe and Northern America,G,Global,2019,PT,Percent,2012,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,703,Slovakia,SVK,19.48495604,48.70741446,Europe and Northern America,G,Global,2019,PT,Percent,2013,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,703,Slovakia,SVK,19.48495604,48.70741446,Europe and Northern America,G,Global,2019,PT,Percent,2014,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,703,Slovakia,SVK,19.48495604,48.70741446,Europe and Northern America,G,Global,2019,PT,Percent,2015,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,703,Slovakia,SVK,19.48495604,48.70741446,Europe and Northern America,G,Global,2019,PT,Percent,2016,63,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,703,Slovakia,SVK,19.48495604,48.70741446,Europe and Northern America,G,Global,2019,PT,Percent,2017,64,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2005,74,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2006,75,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2007,76,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2008,76,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2009,77,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2010,78,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2011,77,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2012,78,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2013,78,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2014,78,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2015,78,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2016,79,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,705,Slovenia,SVN,14.82209486,46.11958061,Europe and Northern America,G,Global,2019,PT,Percent,2017,78,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,710,South Africa,ZAF,24.67184355,-29.99957544,Sub-Saharan Africa,G,Global,2019,PT,Percent,2010,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,710,South Africa,ZAF,24.67184355,-29.99957544,Sub-Saharan Africa,G,Global,2019,PT,Percent,2011,36,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,710,South Africa,ZAF,24.67184355,-29.99957544,Sub-Saharan Africa,G,Global,2019,PT,Percent,2012,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,710,South Africa,ZAF,24.67184355,-29.99957544,Sub-Saharan Africa,G,Global,2019,PT,Percent,2013,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,710,South Africa,ZAF,24.67184355,-29.99957544,Sub-Saharan Africa,G,Global,2019,PT,Percent,2014,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,710,South Africa,ZAF,24.67184355,-29.99957544,Sub-Saharan Africa,G,Global,2019,PT,Percent,2015,46,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2004,44,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2005,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2006,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2007,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2008,47,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2009,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2010,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2011,49,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2012,50,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2013,51,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2014,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2015,52,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2016,53,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,724,Spain,ESP,-3.554078296,40.39211472,Europe and Northern America,G,Global,2019,PT,Percent,2017,53,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,752,Sweden,SWE,14.3775338,60.60103109,Europe and Northern America,G,Global,2019,PT,Percent,2016,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,752,Sweden,SWE,14.3775338,60.60103109,Europe and Northern America,G,Global,2019,PT,Percent,2017,60,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,756,Switzerland,CHE,8.223158,46.96617097,Europe and Northern America,G,Global,2019,PT,Percent,2010,31,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,756,Switzerland,CHE,8.223158,46.96617097,Europe and Northern America,G,Global,2019,PT,Percent,2012,35,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,762,Tajikistan,TJK,69.294998,38.43069666,Central and Southern Asia,G,Global,2019,PT,Percent,2015,16,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,764,Thailand,THA,101.0202951,15.13089239,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2009,24,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,764,Thailand,THA,101.0202951,15.13089239,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2010,25,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,764,Thailand,THA,101.0202951,15.13089239,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2011,26,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,764,Thailand,THA,101.0202951,15.13089239,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2012,26,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,764,Thailand,THA,101.0202951,15.13089239,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2013,27,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,764,Thailand,THA,101.0202951,15.13089239,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2014,28,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,764,Thailand,THA,101.0202951,15.13089239,Eastern and South-Eastern Asia,G,Global,2019,PT,Percent,2015,29,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,768,Togo,TGO,0.97835765,8.532096072,Sub-Saharan Africa,G,Global,2019,PT,Percent,2012,13,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,780,Trinidad and Tobago,TTO,-61.29389504,10.41877263,Latin America and the Caribbean,G,Global,2019,PT,Percent,2009,49,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,780,Trinidad and Tobago,TTO,-61.29389504,10.41877263,Latin America and the Caribbean,G,Global,2019,PT,Percent,2010,59,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,780,Trinidad and Tobago,TTO,-61.29389504,10.41877263,Latin America and the Caribbean,G,Global,2019,PT,Percent,2011,68,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,780,Trinidad and Tobago,TTO,-61.29389504,10.41877263,Latin America and the Caribbean,G,Global,2019,PT,Percent,2012,55,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,780,Trinidad and Tobago,TTO,-61.29389504,10.41877263,Latin America and the Caribbean,G,Global,2019,PT,Percent,2013,53,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,780,Trinidad and Tobago,TTO,-61.29389504,10.41877263,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,58,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,780,Trinidad and Tobago,TTO,-61.29389504,10.41877263,Latin America and the Caribbean,G,Global,2019,PT,Percent,2015,58,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,788,Tunisia,TUN,9.572737411,34.11439971,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2014,37,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,788,Tunisia,TUN,9.572737411,34.11439971,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2015,40,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,788,Tunisia,TUN,9.572737411,34.11439971,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2016,40,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,788,Tunisia,TUN,9.572737411,34.11439971,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2017,41,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,792,Turkey,TUR,35.42890329,38.9899684,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2012,34,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,792,Turkey,TUR,35.42890329,38.9899684,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2013,35,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,792,Turkey,TUR,35.42890329,38.9899684,Northern Africa and Western Asia,G,Global,2019,PT,Percent,2014,35,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,8,Albania,ALB,20.06660928,41.13897007,Europe and Northern America,G,Global,2019,PT,Percent,2009,42,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,8,Albania,ALB,20.06660928,41.13897007,Europe and Northern America,G,Global,2019,PT,Percent,2010,40,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,8,Albania,ALB,20.06660928,41.13897007,Europe and Northern America,G,Global,2019,PT,Percent,2011,45,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,8,Albania,ALB,20.06660928,41.13897007,Europe and Northern America,G,Global,2019,PT,Percent,2012,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,8,Albania,ALB,20.06660928,41.13897007,Europe and Northern America,G,Global,2019,PT,Percent,2013,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,8,Albania,ALB,20.06660928,41.13897007,Europe and Northern America,G,Global,2019,PT,Percent,2014,43,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,8,Albania,ALB,20.06660928,41.13897007,Europe and Northern America,G,Global,2019,PT,Percent,2015,46,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,8,Albania,ALB,20.06660928,41.13897007,Europe and Northern America,G,Global,2019,PT,Percent,2017,45,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,807,North Macedonia,MKD,21.7007909,41.60048068,Europe and Northern America,G,Global,2019,PT,Percent,2017,58,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,826,United Kingdom of Great Britain and Northern Ireland,GBR,-2.23830539,53.27691757,Europe and Northern America,G,Global,2019,PT,Percent,2013,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,826,United Kingdom of Great Britain and Northern Ireland,GBR,-2.23830539,53.27691757,Europe and Northern America,G,Global,2019,PT,Percent,2014,48,C,False
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,826,United Kingdom of Great Britain and Northern Ireland,GBR,-2.23830539,53.27691757,Europe and Northern America,G,Global,2019,PT,Percent,2015,48,C,True
+IV.5,I5aac0815,Share of female judges,S5aac0815,Share of female judges,84,Belize,BLZ,-88.70199554,17.19965901,Latin America and the Caribbean,G,Global,2019,PT,Percent,2014,40,C,True
