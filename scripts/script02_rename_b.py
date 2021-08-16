@@ -13,9 +13,9 @@ print('---')
 
 for cm in catalog_mapping:
     if cm['OLD_INDICATOR_ID']:
-        cm['OLD_INDICATOR_ID'] = str(int(float(cm['OLD_INDICATOR_ID'])))
+        cm['OLD_INDICATOR_ID'] = cm['OLD_INDICATOR_ID']
     if cm['OLD_MINSET_SERIES']:
-        cm['OLD_MINSET_SERIES'] = str(int(float(cm['OLD_MINSET_SERIES'])))
+        cm['OLD_MINSET_SERIES'] = cm['OLD_MINSET_SERIES']
 
 # 2. Open each file in the 'source_data_old' folder
 
@@ -23,11 +23,13 @@ old_datafiles = [f for f in listdir('source_data_old/') if isfile(join('source_d
 
 for fdx, f in enumerate(old_datafiles):
 
-    # if fdx !=0:
-    #     continue
+    if fdx <55:
+        continue
 
     x = utils.xlsx2dict('source_data_old/'+ f, 0)
     print(x[0])
+
+    print(f"{fdx=}")
     print('---')
 
 
