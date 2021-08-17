@@ -52,8 +52,8 @@ sort_order	INDICATOR_ID	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	SDG_REGI
 100	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	S997d1fdb	Average number of hours spent on domestic chores and care work, by sex, age and location	All	195	89	64	28	89	55
 200	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	Sc59d1d8b	Average number of hours spent on unpaid domestic chores, by sex, age and location	All	195	81	62	27	81	44
 400	Ic62a19e8	Average number of hours spent on total work (total work burden), by sex	Sad2e1d29	Average number of hours spent on total work combined (total work burden), by sex	All	195	81	55	13	81	11
-500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	All	195	185	170	148	184	0
 600	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sab331582	Labour force participation rate for persons aged 15+, by sex	All	195	189	180	155	187	0
+500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	All	195	185	170	148	184	0
 700	I8bd915c9	Proportion of employed who are own-account workers, by sex	S8bd915c9	Proportion of employed who are own-account workers, by sex	All	195	178	168	144	177	0
 800	I51881915	Proportion of employed who are contributing family workers, by sex	S51881915	Proportion of employed who are contributing family workers, by sex	All	195	175	163	139	174	0
 900	Ic273120e	Proportion of employed who are employers, by sex	Sc273120e	Proportion of employed who are employers, by sex	All	195	175	165	142	175	0
@@ -141,8 +141,8 @@ sort_order	INDICATOR_ID	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	SDG_REGI
 100	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	S997d1fdb	Average number of hours spent on domestic chores and care work, by sex, age and location	Central and Southern Asia	14	5	3	3	5	1
 200	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	Sc59d1d8b	Average number of hours spent on unpaid domestic chores, by sex, age and location	Central and Southern Asia	14	5	3	3	5	1
 400	Ic62a19e8	Average number of hours spent on total work (total work burden), by sex	Sad2e1d29	Average number of hours spent on total work combined (total work burden), by sex	Central and Southern Asia	14	5	3	2	5	0
-500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Central and Southern Asia	14	12	11	11	12	0
 600	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sab331582	Labour force participation rate for persons aged 15+, by sex	Central and Southern Asia	14	14	13	13	13	0
+500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Central and Southern Asia	14	12	11	11	12	0
 700	I8bd915c9	Proportion of employed who are own-account workers, by sex	S8bd915c9	Proportion of employed who are own-account workers, by sex	Central and Southern Asia	14	12	11	11	12	0
 800	I51881915	Proportion of employed who are contributing family workers, by sex	S51881915	Proportion of employed who are contributing family workers, by sex	Central and Southern Asia	14	12	11	11	12	0
 900	Ic273120e	Proportion of employed who are employers, by sex	Sc273120e	Proportion of employed who are employers, by sex	Central and Southern Asia	14	12	11	10	12	0
@@ -230,8 +230,8 @@ sort_order	INDICATOR_ID	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	SDG_REGI
 100	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	S997d1fdb	Average number of hours spent on domestic chores and care work, by sex, age and location	Europe and Northern America	46	34	27	8	34	23
 200	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	Sc59d1d8b	Average number of hours spent on unpaid domestic chores, by sex, age and location	Europe and Northern America	46	34	27	8	34	23
 400	Ic62a19e8	Average number of hours spent on total work (total work burden), by sex	Sad2e1d29	Average number of hours spent on total work combined (total work burden), by sex	Europe and Northern America	46	32	24	5	32	4
-500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Europe and Northern America	46	44	42	42	43	0
 600	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sab331582	Labour force participation rate for persons aged 15+, by sex	Europe and Northern America	46	45	44	44	44	0
+500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Europe and Northern America	46	44	42	42	43	0
 700	I8bd915c9	Proportion of employed who are own-account workers, by sex	S8bd915c9	Proportion of employed who are own-account workers, by sex	Europe and Northern America	46	42	42	42	42	0
 800	I51881915	Proportion of employed who are contributing family workers, by sex	S51881915	Proportion of employed who are contributing family workers, by sex	Europe and Northern America	46	42	40	40	41	0
 900	Ic273120e	Proportion of employed who are employers, by sex	Sc273120e	Proportion of employed who are employers, by sex	Europe and Northern America	46	41	41	41	41	0
@@ -319,8 +319,8 @@ sort_order	INDICATOR_ID	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	SDG_REGI
 100	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	S997d1fdb	Average number of hours spent on domestic chores and care work, by sex, age and location	Northern Africa and Western Asia	24	11	6	2	11	6
 200	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	Sc59d1d8b	Average number of hours spent on unpaid domestic chores, by sex, age and location	Northern Africa and Western Asia	24	9	5	2	9	6
 400	Ic62a19e8	Average number of hours spent on total work (total work burden), by sex	Sad2e1d29	Average number of hours spent on total work combined (total work burden), by sex	Northern Africa and Western Asia	24	11	6	2	11	2
-500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Northern Africa and Western Asia	24	24	23	19	24	0
 600	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sab331582	Labour force participation rate for persons aged 15+, by sex	Northern Africa and Western Asia	24	24	24	20	24	0
+500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Northern Africa and Western Asia	24	24	23	19	24	0
 700	I8bd915c9	Proportion of employed who are own-account workers, by sex	S8bd915c9	Proportion of employed who are own-account workers, by sex	Northern Africa and Western Asia	24	21	21	18	21	0
 800	I51881915	Proportion of employed who are contributing family workers, by sex	S51881915	Proportion of employed who are contributing family workers, by sex	Northern Africa and Western Asia	24	20	19	17	20	0
 900	Ic273120e	Proportion of employed who are employers, by sex	Sc273120e	Proportion of employed who are employers, by sex	Northern Africa and Western Asia	24	21	21	18	21	0
@@ -408,8 +408,8 @@ sort_order	INDICATOR_ID	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	SDG_REGI
 100	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	S997d1fdb	Average number of hours spent on domestic chores and care work, by sex, age and location	Sub-Saharan Africa	48	11	5	0	11	3
 200	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	Sc59d1d8b	Average number of hours spent on unpaid domestic chores, by sex, age and location	Sub-Saharan Africa	48	7	5	0	7	2
 400	Ic62a19e8	Average number of hours spent on total work (total work burden), by sex	Sad2e1d29	Average number of hours spent on total work combined (total work burden), by sex	Sub-Saharan Africa	48	10	4	0	10	3
-500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Sub-Saharan Africa	48	43	40	29	43	0
 600	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sab331582	Labour force participation rate for persons aged 15+, by sex	Sub-Saharan Africa	48	44	41	29	44	0
+500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Sub-Saharan Africa	48	43	40	29	43	0
 700	I8bd915c9	Proportion of employed who are own-account workers, by sex	S8bd915c9	Proportion of employed who are own-account workers, by sex	Sub-Saharan Africa	48	42	39	27	42	0
 800	I51881915	Proportion of employed who are contributing family workers, by sex	S51881915	Proportion of employed who are contributing family workers, by sex	Sub-Saharan Africa	48	42	39	26	42	0
 900	Ic273120e	Proportion of employed who are employers, by sex	Sc273120e	Proportion of employed who are employers, by sex	Sub-Saharan Africa	48	42	39	27	42	0
@@ -497,8 +497,8 @@ sort_order	INDICATOR_ID	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	SDG_REGI
 100	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	S997d1fdb	Average number of hours spent on domestic chores and care work, by sex, age and location	Latin America and the Caribbean	33	17	15	9	17	16
 200	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	Sc59d1d8b	Average number of hours spent on unpaid domestic chores, by sex, age and location	Latin America and the Caribbean	33	16	14	8	16	6
 400	Ic62a19e8	Average number of hours spent on total work (total work burden), by sex	Sad2e1d29	Average number of hours spent on total work combined (total work burden), by sex	Latin America and the Caribbean	33	14	12	2	14	2
-500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Latin America and the Caribbean	33	33	25	24	33	0
 600	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sab331582	Labour force participation rate for persons aged 15+, by sex	Latin America and the Caribbean	33	33	29	25	33	0
+500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Latin America and the Caribbean	33	33	25	24	33	0
 700	I8bd915c9	Proportion of employed who are own-account workers, by sex	S8bd915c9	Proportion of employed who are own-account workers, by sex	Latin America and the Caribbean	33	33	27	24	33	0
 800	I51881915	Proportion of employed who are contributing family workers, by sex	S51881915	Proportion of employed who are contributing family workers, by sex	Latin America and the Caribbean	33	32	27	23	32	0
 900	Ic273120e	Proportion of employed who are employers, by sex	Sc273120e	Proportion of employed who are employers, by sex	Latin America and the Caribbean	33	32	26	24	32	0
@@ -586,8 +586,8 @@ sort_order	INDICATOR_ID	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	SDG_REGI
 100	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	S997d1fdb	Average number of hours spent on domestic chores and care work, by sex, age and location	Australia and New Zealand	2	2	1	0	2	0
 200	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	Sc59d1d8b	Average number of hours spent on unpaid domestic chores, by sex, age and location	Australia and New Zealand	2	2	1	0	2	0
 400	Ic62a19e8	Average number of hours spent on total work (total work burden), by sex	Sad2e1d29	Average number of hours spent on total work combined (total work burden), by sex	Australia and New Zealand	2	2	1	0	2	0
-500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Australia and New Zealand	2	2	2	2	2	0
 600	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sab331582	Labour force participation rate for persons aged 15+, by sex	Australia and New Zealand	2	2	2	2	2	0
+500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Australia and New Zealand	2	2	2	2	2	0
 700	I8bd915c9	Proportion of employed who are own-account workers, by sex	S8bd915c9	Proportion of employed who are own-account workers, by sex	Australia and New Zealand	2	2	2	2	2	0
 800	I51881915	Proportion of employed who are contributing family workers, by sex	S51881915	Proportion of employed who are contributing family workers, by sex	Australia and New Zealand	2	2	2	2	2	0
 900	Ic273120e	Proportion of employed who are employers, by sex	Sc273120e	Proportion of employed who are employers, by sex	Australia and New Zealand	2	2	2	2	2	0
@@ -675,8 +675,8 @@ sort_order	INDICATOR_ID	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	SDG_REGI
 100	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	S997d1fdb	Average number of hours spent on domestic chores and care work, by sex, age and location	Eastern and South-Eastern Asia	16	8	6	5	8	5
 200	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	Sc59d1d8b	Average number of hours spent on unpaid domestic chores, by sex, age and location	Eastern and South-Eastern Asia	16	7	6	5	7	5
 400	Ic62a19e8	Average number of hours spent on total work (total work burden), by sex	Sad2e1d29	Average number of hours spent on total work combined (total work burden), by sex	Eastern and South-Eastern Asia	16	7	5	2	7	0
-500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Eastern and South-Eastern Asia	16	15	15	14	15	0
 600	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sab331582	Labour force participation rate for persons aged 15+, by sex	Eastern and South-Eastern Asia	16	15	15	15	15	0
+500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Eastern and South-Eastern Asia	16	15	15	14	15	0
 700	I8bd915c9	Proportion of employed who are own-account workers, by sex	S8bd915c9	Proportion of employed who are own-account workers, by sex	Eastern and South-Eastern Asia	16	15	15	13	14	0
 800	I51881915	Proportion of employed who are contributing family workers, by sex	S51881915	Proportion of employed who are contributing family workers, by sex	Eastern and South-Eastern Asia	16	14	14	13	14	0
 900	Ic273120e	Proportion of employed who are employers, by sex	Sc273120e	Proportion of employed who are employers, by sex	Eastern and South-Eastern Asia	16	14	14	13	14	0
@@ -764,8 +764,8 @@ sort_order	INDICATOR_ID	INDICATOR_DESC	MINSET_SERIES	MINSET_SERIES_DESC	SDG_REGI
 100	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	S997d1fdb	Average number of hours spent on domestic chores and care work, by sex, age and location	Oceania, exc. Australia and New Zealand	12	1	1	1	1	1
 200	I98ba1fd8	Average number of hours spent on unpaid domestic and care work, by sex, age and location	Sc59d1d8b	Average number of hours spent on unpaid domestic chores, by sex, age and location	Oceania, exc. Australia and New Zealand	12	1	1	1	1	1
 400	Ic62a19e8	Average number of hours spent on total work (total work burden), by sex	Sad2e1d29	Average number of hours spent on total work combined (total work burden), by sex	Oceania, exc. Australia and New Zealand	12	0	0	0	0	0
-500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Oceania, exc. Australia and New Zealand	12	12	12	7	12	0
 600	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sab331582	Labour force participation rate for persons aged 15+, by sex	Oceania, exc. Australia and New Zealand	12	12	12	7	12	0
+500	Ia7751861	Labour force participation rates for persons aged 15-24 and 15+, by sex	Sd4e715ea	Labour force participation rate for persons aged 15-24, by sex	Oceania, exc. Australia and New Zealand	12	12	12	7	12	0
 700	I8bd915c9	Proportion of employed who are own-account workers, by sex	S8bd915c9	Proportion of employed who are own-account workers, by sex	Oceania, exc. Australia and New Zealand	12	11	11	7	11	0
 800	I51881915	Proportion of employed who are contributing family workers, by sex	S51881915	Proportion of employed who are contributing family workers, by sex	Oceania, exc. Australia and New Zealand	12	11	11	7	11	0
 900	Ic273120e	Proportion of employed who are employers, by sex	Sc273120e	Proportion of employed who are employers, by sex	Oceania, exc. Australia and New Zealand	12	11	11	7	11	0
