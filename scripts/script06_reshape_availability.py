@@ -4,12 +4,15 @@ import utils2
 import json
 import copy
 
-# 1. Read availability
+# Read minset_indicators_catalog
+minset_indicators_catalog = utils.xlsx2dict('master_data/catalog_series_old_and_new.xlsx', 0)
+#print(minset_indicators_catalog[0])
+
+# Read availability
 x = utils.tsv2dictlist('availability_data/availability_bySeriesCountry.csv')
 print(x[0])
 
-# convert years to ordered list of integers:
-
+# Convert lists of years into ordered lists of integers:
 for idx, record in enumerate(x):
 
     years = record['years'].replace('[','').replace(']','').split(', ')
@@ -28,6 +31,8 @@ for idx, record in enumerate(x):
     # print(record['disaggregated_by_age'])
     # print(record['disaggregated_by_sex'])
 
+#----------
+
 availability_bySeriesCountry_long = []
 
 for idx, record in enumerate(x):
@@ -35,9 +40,17 @@ for idx, record in enumerate(x):
     # if idx != 0:
     #     continue
 
+    for s in minset_indicators_catalog:
+        if record['MINSET_SERIES'] == s['MINSET_SERIES']:
+            domain_id = s['DOMAIN_ID']
+            domain_name = s['DOMAIN_NAME']
+
     for y in record['years']:
 
         d = copy.deepcopy(record)
+
+        d['domain_id'] = domain_id
+        d['domain_name'] = domain_name
 
         d['years'] = y
         d['years_n'] = len(record['years'])
@@ -92,6 +105,15 @@ common_cols = ['INDICATOR_ID',
 for idx, record in enumerate(x):
 
     d = dict()
+
+    for s in minset_indicators_catalog:
+        if record['MINSET_SERIES'] == s['MINSET_SERIES']:
+            domain_id = s['DOMAIN_ID']
+            domain_name = s['DOMAIN_NAME']
+    
+    
+    d['domain_id'] = domain_id
+    d['domain_name'] = domain_name
 
     for c in common_cols:
         d[c] = record[c]
