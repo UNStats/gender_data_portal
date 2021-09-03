@@ -27,11 +27,14 @@ for idx, record in enumerate(x):
     disaggregated_by_sex.sort()
     record['disaggregated_by_sex'] = [int(float(y)) for y in disaggregated_by_sex if y]
 
-    # print(record['years'])
-    # print(record['disaggregated_by_age'])
-    # print(record['disaggregated_by_sex'])
+    if record['MINSET_SERIES'] == 'Sc5211ad2' and record['REF_AREA'] == '604':
+        print(record['years'])
+        print(record['disaggregated_by_age'])
+        print(record['disaggregated_by_sex'])
 
 #----------
+
+
 
 availability_bySeriesCountry_long = []
 
@@ -118,20 +121,38 @@ for idx, record in enumerate(x):
     for c in common_cols:
         d[c] = record[c]
 
-    d_sex = d
-    d_age = d
+    # Make sure that these are copies - otherwise they will point to the same object
+    d_sex = copy.deepcopy(d)
+    d_age = copy.deepcopy(d)
 
     #------------------------
+
+    
+    if record['MINSET_SERIES'] == 'Sc5211ad2' and record['REF_AREA'] == '604':
+        print(record['years'])
+        print(range(1990,2021))
 
     d['years_n'] = len(record['years'])
     
     for y in range(1990, 2021):
+
         if y in record['years']:
             d['y_'+str(y)] = 1
+            if record['MINSET_SERIES'] == 'Sc5211ad2' and record['REF_AREA'] == '604':
+                print(y)
+                print(record['years'])
+                print('yes')
         else:
             d['y_'+str(y)] = 0
+            if record['MINSET_SERIES'] == 'Sc5211ad2' and record['REF_AREA'] == '604':
+                print(y)
+                print(record['years'])
+                print('no')
 
     availability_bySeriesCountry_wide.append(d)
+
+    # if record['MINSET_SERIES'] == 'Sc5211ad2' and record['REF_AREA'] == '604':
+    #     print(d)
 
     #------------------------
 
@@ -156,6 +177,9 @@ for idx, record in enumerate(x):
             d_age['y_'+str(y)] = 0
 
     disaggregatedAge_bySeriesCountry_wide.append(d_age)
+
+    # if record['MINSET_SERIES'] == 'Sc5211ad2' and record['REF_AREA'] == '604':
+    #     print(d)
 
 newlist = sorted(availability_bySeriesCountry_wide, key=lambda k: k['sort_order']) 
 newlist_sex = sorted(disaggregatedSex_bySeriesCountry_wide, key=lambda k: k['sort_order']) 
