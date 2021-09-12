@@ -1,4 +1,6 @@
 ## Ignore python chache:
 
 /scripts/__pycache__
+test/
 
+temp/
