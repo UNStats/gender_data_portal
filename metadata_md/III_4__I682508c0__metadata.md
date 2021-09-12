@@ -1,12 +1,22 @@
 ## Contact point in international agency
 
-Liliana Carvajal Statistics and Monitoring Specialist MNCAH Data and Analytics Section | DDAPM UNICEF HQ [lcarvajal@unicef.org](mailto:lcarvajal@unicef.org) [http://www.data.unicef.org](http://www.data.unicef.org) Ann-Beth Moller Technical Officer UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research Development and Research Training in Human Reproduction \(HRP\) Department of Sexual and Reproductive Health and Research World Health Organization [mollera@who.int](mailto:mollera@who.int) [https://www.who.int/](https://www.who.int)
+**Name**: Liliana Carvajal
+**Agency**: MNCAH Data and Analytics Section | DDAPM UNICEF
+**Title**: Statistics and Monitoring Specialist
+**Email**: [lcarvajal@unicef.org](mailto:lcarvajal@unicef.org)
+**Website**: [http://www.data.unicef.org](http://www.data.unicef.org)
+
+**Name**: Ann-Beth Moller
+**Agency**: UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research Development and Research Training in Human Reproduction \(HRP\) Department of Sexual and Reproductive Health and Research World Health Organization
+**Title**: Technical Officer
+**Email**: [mollera@who.int](mailto:mollera@who.int)
+**Website**: [https://www.who.int/](https://www.who.int)
 
 ---
 
 ## International agreed definition
 
-**Antenatal care coverage \(at least one visit\)** is the percentage of women aged 15-49 with a live birth in a given time period that received antenatal care provided by a skilled health personnel (generally doctors, nurses, or midwives) at least once during pregnancy. **Antenatal care coverage \(at least four visits\)** is the percentage of women aged 15-49 with a live birth in a given time period that received antenatal care four or more times. Available survey data on this indicator usually do not specify the type of the provider, therefore, in general, receipt of care by ANY health care provider is measured.               WHO published in 2016 a new ANC Guideline \([“WHO recommendations on antenatal care for a positive pregnancy experience”](http://www.who.int/reproductivehealth/publications/maternal_perinatal_health/anc-positive-pregnancy-experience/en/)\). WHO is no longer reporting on antenatal care coverage \(at least one visit\) but emphasis on the coverage of ANC during the first trimester of pregnancy is in line with the current recommendations. UNICEF will continue to collect and report on antenatal care coverage \(at least one visit\) as it captures information on receipt of skilled care during pregnancy.  The antenatal period presents opportunities for reaching pregnant women with interventions that may be vital to their health and wellbeing and that of their newborns. WHO recommends a minimum of eight antenatal care contacts based on a review of the effectiveness of different models of antenatal care. WHO guidelines are specific on the content of antenatal care contacts, which include: nutritional interventions, maternal and fetal assessments, preventive measures, and health systems interventions to improve the utilization and quality of antenatal care. Antenatal care coverage \(8 or more visits\) is the percentage of women aged 15-49 with a live birth in a given time period that received antenatal care eight or more times. Available survey data on this indicator usually do not specify the type of the provider, therefore, in general, receipt of care by ANY health care provider is measured.
+**Antenatal care coverage \(at least one visit\)** is the percentage of women aged 15-49 with a live birth in a given time period that received antenatal care provided by a skilled health personnel (generally doctors, nurses, or midwives) at least once during pregnancy. **Antenatal care coverage \(at least four visits\)** is the percentage of women aged 15-49 with a live birth in a given time period that received antenatal care four or more times. Available survey data on this indicator usually do not specify the type of the provider, therefore, in general, receipt of care by ANY health care provider is measured. WHO published in 2016 a new ANC Guideline \([ï¿½WHO recommendations on antenatal care for a positive pregnancy experienceï¿½](http://www.who.int/reproductivehealth/publications/maternal_perinatal_health/anc-positive-pregnancy-experience/en/)\). WHO is no longer reporting on antenatal care coverage \(at least one visit\) but emphasis on the coverage of ANC during the first trimester of pregnancy is in line with the current recommendations. UNICEF will continue to collect and report on antenatal care coverage \(at least one visit\) as it captures information on receipt of skilled care during pregnancy. The antenatal period presents opportunities for reaching pregnant women with interventions that may be vital to their health and wellbeing and that of their newborns. WHO recommends a minimum of eight antenatal care contacts based on a review of the effectiveness of different models of antenatal care. WHO guidelines are specific on the content of antenatal care contacts, which include: nutritional interventions, maternal and fetal assessments, preventive measures, and health systems interventions to improve the utilization and quality of antenatal care. Antenatal care coverage \(8 or more visits\) is the percentage of women aged 15-49 with a live birth in a given time period that received antenatal care eight or more times. Available survey data on this indicator usually do not specify the type of the provider, therefore, in general, receipt of care by ANY health care provider is measured.
 
 ---
 
@@ -40,15 +50,15 @@ There is no treatment of missing values. When the information needed to calculat
 
 ---
 
-## Data availability and assessment of countries’ capacity
+## Data availability and assessment of countriesï¿½ capacity
 
-Data for at least one visit are available for 170 countries \(2020\). Data for at least four visits are available for 151 countries \(2020\).  National household surveys such as DHS and MICS are generally conducted every three to five years.
+Data for at least one visit are available for 170 countries \(2020\). Data for at least four visits are available for 151 countries \(2020\). National household surveys such as DHS and MICS are generally conducted every three to five years.
 
 ---
 
 ## Expected time of release
 
-Data are published annually, in the [UNICEF data portal](data.unicef.org), [State of the World’s Children publication](https://www.unicef.org/reports/state-of-worlds-children) and WHO’s [Global Health Observatory \(GHO\)](http://www.who.int/gho/en/).
+Data are published annually, in the [UNICEF data portal](data.unicef.org), [State of the Worldï¿½s Children publication](https://www.unicef.org/reports/state-of-worlds-children) and WHOï¿½s [Global Health Observatory \(GHO\)](http://www.who.int/gho/en/).
 
 ---
 
@@ -57,4 +67,3 @@ Data are published annually, in the [UNICEF data portal](data.unicef.org), [Stat
 Data and metadata were received from UNICEF on 9 July 2021.
 
 ---
-

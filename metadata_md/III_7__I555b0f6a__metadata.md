@@ -1,7 +1,5 @@
 ## Contact point in international agency
 
-
-
 ---
 
 ## International agreed definition
@@ -12,7 +10,9 @@ The indicator on proportion of adults who are obese, by sex is defined as propor
 
 ## Method of computation
 
-BMI is calculated as weight \(in kilograms\) divided by the square of height \(in meters\). BMI is calculated based on measured, rather than self-reported height and weight, to avoid systematic reporting biases. **Disaggregation**: by sex
+BMI is calculated as weight \(in kilograms\) divided by the square of height \(in meters\). BMI is calculated based on measured, rather than self-reported height and weight, to avoid systematic reporting biases.
+
+**Disaggregation**: by sex
 
 ---
 
@@ -24,8 +24,6 @@ Excess bodyweight is an important risk factor for mortality and morbidity from c
 
 ## Sources of discrepancies between global and national figures
 
-
-
 ---
 
 ## Process of obtaining data
@@ -36,19 +34,13 @@ Data are obtained based on a study carried out by WHO extracting information fro
 
 ## Treatment of missing values
 
-
-
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
 ## Expected time of release
-
-
 
 ---
 
@@ -57,4 +49,3 @@ Data are obtained based on a study carried out by WHO extracting information fro
 Data and metadata were received from World Health Organization \(WHO\) on 9 September 2019.
 
 ---
-

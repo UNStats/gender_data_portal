@@ -1,30 +1,52 @@
 ## Contact point in international agency
 
-Steven Kapsos Head of the Data Production and Analysis Unit ILO [kapsos@ilo.org](mailto:kapsos@ilo.org) [www.ilo.org/ilostat](www.ilo.org/ilostat)
+**Name**: Steven Kapsos
+**Agency**: ILO
+**Title**: Head of the Data Production and Analysis Unit
+**Email**: [kapsos@ilo.org](mailto:kapsos@ilo.org)
+**Website**: [ilostat.ilo.org](https://ilostat.ilo.org/)
 
 ---
 
 ## International agreed definition
 
-**Definition** This indicator refers to the proportion of females in the total number of persons employed in managerial positions. It is recommended to use two different measures jointly for this indicator: the share of females in \(total\) management and the share of females in senior and middle management \(thus excluding junior management\). The joint calculation of these two measures provides information on whether women are more represented in junior management than in senior and middle management, thus pointing to an eventual ceiling for women to access higher-level management positions. In these cases, calculating only the share of women in \(total\) management would be misleading, in that it would suggest that women hold positions with more decision-making power and responsibilities than they actually do. **Concepts** Employment comprises all persons of working age who, during a short reference period \(one week\), were engaged in any activity to produce goods or provide services for pay or profit. - Employment in management is determined according to the categories of the latest version of the International Standard Classification of Occupations \(ISCO-08\), which organizes jobs into a clearly defined set of groups based on the tasks and duties undertaken in the job. For the purpose of this indicator, it is preferable to refer separately to senior and middle management only, and to total management \(including junior management\). The share of women tends to be higher in junior management than in senior and middle management, so limiting the indicator to a measure including junior management may introduce bias. Senior and middle management correspond to sub-major groups 11, 12 and 13 in ISCO-08 and sub-major groups 11 and 12 in ISCO-88. If statistics are not available disaggregated at the sub-major group level \(two-digit level of ISCO\), then major group 1 of ISCO-88 and ISCO-08 can be used as a proxy and the indicator would then refer only to total management \(including junior management\).
+**Definition**
+
+This indicator refers to the proportion of females in the total number of persons employed in managerial positions. It is recommended to use two different measures jointly for this indicator: the share of females in \(total\) management and the share of females in senior and middle management \(thus excluding junior management\). The joint calculation of these two measures provides information on whether women are more represented in junior management than in senior and middle management, thus pointing to an eventual ceiling for women to access higher-level management positions. In these cases, calculating only the share of women in \(total\) management would be misleading, in that it would suggest that women hold positions with more decision-making power and responsibilities than they actually do.
+
+**Concepts**
+
+Employment comprises all persons of working age who, during a short reference period \(one week\), were engaged in any activity to produce goods or provide services for pay or profit. - Employment in management is determined according to the categories of the latest version of the International Standard Classification of Occupations \(ISCO-08\), which organizes jobs into a clearly defined set of groups based on the tasks and duties undertaken in the job. For the purpose of this indicator, it is preferable to refer separately to senior and middle management only, and to total management \(including junior management\). The share of women tends to be higher in junior management than in senior and middle management, so limiting the indicator to a measure including junior management may introduce bias. Senior and middle management correspond to sub-major groups 11, 12 and 13 in ISCO-08 and sub-major groups 11 and 12 in ISCO-88. If statistics are not available disaggregated at the sub-major group level \(two-digit level of ISCO\), then major group 1 of ISCO-88 and ISCO-08 can be used as a proxy and the indicator would then refer only to total management \(including junior management\).
 
 ---
 
 ## Method of computation
 
-**Using ISCO-08** Proportion of women in senior and middle management = {\(Women employed in ISCO 08 category 1- Women employed in ISCO 08 category 14\) / \(Persons employed in ISCO 08 category 1 - Persons employed in ISCO 08 category 14\)} x 100 Which can be also expressed as: Proportion of women in senior and middle management = {\(Women employed in ISCO 08 categories 11+ 12+13\) / \(Persons employed in ISCO 08 categories 11+12+13\)} ×100 And Proportion of women in management = \(Women employed in ISCO 08 category 1 / Persons employed in ISCO 08 category 1\) ×100 **Using ISCO-88** Proportion of women in senior and middle management = {\(Women employed in ISCO 88 category 1 – Women employed in ISCO 88 category 13\) / \(Persons employed in ISCO 88 category 1 - Persons employed in ISCO 88 category 13\)} ×100  Which can also be expressed as: Proportion of women in senior and middle management = {\(Women employed in ISCO 88 categories 11+12\) / \(Persons employed in ISCO 88 categories 11+12\)} ×100  And Proportion of women in managerial positions = \(Women employed in ISCO 88 category 1 / Persons employed in ISCO 88 category 1\) ×100 **Disaggregation**: by sex This indicator requires no disaggregation per se, although employment statistics by both sex and occupation are needed to calculate it. If statistics are available and the sample size permits, it may be of interest to cross-tabulate this indicator by economic activity \(ISIC\) or disaggregate further to observe the share of women across more detailed occupational groups.
+**Using ISCO-08**
+
+Proportion of women in senior and middle management = {\(Women employed in ISCO 08 category 1- Women employed in ISCO 08 category 14\) / \(Persons employed in ISCO 08 category 1 - Persons employed in ISCO 08 category 14\)} x 100 Which can be also expressed as: Proportion of women in senior and middle management = {\(Women employed in ISCO 08 categories 11+ 12+13\) / \(Persons employed in ISCO 08 categories 11+12+13\)} ï¿½100 And Proportion of women in management = \(Women employed in ISCO 08 category 1 / Persons employed in ISCO 08 category 1\) ï¿½100
+
+**Using ISCO-88**
+
+Proportion of women in senior and middle management = {\(Women employed in ISCO 88 category 1 ï¿½ Women employed in ISCO 88 category 13\) / \(Persons employed in ISCO 88 category 1 - Persons employed in ISCO 88 category 13\)} ï¿½100 Which can also be expressed as: Proportion of women in senior and middle management = {\(Women employed in ISCO 88 categories 11+12\) / \(Persons employed in ISCO 88 categories 11+12\)} ï¿½100 And Proportion of women in managerial positions = \(Women employed in ISCO 88 category 1 / Persons employed in ISCO 88 category 1\) ï¿½100
+
+**Disaggregation**:
+
+by sex This indicator requires no disaggregation per se, although employment statistics by both sex and occupation are needed to calculate it. If statistics are available and the sample size permits, it may be of interest to cross-tabulate this indicator by economic activity \(ISIC\) or disaggregate further to observe the share of women across more detailed occupational groups.
 
 ---
 
 ## Importance of the indicator in addressing gender issues and its limitation
 
-The indicator provides information on the proportion of women who are employed in decision-making and management roles in government, large enterprises and institutions, thus providing some insight into women’s power in decision making and in the economy \(especially compared to men's power in those areas\). **Comments and limitations** This indicator's main limitation is that it does not reflect differences in the levels of responsibility of women in these high- and middle-level positions or the characteristics of the enterprises and organizations in which they are employed. Its quality is also heavily dependent on the reliability of the employment statistics by occupation at the ISCO two-digit level.
+The indicator provides information on the proportion of women who are employed in decision-making and management roles in government, large enterprises and institutions, thus providing some insight into womenï¿½s power in decision making and in the economy \(especially compared to men's power in those areas\).
+
+**Comments and limitations**
+
+This indicator's main limitation is that it does not reflect differences in the levels of responsibility of women in these high- and middle-level positions or the characteristics of the enterprises and organizations in which they are employed. Its quality is also heavily dependent on the reliability of the employment statistics by occupation at the ISCO two-digit level.
 
 ---
 
 ## Sources of discrepancies between global and national figures
-
-
 
 ---
 
@@ -40,9 +62,7 @@ Multivariate regression and cross-validation techniques are used to impute missi
 
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
@@ -57,4 +77,3 @@ Data release and collection: continuous.
 Data and metadata were extracted from Global SDG Indicators Database on 28 May 2021. For more information, please go to the following: [https://unstats.un.org/sdgs/indicators/database/](https://unstats.un.org/sdgs/indicators/database/) [https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-02.pdf](https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-02.pdf)
 
 ---
-

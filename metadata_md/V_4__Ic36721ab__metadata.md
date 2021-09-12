@@ -1,6 +1,10 @@
 ## Contact point in international agency
 
-Claudia Cappa Senior Adviser, Statistics, Child Protection and Development UNICEF [ccappa@unicef.org](mailto:ccappa@unicef.org) [data.unicef.org](data.unicef.org)
+**Name**: Claudia Cappa
+**Title**: Senior Adviser, Statistics, Child Protection and Development
+**Agency**: UNICEF
+**Email**: [ccappa@unicef.org](mailto:ccappa@unicef.org)
+**Website**: [www.unicef.org](www.unicef.org), [data.unicef.org](data.unicef.org)
 
 ---
 
@@ -18,7 +22,7 @@ Number of women aged 20-24 who were first married or in union before age 15 \(or
 
 ## Importance of the indicator in addressing gender issues and its limitation
 
-Marriage before the age of 18 is a fundamental violation of human rights. Child marriage often compromises a girl’s development by resulting in early pregnancy and social isolation, interrupting her schooling, limiting her opportunities for career and vocational advancement and placing her at increased risk of intimate partner violence. In many cultures, girls reaching puberty are expected to assume gender roles associated with womanhood. These include entering a union and becoming a mother.  The practice of early/child marriage is a direct manifestation of gender inequality.  The issue of child marriage is addressed in a number of international conventions and agreements. Although marriage is not mentioned directly in the Convention on the Rights of the Child, child marriage is linked to other rights –such as the right to freedom of expression, the right to protection from all forms of abuse, and the right to be protected from harmful traditional practices. There are existing tools and mechanisms for data collection that countries have implemented to monitor the situation with regards to this indicator. The modules used to collect information on marital status among women and men of reproductive age \(15-49 years\) in the DHS and MICS have been fully harmonized. The measure of child marriage is retrospective in nature by design, capturing age at first marriage among a population that has completed the risk period \(i.e., adult women\). While it is also possible to measure the current marital status of girls under age 18, such measures would provide an underestimate of the level of child marriage, as girls who are not currently married may still do so before they turn 18. For more details on interpretation and common pitfalls for this indicator, see: A Generation to Protect: Monitoring violence exploitation and abuse of children within the SDG framework \(UNICEF 2020\).
+Marriage before the age of 18 is a fundamental violation of human rights. Child marriage often compromises a girlï¿½s development by resulting in early pregnancy and social isolation, interrupting her schooling, limiting her opportunities for career and vocational advancement and placing her at increased risk of intimate partner violence. In many cultures, girls reaching puberty are expected to assume gender roles associated with womanhood. These include entering a union and becoming a mother. The practice of early/child marriage is a direct manifestation of gender inequality. The issue of child marriage is addressed in a number of international conventions and agreements. Although marriage is not mentioned directly in the Convention on the Rights of the Child, child marriage is linked to other rights ï¿½such as the right to freedom of expression, the right to protection from all forms of abuse, and the right to be protected from harmful traditional practices. There are existing tools and mechanisms for data collection that countries have implemented to monitor the situation with regards to this indicator. The modules used to collect information on marital status among women and men of reproductive age \(15-49 years\) in the DHS and MICS have been fully harmonized. The measure of child marriage is retrospective in nature by design, capturing age at first marriage among a population that has completed the risk period \(i.e., adult women\). While it is also possible to measure the current marital status of girls under age 18, such measures would provide an underestimate of the level of child marriage, as girls who are not currently married may still do so before they turn 18. For more details on interpretation and common pitfalls for this indicator, see: A Generation to Protect: Monitoring violence exploitation and abuse of children within the SDG framework \(UNICEF 2020\).
 
 ---
 
@@ -36,13 +40,9 @@ Household surveys such as UNICEF-supported MICS and DHS have been collecting dat
 
 ## Treatment of missing values
 
-
-
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
@@ -54,7 +54,6 @@ UNICEF will undertake an annual country consultation likely between December and
 
 ## Data source
 
-Data and metadata were extracted from Global SDG Indicators Database on 11 May 2021.  For more information, please go to the following:  [https://unstats.un.org/sdgs/indicators/database/](https://unstats.un.org/sdgs/indicators/database/) [https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-01.pdf](https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-01.pdf)
+Data and metadata were extracted from Global SDG Indicators Database on 11 May 2021. For more information, please go to the following: [https://unstats.un.org/sdgs/indicators/database/](https://unstats.un.org/sdgs/indicators/database/) [https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-01.pdf](https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-01.pdf)
 
 ---
-

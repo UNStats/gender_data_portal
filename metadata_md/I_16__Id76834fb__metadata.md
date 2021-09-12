@@ -1,6 +1,10 @@
 ## Contact point in international agency
 
-Steven Kapsos Head of the Data Production and Analysis Unit ILO [kapsos@ilo.org](mailto:kapsos@ilo.org) [www.ilo.org/ilostat](www.ilo.org/ilostat)
+**Name**: Steven Kapsos
+**Agency**: ILO
+**Title**: Head of the Data Production and Analysis Unit
+**Email**: [kapsos@ilo.org](mailto:kapsos@ilo.org)
+**Website**: [ilostat.ilo.org](https://ilostat.ilo.org/)
 
 ---
 
@@ -12,7 +16,7 @@ Steven Kapsos Head of the Data Production and Analysis Unit ILO [kapsos@ilo.org]
 
 ## Method of computation
 
-The working poverty rate is calculated by dividing the employed persons living on less than US$ 1.90 a day by the Total employment and multiplying the value by 100.  The ILO also produces global and regional estimates of employment by economic class \(and thus, of working poverty rates\) using the ILO’s Employment by Class \(EbyC\) model. More information is in the ILO paper “Employment and economic class in the developing world” \(Kapsos and Bourmpoula, 2013\), available at [http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf](http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf)  **Disaggregation**: by sex, age
+The working poverty rate is calculated by dividing the employed persons living on less than US$ 1.90 a day by the Total employment and multiplying the value by 100. The ILO also produces global and regional estimates of employment by economic class \(and thus, of working poverty rates\) using the ILOï¿½s Employment by Class \(EbyC\) model. More information is in the ILO paper ï¿½Employment and economic class in the developing worldï¿½ \(Kapsos and Bourmpoula, 2013\), available at [http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf](http://www.ilo.org/wcmsp5/groups/public/---dgreports/---inst/documents/publication/wcms_216451.pdf) **Disaggregation**: by sex, age
 
 ---
 
@@ -24,25 +28,19 @@ The working poverty rate is calculated by dividing the employed persons living o
 
 ## Sources of discrepancies between global and national figures
 
-
-
 ---
 
 ## Process of obtaining data
 
-The preferred data source is a household survey with variables that can reliably identify both the poverty status of households and the economic activity of the household’s members. Examples include household income and expenditure surveys \(HIES\), living standards measurement surveys \(LSMS\) with employment modules, or labour force surveys \(LFS\) that collect information on household income. Such surveys offer the benefit of allowing the employment status and income \(or consumption expenditure\) variables to be derived from the same sampled households ideally for the same observation period. Employment estimates derived from a household survey other than a labour force survey may, however, not be the most robust due to questionnaire design. Similarly, a labour force survey may not be the best instrument for collecting household income or consumption expenditure data, although an attached income module can be designed to achieve statistically reliable results, including ensuring an overlap in the observation period between household income \(or consumption expenditure\) and employment status.  Another possibility is to combine data from a household income and expenditure survey and from a separate labour force survey when the respondent households can be matched and consistency in the long observation period between the surveys can be obtained. The ILO processes national household survey micro datasets in line with internationally-agreed indicator concepts and definitions set forth by the International Conference of Labour Statisticians.
+The preferred data source is a household survey with variables that can reliably identify both the poverty status of households and the economic activity of the householdï¿½s members. Examples include household income and expenditure surveys \(HIES\), living standards measurement surveys \(LSMS\) with employment modules, or labour force surveys \(LFS\) that collect information on household income. Such surveys offer the benefit of allowing the employment status and income \(or consumption expenditure\) variables to be derived from the same sampled households ideally for the same observation period. Employment estimates derived from a household survey other than a labour force survey may, however, not be the most robust due to questionnaire design. Similarly, a labour force survey may not be the best instrument for collecting household income or consumption expenditure data, although an attached income module can be designed to achieve statistically reliable results, including ensuring an overlap in the observation period between household income \(or consumption expenditure\) and employment status. Another possibility is to combine data from a household income and expenditure survey and from a separate labour force survey when the respondent households can be matched and consistency in the long observation period between the surveys can be obtained. The ILO processes national household survey micro datasets in line with internationally-agreed indicator concepts and definitions set forth by the International Conference of Labour Statisticians.
 
 ---
 
 ## Treatment of missing values
 
-
-
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
@@ -54,7 +52,6 @@ National data are updated weekly on ILOSTAT. Global and regional estimates are u
 
 ## Data source
 
-Data and metadata were extracted from Global SDG Indicators Database on 12 August 2021.  For more information, please go to the following:  [https://unstats.un.org/sdgs/indicators/database/](https://unstats.un.org/sdgs/indicators/database/) [https://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01b.pdf](https://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01b.pdf)
+Data and metadata were extracted from Global SDG Indicators Database on 12 August 2021. For more information, please go to the following: [https://unstats.un.org/sdgs/indicators/database/](https://unstats.un.org/sdgs/indicators/database/) [https://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01b.pdf](https://unstats.un.org/sdgs/metadata/files/Metadata-01-01-01b.pdf)
 
 ---
-

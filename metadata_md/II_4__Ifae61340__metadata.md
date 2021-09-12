@@ -1,6 +1,16 @@
 ## Contact point in international agency
 
-Friedrich Huebler Head, Education Standards and Methodology UNESCO Institute for Statistics [f.huebler@unesco.org](mailto:f.huebler@unesco.org) [http://uis.unesco.org](http://uis.unesco.org) Olivier Labé Head of Unit Indicators Methodology Education Standards and Methodology Section UNESCO [o.labe@unesco.org](mailto:o.labe@unesco.org) [http://uis.unesco.org](http://uis.unesco.org)
+**Name**: Friedrich Huebler
+**Agency**: UNESCO Institute for Statistics
+**Title**: Head, Education Standards and Methodology
+**Email**: [f.huebler@unesco.org](mailto:f.huebler@unesco.org)
+**Website**: [http://uis.unesco.org](http://uis.unesco.org)
+
+**Name**: Olivier Lab
+**Agency**: UNESCO
+**Title**: Head of Unit Indicators Methodology Education Standards and Methodology Section
+**Email**: [o.labe@unesco.org](mailto:o.labe@unesco.org)
+**Website**: [http://uis.unesco.org](http://uis.unesco.org)
 
 ---
 
@@ -12,7 +22,7 @@ Total enrolment in tertiary education regardless of age expressed as a percentag
 
 ## Method of computation
 
-Number of students enrolled in tertiary education, expressed as percentage of the 5-year age group immediately following upper secondary education.  If the official entrance age to upper secondary is 15 years and the duration is 3 years, then the age group is 18-22 years. The indicator should be based on total enrolment in all types of education institutions, including public and private. Disaggregation: by sex
+Number of students enrolled in tertiary education, expressed as percentage of the 5-year age group immediately following upper secondary education. If the official entrance age to upper secondary is 15 years and the duration is 3 years, then the age group is 18-22 years. The indicator should be based on total enrolment in all types of education institutions, including public and private. Disaggregation: by sex
 
 ---
 
@@ -24,8 +34,6 @@ A high value of the indicator shows a high degree of participation in tertiary e
 
 ## Sources of discrepancies between global and national figures
 
-
-
 ---
 
 ## Process of obtaining data
@@ -36,25 +44,18 @@ Administrative data from schools and universities or household survey data on en
 
 ## Treatment of missing values
 
-
-
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
 ## Expected time of release
 
-
-
 ---
 
 ## Data source
 
-Data and metadata were extracted from UNESCO Institute for Statistics on 13 May 2021.  For more information, please go to: [http://data.uis.unesco.org/](http://data.uis.unesco.org/)
+Data and metadata were extracted from UNESCO Institute for Statistics on 13 May 2021. For more information, please go to: [http://data.uis.unesco.org/](http://data.uis.unesco.org/)
 
 ---
-

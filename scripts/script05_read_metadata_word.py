@@ -4,7 +4,7 @@ from docx import Document
 import utils
 
 # List of availability_ts files
-datafiles = [f for f in listdir('metadata/') if isfile(join('metadata/', f))]
+datafiles = [f for f in listdir('metadata_temp/') if isfile(join('metadata_temp/', f))]
 
 
 for fdx, f in enumerate(datafiles):
@@ -28,7 +28,7 @@ for fdx, f in enumerate(datafiles):
     print("----")
 
 
-    wordDoc = Document(join('metadata/', f))
+    wordDoc = Document(join('metadata_temp/', f))
 
     tables = wordDoc.tables
 
@@ -48,6 +48,6 @@ for fdx, f in enumerate(datafiles):
 
 
     #open text file
-    text_file = open("metadata_md/" + f.replace('.docx', '.md'), "w")
+    text_file = open("temp/" + f.replace('.docx', '.md'), "w")
     text_file.write(md)
     text_file.close()

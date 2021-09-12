@@ -1,12 +1,10 @@
 ## Contact point in international agency
 
-
-
 ---
 
 ## International agreed definition
 
-“Professional Judges or Magistrates” means both full-time and part-time officials as of 31 December authorized to hear specifically criminal cases, including in appeal courts, and to make dispositions in a court of law. Also includes authorized associate judges and magistrates. Data refer to 'Female Professional Judges or Magistrates at the national level'.
+ï¿½Professional Judges or Magistratesï¿½ means both full-time and part-time officials as of 31 December authorized to hear specifically criminal cases, including in appeal courts, and to make dispositions in a court of law. Also includes authorized associate judges and magistrates. Data refer to 'Female Professional Judges or Magistrates at the national level'.
 
 ---
 
@@ -40,7 +38,7 @@ n.a. \(in some reports a limited number of missing values may be estimated by ex
 
 ---
 
-## Data availability and assessment of countries’ capacity
+## Data availability and assessment of countriesï¿½ capacity
 
 Data on Professional Judges or Magistrates by sex are globally available for around 100 countries covering almost half of the world population. The capacity of countries to supply these data is generally considered as good.
 
@@ -57,4 +55,3 @@ Available data on judges and magistrates and the annual UN-CTS are published on 
 Data and metadata were received from UNODC on 12 December 2019
 
 ---
-

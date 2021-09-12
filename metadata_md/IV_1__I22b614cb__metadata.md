@@ -1,6 +1,9 @@
 ## Contact point in international agency
 
-Mariana Duarte Mutzenberg Programme Officer, Gender Partnership Programme Inter-Parliamentary Union [mdm@ipu.org](mailto: mdm@ipu.org)
+**Name**: Mariana Duarte Mutzenberg
+**Agency**: Inter-Parliamentary Union
+**Title**: Programme Officer, Gender Partnership Programme
+**Email**: [mdm@ipu.org](mailto: mdm@ipu.org)
 
 ---
 
@@ -36,13 +39,9 @@ Data is obtained by IPU through national governments, permanent missions to the 
 
 ## Treatment of missing values
 
-
-
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
@@ -57,4 +56,3 @@ The data is collected every one or two years.
 Data was received from IPU on 22 August 2019.
 
 ---
-

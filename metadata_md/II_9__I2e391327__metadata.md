@@ -1,6 +1,16 @@
 ## Contact point in international agency
 
-Friedrich Huebler Head, Education Standards and Methodology UNESCO Institute for Statistics [f.huebler@unesco.org](mailto:f.huebler@unesco.org) [http://uis.unesco.org](http://uis.unesco.org) Olivier Labé Head of Unit Indicators Methodology Education Standards and Methodology Section UNESCO [o.labe@unesco.org](mailto:o.labe@unesco.org) [http://uis.unesco.org](http://uis.unesco.org)
+**Name**: Friedrich Huebler
+**Agency**: UNESCO Institute for Statistics
+**Title**: Head, Education Standards and Methodology
+**Email**: [f.huebler@unesco.org](mailto:f.huebler@unesco.org)
+**Website**: [http://uis.unesco.org](http://uis.unesco.org)
+
+**Name**: Olivier Lab
+**Agency**: UNESCO
+**Title**: Head of Unit Indicators Methodology Education Standards and Methodology Section
+**Email**: [o.labe@unesco.org](mailto:o.labe@unesco.org)
+**Website**: [http://uis.unesco.org](http://uis.unesco.org)
 
 ---
 
@@ -24,37 +34,28 @@ Literacy represents a potential for further intellectual growth and contribution
 
 ## Sources of discrepancies between global and national figures
 
-
-
 ---
 
 ## Process of obtaining data
 
-National data on literacy are typically collected through self- or household-declaration in household surveys or population censuses that rely on the ‘able to read and write a simple statement’ definition of literacy, although the questions asked in surveys vary between countries. Household surveys like the Demographic and Health Surveys \(DHS, [http://dhsprogram.com](http://dhsprogram.com)\) and Multiple Indicator Cluster Surveys \(MICS, [http://mics.unicef.org](http://mics.unicef.org)\) have moved from self- or household-declaration to simple assessments in the form of a reading test, in which respondents are asked to read a simple sentence written in their language.
+National data on literacy are typically collected through self- or household-declaration in household surveys or population censuses that rely on the "able to read and write a simple statement" definition of literacy, although the questions asked in surveys vary between countries. Household surveys like the Demographic and Health Surveys \(DHS, [http://dhsprogram.com](http://dhsprogram.com)\) and Multiple Indicator Cluster Surveys \(MICS, [http://mics.unicef.org](http://mics.unicef.org)\) have moved from self- or household-declaration to simple assessments in the form of a reading test, in which respondents are asked to read a simple sentence written in their language.
 
 ---
 
 ## Treatment of missing values
 
-
-
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
 ## Expected time of release
 
-
-
 ---
 
 ## Data source
 
-Data and metadata were extracted from UNESCO Institute for Statistics on 5 August 2021.   For more information, please go to the following:  [http://data.uis.unesco.org/](http://data.uis.unesco.org/)
+Data and metadata were extracted from UNESCO Institute for Statistics on 5 August 2021. For more information, please go to the following: [http://data.uis.unesco.org/](http://data.uis.unesco.org/)
 
 ---
-

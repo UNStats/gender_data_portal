@@ -1,6 +1,7 @@
 ## Contact point in international agency
 
-United Nations Statistics Division [genderstat@un.org](mailto:genderstat@un.org)
+**Agency**: United Nations Statistics Division
+**Email**: [genderstat@un.org](mailto:genderstat@un.org)
 
 ---
 
@@ -18,7 +19,7 @@ Average number of hours spent on total work, paid and unpaid, derives from time 
 
 ## Importance of the indicator in addressing gender issues and its limitation
 
-Time-use data in general can reveal the details of an individual’s “daily life with a combination of specificity and comprehensiveness”. Time spent on domestic/unpaid work assesses intra-household allocation of time. It can help analysis study the nature and extent of intra-household inequality and the impact of that inequality. Having information about the way time is allocated among the various members of a household helps policy makers understand which household members will be most directly affected by a policy modification. International comparability of time-use statistics is limited by a number of factors, including: diary versus stylized time-use survey. Data on time-use can be collected through a 24-hour diary \(light diary\) or stylized questionnaire. With diaries, respondents are asked to report on what activity they were performing when they started the day, what activity followed, and the time that activity began and ended, and so forth through the 24 hours of the day. Stylized time-use questions ask respondents to recall the amount of time they allocated to a certain activity over a specified period, such as a day or week. Often, stylized time-use questions are attached as a module to a multipurpose household survey. The 24-hour diary method yields better results than the stylized method but is a more expensive mode of data collection. Data obtained from these two different data collection methods are not comparable. Time-use activity classification. Regional and national classifications of time-use activities may differ from the trial ICATUS, resulting in data that are not comparable across countries. Time-use data presented refer to the “main activity” only. Any “secondary activity” performed simultaneously with the main activity is not reflected in the average times shown. For instance, a woman may be cooking and looking after a child simultaneously. For countries reporting cooking as the main activity, time spent caring for children is not accounted for and reflected in the statistics. This may affect international comparability of data on time spent caring for children; it may also underestimate the time women spend on this activity. The different age groups used by countries for their data collection and compilation also makes time use data incomparable across countries.
+Time-use data in general can reveal the details of an individualï¿½s ï¿½daily life with a combination of specificity and comprehensivenessï¿½. Time spent on domestic/unpaid work assesses intra-household allocation of time. It can help analysis study the nature and extent of intra-household inequality and the impact of that inequality. Having information about the way time is allocated among the various members of a household helps policy makers understand which household members will be most directly affected by a policy modification. International comparability of time-use statistics is limited by a number of factors, including: diary versus stylized time-use survey. Data on time-use can be collected through a 24-hour diary \(light diary\) or stylized questionnaire. With diaries, respondents are asked to report on what activity they were performing when they started the day, what activity followed, and the time that activity began and ended, and so forth through the 24 hours of the day. Stylized time-use questions ask respondents to recall the amount of time they allocated to a certain activity over a specified period, such as a day or week. Often, stylized time-use questions are attached as a module to a multipurpose household survey. The 24-hour diary method yields better results than the stylized method but is a more expensive mode of data collection. Data obtained from these two different data collection methods are not comparable. Time-use activity classification. Regional and national classifications of time-use activities may differ from the trial ICATUS, resulting in data that are not comparable across countries. Time-use data presented refer to the ï¿½main activityï¿½ only. Any ï¿½secondary activityï¿½ performed simultaneously with the main activity is not reflected in the average times shown. For instance, a woman may be cooking and looking after a child simultaneously. For countries reporting cooking as the main activity, time spent caring for children is not accounted for and reflected in the statistics. This may affect international comparability of data on time spent caring for children; it may also underestimate the time women spend on this activity. The different age groups used by countries for their data collection and compilation also makes time use data incomparable across countries.
 
 ---
 
@@ -40,7 +41,7 @@ None.
 
 ---
 
-## Data availability and assessment of countries’ capacity
+## Data availability and assessment of countriesï¿½ capacity
 
 Since 2005, 75 countries have collected time use statistics through a time-use survey or have included a time-use module in a multipurpose household survey. Time use statistics are available at international level for 67 of them. Between 2000 and 2009, data are available for 75 countries. Since 2010, data for 49 countries are available.
 
@@ -48,7 +49,4 @@ Since 2005, 75 countries have collected time use statistics through a time-use s
 
 ## Expected time of release
 
-
-
 ---
-

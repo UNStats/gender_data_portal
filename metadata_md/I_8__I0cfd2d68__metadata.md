@@ -1,12 +1,21 @@
 ## Contact point in international agency
 
-Marie-Claire Sodergren Economist, Department of Statistics ILO [sodergren@ilo.org](mailto:sodergren@ilo.org) [ilostat.ilo.org](ilostat.ilo.org)
+**Name**: Marie-Claire Sodergren
+**Agency**: ILO
+**Title**: Economist, Department of Statistics
+**Email**: [sodergren@ilo.org](mailto:sodergren@ilo.org)
+**Website**: [ilostat.ilo.org](https://ilostat.ilo.org/)
 
 ---
 
 ## International agreed definition
 
-Employment comprises all persons of working age who, during a specified brief period, such as one week or one day, were in the following categories: a) paid employment \(whether at work or having a job but not at work\); or b) self-employment \(whether at work or with an enterprise but not at work\). To promote international comparability, the working-age population is often defined as all persons aged 15 and older, but this may vary from country to country based on national laws and practices \(some countries also use an upper age limit\). The classification by economic activity refers to the main activity of the establishment in which a person worked during the reference period. The branch of economic activity of a person does not depend on the specific duties or functions of the person’s job, but rather on the characteristics of the economic unit in which the person works. Data presented by branch of economic activity is based on the International Standard Industrial Classification of All Economic Activities \(ISIC\). Statistics on employment by economic activity are presented in ILOSTAT according to both the categories of the latest version of the ISIC available and aggregate categories, based on the following correspondence table: **Aggregate Economic Activity** | | | **Sections ISIC- Rev. 4** | **Sections ISIC- Rev. 3** | **Sections ISIC- Rev. 2** --------| --------|----------|-------------|------------|-----------| Agriculture | | | A | A, B | 1 Non-Agriculture | Industry | Manufacturing | C | D | 3 Non-Agriculture | Industry | Construction | F | F | 5 Non-Agriculture | Industry | Mining and quarrying; Electricity, gas and water supply | B,D,E | C,E | 2,4 Non-Agriculture | Services| Market Services \(Trade; Transportation; Accommodation and food; and Business and administrative services\) | G, H, I, J, K, L, M, N | G, H, I, J, K | 6,7,8 Non-Agriculture | Industry | Non-market services \(Public administration; Community, Social and other services and activities\) | O, P, Q, R, S, T, U | L, M, N, O, P, Q | 9 Not elsewhere classified | | | X || 0
+Employment comprises all persons of working age who, during a specified brief period, such as one week or one day, were in the following categories: a) paid employment \(whether at work or having a job but not at work\); or b) self-employment \(whether at work or with an enterprise but not at work\). To promote international comparability, the working-age population is often defined as all persons aged 15 and older, but this may vary from country to country based on national laws and practices \(some countries also use an upper age limit\). The classification by economic activity refers to the main activity of the establishment in which a person worked during the reference period. The branch of economic activity of a person does not depend on the specific duties or functions of the personï¿½s job, but rather on the characteristics of the economic unit in which the person works. Data presented by branch of economic activity is based on the International Standard Industrial Classification of All Economic Activities \(ISIC\). Statistics on employment by economic activity are presented in ILOSTAT according to both the categories of the latest version of the ISIC available and aggregate categories, based on the following correspondence table:
+
+| **Aggregate Economic Activity** |     |     | **Sections ISIC- Rev. 4** | **Sections ISIC- Rev. 3** | **Sections ISIC- Rev. 2** |
+| ------------------------------- | --- | --- | ------------------------- | ------------------------- | ------------------------- |
+
+\[ INSERT TABLE \]
 
 ---
 
@@ -40,15 +49,11 @@ None.
 
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
 ## Expected time of release
-
-
 
 ---
 
@@ -57,4 +62,3 @@ None.
 Data and metadata were extracted from ILOSTAT Database on 26 May 2021. For more information, please go to the following: [https://ilostat.ilo.org/data/](https://ilostat.ilo.org/data/) [https://ilostat.ilo.org/resources/concepts-and-definitions/description-employment-by-economic-activity/](https://ilostat.ilo.org/resources/concepts-and-definitions/description-employment-by-economic-activity/)
 
 ---
-

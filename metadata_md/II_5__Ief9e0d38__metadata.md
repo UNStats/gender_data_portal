@@ -1,12 +1,28 @@
 ## Contact point in international agency
 
-Silvia Montoya Director UNESCO-UIS [s.montoya@unesco.org](mailto:s.montoya@unesco.org) [uis.unesco.org/](uis.unesco.org/) Manos Antoninis Director UNESCO Global Education Monitoring Report [m.antoninis@unesco.org](mailto:m.antoninis@unesco.org) [en.unesco.org/gem-report/](en.unesco.org/gem-report/)
+**Name**: Silvia Montoya
+**Agency**: UNESCO Institute for Statistics
+**Title**: Director
+**Email**: [s.montoya@unesco.org](mailto:s.montoya@unesco.org)
+**Website**: [uis.unesco.org/](http://uis.unesco.org/)
+
+**Name**: Manos Antoninis
+**Agency**: UNESCO Global Education Monitoring Report
+**Title**: Director
+**Email**: [m.antoninis@unesco.org](mailto:m.antoninis@unesco.org)
+**Website**: [en.unesco.org/gem-report/](https://en.unesco.org/gem-report/)
 
 ---
 
 ## International agreed definition
 
-**Definition** Percentage of a cohort of children or young people aged 3-5 years above the intended age for the last grade of each level of education who have completed that grade. **Concepts** The intended age for the last grade of each level of education is the age at which pupils would enter the grade if they had started school at the official primary entrance age, had studied full-time and had progressed without repeating or skipping a grade. For example, if the official age of entry into primary education is 6 years, and if primary education has 6 grades, the intended age for the last grade of primary education is 11 years. In this case, 14-16 years \(11 + 3 = 14 and 11 + 5 = 16\) would be the reference age group for calculation of the primary completion rate.
+**Definition**
+
+Percentage of a cohort of children or young people aged 3-5 years above the intended age for the last grade of each level of education who have completed that grade.
+
+**Concepts**
+
+The intended age for the last grade of each level of education is the age at which pupils would enter the grade if they had started school at the official primary entrance age, had studied full-time and had progressed without repeating or skipping a grade. For example, if the official age of entry into primary education is 6 years, and if primary education has 6 grades, the intended age for the last grade of primary education is 11 years. In this case, 14-16 years \(11 + 3 = 14 and 11 + 5 = 16\) would be the reference age group for calculation of the primary completion rate.
 
 ---
 
@@ -18,7 +34,13 @@ The number of persons in the relevant age group who have completed the last grad
 
 ## Importance of the indicator in addressing gender issues and its limitation
 
-**Rationale** The indicator is explicitly referenced in the text of target 4.1: ‘ensure that all girls and boys complete [...] primary and secondary education’. A completion rate at or near 100% indicates that all or most children and adolescents have completed a level of education by the time they are 3 to 5 years older than the official age of entry into the last grade of that level of education. A low completion rate indicates low or delayed entry into a given level of education, high drop-out, high repetition, late completion, or a combination of these factors. The completion rate can be used either as a self-standing indicator or in combination with SDG indicator 4.1.1 \(proportion of children and young people \(a\) in Grade 2 or 3; \(b\) at the end of primary education; and \(c\) at the end of lower secondary education achieving at least a minimum proficiency level in \(I\) reading and \(ii\) mathematics\). Combining the completion rate with indicator 4.1.1 provides information on the percentage of children or young people in a cohort who achieve a minimum level of proficiency, and not only on the percentage of children in school who achieve minimum proficiency. **Comment and limitations** Three common issues affect the indicator. First, the age group 3-5 years above the official age of entry into the last grade for a given level of education was selected for the calculation of the completion rate to allow for some delayed entry or repetition. In countries where entry can occur very late or where repetition is common, some children or adolescents in the age group examined may still attend school and the eventual rate of completion may therefore be underestimated. Second, as the indicator is calculated from household survey data, itis subject to time lag in the availability of data. Third, when multiple surveys are available, they may provide conflicting information due to the possible presence of sampling and non-sampling errors in survey data.  Responding to a request by the Technical Cooperation Group \(TCG\) on the Indicators for SDG 4 -Education 2030, a refinement of the methodology to model completion rate estimates has been developed \(Barakat et al. 2021\), following an approach similar to that used for the estimation of child mortality rates. The model ensures that these common challenges with household survey data, such as timeliness and sampling or non-sampling errors are addressed to provide annual, up-to-date \(through short-term projections\) and more robust data, including for children and youth who complete each level later than 3-5 years above the official age of entry into the last grade.
+**Rationale**
+
+The indicator is explicitly referenced in the text of target 4.1: "ensure that all girls and boys complete \[...\] primary and secondary education". A completion rate at or near 100% indicates that all or most children and adolescents have completed a level of education by the time they are 3 to 5 years older than the official age of entry into the last grade of that level of education. A low completion rate indicates low or delayed entry into a given level of education, high drop-out, high repetition, late completion, or a combination of these factors. The completion rate can be used either as a self-standing indicator or in combination with SDG indicator 4.1.1 \(proportion of children and young people \(a\) in Grade 2 or 3; \(b\) at the end of primary education; and \(c\) at the end of lower secondary education achieving at least a minimum proficiency level in \(I\) reading and \(ii\) mathematics\). Combining the completion rate with indicator 4.1.1 provides information on the percentage of children or young people in a cohort who achieve a minimum level of proficiency, and not only on the percentage of children in school who achieve minimum proficiency.
+
+**Comment and limitations**
+
+Three common issues affect the indicator. First, the age group 3-5 years above the official age of entry into the last grade for a given level of education was selected for the calculation of the completion rate to allow for some delayed entry or repetition. In countries where entry can occur very late or where repetition is common, some children or adolescents in the age group examined may still attend school and the eventual rate of completion may therefore be underestimated. Second, as the indicator is calculated from household survey data, itis subject to time lag in the availability of data. Third, when multiple surveys are available, they may provide conflicting information due to the possible presence of sampling and non-sampling errors in survey data. Responding to a request by the Technical Cooperation Group \(TCG\) on the Indicators for SDG 4 -Education 2030, a refinement of the methodology to model completion rate estimates has been developed \(Barakat et al. 2021\), following an approach similar to that used for the estimation of child mortality rates. The model ensures that these common challenges with household survey data, such as timeliness and sampling or non-sampling errors are addressed to provide annual, up-to-date \(through short-term projections\) and more robust data, including for children and youth who complete each level later than 3-5 years above the official age of entry into the last grade.
 
 ---
 
@@ -40,21 +62,16 @@ The completion rate can be calculated from older cohorts who are outside of the 
 
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
 ## Expected time of release
 
-
-
 ---
 
 ## Data source
 
-Data and metadata were extracted from Global SDG Indicators Database on 27 July 2021.  For more information, please go to the following:  [https://unstats.un.org/sdgs/indicators/database/](https://unstats.un.org/sdgs/indicators/database/) [https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-02.pdf](https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-02.pdf)
+Data and metadata were extracted from Global SDG Indicators Database on 27 July 2021. For more information, please go to the following: [https://unstats.un.org/sdgs/indicators/database/](https://unstats.un.org/sdgs/indicators/database/) [https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-02.pdf](https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-02.pdf)
 
 ---
-

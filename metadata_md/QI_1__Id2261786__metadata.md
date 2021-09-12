@@ -1,12 +1,16 @@
 ## Contact point in international agency
 
-
-
 ---
 
 ## International agreed definition
 
-**ILO convention 100** on equal remuneration for women and men was adopted in 1951 by the General Conference of the International Labour Organisation (ILO). The convention is on the principle of equal remuneration for men and women workers for work of equal value. The term remuneration includes the ordinary, basic or minimum wage or salary and any additional emoluments whatsoever payable directly or indirectly, whether in cash or in kind, by the employer to the worker and arising out of the worker's employment. **ILO convention 111** on discrimination in employment and occupation was adopted in 1958 by the General Conference of the International Labour Organisation (ILO). The convention is with regard to discrimination in the field of employment and occupation. The term discrimination includes any distinction, exclusion or preference made on the basis of a number of characteristics including sex.
+**ILO convention 100**
+
+on equal remuneration for women and men was adopted in 1951 by the General Conference of the International Labour Organisation (ILO). The convention is on the principle of equal remuneration for men and women workers for work of equal value. The term remuneration includes the ordinary, basic or minimum wage or salary and any additional emoluments whatsoever payable directly or indirectly, whether in cash or in kind, by the employer to the worker and arising out of the worker's employment.
+
+**ILO convention 111**
+
+on discrimination in employment and occupation was adopted in 1958 by the General Conference of the International Labour Organisation (ILO). The convention is with regard to discrimination in the field of employment and occupation. The term discrimination includes any distinction, exclusion or preference made on the basis of a number of characteristics including sex.
 
 ---
 
@@ -24,8 +28,6 @@ For every dollar earned by men, women earn between 70 and 90 cents. Differences 
 
 ## Sources of discrepancies between global and national figures
 
-
-
 ---
 
 ## Process of obtaining data
@@ -36,25 +38,18 @@ The information was compiled by ILO, available under NORMLEX - Information Syste
 
 ## Treatment of missing values
 
-
-
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
 ## Expected time of release
 
-
-
 ---
 
 ## Data source
 
-Data and metadata were extracted from ILO NORMLEX database on 1 June 2021. For more information, please go to the following:  https://www.ilo.org/dyn/normlex/en/f?p=1000:12001:::NO::: https://www.ilo.org/dyn/normlex/en/f?p=1000:12000:::NO:::
+Data and metadata were extracted from ILO NORMLEX database on 1 June 2021. For more information, please go to the following: https://www.ilo.org/dyn/normlex/en/f?p=1000:12001:::NO::: https://www.ilo.org/dyn/normlex/en/f?p=1000:12000:::NO:::
 
 ---
-

@@ -6,7 +6,7 @@ Social and Gender Statistics Section, UNSD [genderstat@un.org](mailto:genderstat
 
 ## International agreed definition
 
-Marriage is defined as the act, ceremony or process by which the legal relationship of spouses is constituted. The legality of the union may be established by civil, religious or other means as recognized by the laws of each country. Age is defined as age at last birthday, that is, the difference between the date of birth and the date of the occurrence of the event, expressed in completed solar years.  Countries or areas providing data on marriages by age of groom and bride have been requested to specify "the minimum legal age at which marriage can take place with and without parental consent".
+Marriage is defined as the act, ceremony or process by which the legal relationship of spouses is constituted. The legality of the union may be established by civil, religious or other means as recognized by the laws of each country. Age is defined as age at last birthday, that is, the difference between the date of birth and the date of the occurrence of the event, expressed in completed solar years. Countries or areas providing data on marriages by age of groom and bride have been requested to specify "the minimum legal age at which marriage can take place with and without parental consent".
 
 ---
 
@@ -24,8 +24,6 @@ This indicator shows the legal age at which young women can enter marriage. Soci
 
 ## Sources of discrepancies between global and national figures
 
-
-
 ---
 
 ## Process of obtaining data
@@ -36,13 +34,9 @@ Periodic review of data sources by UNSD
 
 ## Treatment of missing values
 
-
-
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
@@ -57,4 +51,3 @@ UNSD will monitor the availability of data from UNPD and CEDAW country reports a
 Data and metadata were extracted from Demographic Yearbook 2019 on 21 June 2021. For more information, please go to the following: [https://unstats.un.org/unsd/demographic-social/products/dyb/documents/dyb2019/Notes24.pdf](https://unstats.un.org/unsd/demographic-social/products/dyb/documents/dyb2019/Notes24.pdf)
 
 ---
-

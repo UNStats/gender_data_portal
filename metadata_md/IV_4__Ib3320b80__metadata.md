@@ -1,12 +1,10 @@
 ## Contact point in international agency
 
-
-
 ---
 
 ## International agreed definition
 
-“Police Personnel" means personnel in public agencies as of 31 December whose principal functions are the prevention, detection and investigation of crime and the apprehension of alleged offenders. Data refer to 'Female Police Personnel at the national level'.
+ï¿½Police Personnel" means personnel in public agencies as of 31 December whose principal functions are the prevention, detection and investigation of crime and the apprehension of alleged offenders. Data refer to 'Female Police Personnel at the national level'.
 
 ---
 
@@ -40,7 +38,7 @@ n.a. \(in some reports a limited number of missing values may be estimated by ex
 
 ---
 
-## Data availability and assessment of countries’ capacity
+## Data availability and assessment of countriesï¿½ capacity
 
 Data on police personnel by sex are globally available for a large number of countries \(103\) covering around 3/4 of the world population. The capacity of countries to supply these data is generally considered as good.
 
@@ -57,4 +55,3 @@ Available data on police personnel are published on the old data portal [https:/
 Data and metadata were received from UNODC on 12 December 2019
 
 ---
-

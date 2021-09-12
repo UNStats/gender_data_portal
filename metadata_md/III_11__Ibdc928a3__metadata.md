@@ -1,6 +1,8 @@
 ## Contact point in international agency
 
-Melanie Cowan WHO [healthstat@who.int](mailto:healthstat@who.int)
+**Name**: Melanie Cowan
+**Agency**: WHO
+**Email**: [healthstat@who.int](mailto:healthstat@who.int)
 
 ---
 
@@ -18,7 +20,7 @@ The methods used for the analysis of causes of death depend on the type of data 
 
 ## Importance of the indicator in addressing gender issues and its limitation
 
-For adult ages and at global level the top causes of death are different for women than for men. The three top causes of death for adult women are infectious and parasitic diseases; cancers; and cardiovascular diseases. The three top causes of death for adult men are injuries; cardiovascular diseases and infectious and parasitic diseases. Adult men have higher mortality rates than adult women for all these causes of death with the exception of cancers where male and female rates are similar. Across regions and countries there are variations in the ranking of the causes of death and the gender gap in adult mortality due to specific causes of death. For example in Africa the number one cause of death for both women and men is HIV/AIDS and women have a higher adult mortality rate from this cause than men. The second most prevalent cause of death is other infectious and parasitic diseases where adult men have a higher mortality rate than adult women. The third cause of death is injuries for men and maternal and nutritional conditions for women. As another example in low and middle income countries of the Americas the leading cause of death for adult women is cancers from which they have a higher mortality rate than men. For adult men the number 1 cause of death is injuries from which their rate of mortality is several times higher than women’s. \(WHO 2011. Mortality estimates by cause age and sex for the year 2008\)
+For adult ages and at global level the top causes of death are different for women than for men. The three top causes of death for adult women are infectious and parasitic diseases; cancers; and cardiovascular diseases. The three top causes of death for adult men are injuries; cardiovascular diseases and infectious and parasitic diseases. Adult men have higher mortality rates than adult women for all these causes of death with the exception of cancers where male and female rates are similar. Across regions and countries there are variations in the ranking of the causes of death and the gender gap in adult mortality due to specific causes of death. For example in Africa the number one cause of death for both women and men is HIV/AIDS and women have a higher adult mortality rate from this cause than men. The second most prevalent cause of death is other infectious and parasitic diseases where adult men have a higher mortality rate than adult women. The third cause of death is injuries for men and maternal and nutritional conditions for women. As another example in low and middle income countries of the Americas the leading cause of death for adult women is cancers from which they have a higher mortality rate than men. For adult men the number 1 cause of death is injuries from which their rate of mortality is several times higher than womenï¿½s. \(WHO 2011. Mortality estimates by cause age and sex for the year 2008\)
 
 ---
 
@@ -40,15 +42,11 @@ For countries with high-quality cause-of-death statistics, interpolation/extrapo
 
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
 ## Expected time of release
-
-
 
 ---
 
@@ -57,4 +55,3 @@ For countries with high-quality cause-of-death statistics, interpolation/extrapo
 Data and metadata were extracted from Global SDG Indicators Database on 28 May 2021. For more information, please go to the following: [https://unstats.un.org/sdgs/indicators/database/](https://unstats.un.org/sdgs/indicators/database/) [https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-01.pdf](https://unstats.un.org/sdgs/metadata/files/Metadata-03-04-01.pdf)
 
 ---
-

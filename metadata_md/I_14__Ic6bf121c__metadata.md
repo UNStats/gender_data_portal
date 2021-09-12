@@ -1,6 +1,10 @@
 ## Contact point in international agency
 
-Name: Marie-Claire Sodergren Agency: ILO Title: Economist, Department of Statistics [sodergren@ilo.org](mailto:sodergren@ilo.org)  [ilostat.ilo.org](ilostat.ilo.org)
+**Name**: Marie-Claire Sodergren
+**Agency**: ILO
+**Title**: Economist, Department of Statistics
+**Email**: [sodergren@ilo.org](mailto:sodergren@ilo.org)
+**Website**: [ilostat.ilo.org](https://ilostat.ilo.org/)
 
 ---
 
@@ -12,43 +16,29 @@ The incidence of part-time employment, also known as the part-time employment ra
 
 ## Method of computation
 
-
-
 ---
 
 ## Importance of the indicator in addressing gender issues and its limitation
-
-
 
 ---
 
 ## Sources of discrepancies between global and national figures
 
-
-
 ---
 
 ## Process of obtaining data
-
-
 
 ---
 
 ## Treatment of missing values
 
-
-
 ---
 
-## Data availability and assessment of countries’ capacity
-
-
+## Data availability and assessment of countriesï¿½ capacity
 
 ---
 
 ## Expected time of release
-
-
 
 ---
 
@@ -57,4 +47,3 @@ The incidence of part-time employment, also known as the part-time employment ra
 Data and metadata were extracted from ILOSTAT Database on 21 May 2021. For more information, please go to the following: [https://ilostat.ilo.org/data/](https://ilostat.ilo.org/data/)
 
 ---
-
