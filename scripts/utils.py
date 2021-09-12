@@ -133,8 +133,7 @@ def dictList2csv(dictList, outputfile):
 
 
 def clean_str(v):
-    return str(v).replace(u'\xa0', u' ').replace(u'\u0151', u'o').replace(u'\u2011', u'-').encode("utf-8").decode("utf-8").replace('\n', ' ').replace('\r', ' ').replace('  ', ' ').strip()
-
+    return str(v).replace(u'\xa0', u' ').replace(u'\ufffc', u'').replace(u'\u2212', u'-').replace(u'\u202F', u' ').replace(u'\u0151', u'o').replace(u'\u2011', u'-').encode("utf-8").decode("utf-8").replace('\n', ' ').replace('\r', ' ').replace('  ', ' ').strip()
 
 def xlsx2dict(file, sheet=0, converters = {}):
     '''
