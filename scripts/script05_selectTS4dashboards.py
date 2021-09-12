@@ -18,7 +18,11 @@ ts_catalog = []
 
 for fdx, f in enumerate(datafiles):
 
-    if f in ['availability_bySeries.csv','availability_bySeriesCountry.csv']:
+    if f in ['availability_bySeries.csv','availability_bySeriesCountry.csv', 
+             'availability_bySeriesCountry_long.csv',
+             'availability_bySeriesCountry_wide_disaggregatedAge.csv',
+             'availability_bySeriesCountry_wide_disaggregatedSex.csv',
+             'availability_bySeriesCountry_wide.csv']:
         continue
 
     # if f != 'availability_ts_100__I_1__I98ba1fd8__S997d1fdb.csv':

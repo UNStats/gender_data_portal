@@ -5,7 +5,7 @@ import json
 import copy
 
 # Read minset_indicators_catalog
-minset_indicators_catalog = utils.xlsx2dict('master_data/catalog_series_old_and_new.xlsx', 0)
+minset_indicators_catalog = utils.xlsx2dict('master_data/CL_SERIES.xlsx', 0)
 #print(minset_indicators_catalog[0])
 
 # Read availability
