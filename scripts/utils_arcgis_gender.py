@@ -80,10 +80,10 @@ def build_series_card(d, i, s, release):
             '<p><strong>Domain ' + d['DOMAIN_ID'] + ': </strong>' + d['DOMAIN_DESC'] + \
             '</p>' + \
             '</div>'
-            
-        #    
 
         series_tags = s['TAGS'].split(', ')
+            
+
      
         series_tags.append(release)
 
@@ -179,7 +179,7 @@ def generate_renderer_infomation(feature_item,
         return None
 
 
-def publish_csv(d, i, s, release,
+def publish_csv(d, i, s, release, aliases,
                 item_properties,
                 thumbnail,
                 layer_info,
@@ -200,14 +200,14 @@ def publish_csv(d, i, s, release,
 
     while not gis_online_connection.content.is_service_name_available(service_name=service_title,
                                                                       service_type='featureService'):
-        service_title = s['SERIES_ID'] + '_' + i['INDICATOR_ID'].replace('.', '_') + '_' + release.replace('.', '') + \
+        service_title = i['INDICATOR_ID'].replace('.', '_') + '_' + s['SERIES_ID'] + '_' + release.replace('.', '') + \
             '_' + str(service_title_num)
         service_title_num += 1
 
     # display(service_title_num)
 
     # csv file to be uploaded:
-    file = os.path.join(data_dir, s['SORT_ORDER'] + '__Series_' + s['SERIES_ID'] + '.csv')
+    file = os.path.join(data_dir, s['SORT_ORDER'] + '__' + i['INDICATOR_LABEL'].replace('.', '_') + '__' + i['INDICATOR_ID'] + '__' + s['SERIES_ID'] + '.csv')
 
     print(file)
 
@@ -241,7 +241,7 @@ def publish_csv(d, i, s, release,
 
             # Change attribute types:
             publish_parameters = analyze_csv(
-                csv_item['id'], gis_online_connection)
+                csv_item['id'], gis_online_connection, aliases)
 
             if publish_parameters is None:
                 return None
@@ -274,7 +274,7 @@ def publish_csv(d, i, s, release,
         # Move to the Open Data Folder
         if csv_item['ownerFolder'] is None:
             print('Moving CSV to Open Data Folder')
-            csv_item.move('Open Data SDG' + g['code'].zfill(2))
+            csv_item.move('Minimum Gender Dataset - ' + d['DOMAIN_ID'])
 
         if csv_lyr is not None:
             print('Updating Feature Service metadata....')
@@ -283,7 +283,7 @@ def publish_csv(d, i, s, release,
 
             if csv_lyr['ownerFolder'] is None:
                 print('Moving Feature Service to Open Data Folder')
-                csv_lyr.move('Open Data SDG' + g['code'].zfill(2))
+                csv_lyr.move('Minimum Gender Dataset - ' + d['DOMAIN_ID'])
 
             return csv_lyr
         else:
@@ -293,7 +293,7 @@ def publish_csv(d, i, s, release,
         return None
 
 
-def analyze_csv(item_id, gis_online_connection):
+def analyze_csv(item_id, gis_online_connection, aliases):
     try:
         sharing_url = gis_online_connection._url + \
             '/sharing/rest/content/features/analyze'
@@ -309,48 +309,22 @@ def analyze_csv(item_id, gis_online_connection):
         analyze_json_data = json.loads(r.content.decode('UTF-8'))
 
         for field in analyze_json_data['publishParameters']['layerInfo']['fields']:
-            field['alias'] = set_field_alias(field['name'])
+            for k,v in aliases.items():
+                if k != field['name']:
+                    continue
+                else:
+                    field['alias'] = v
 
             # display(field['name'])
             # display(field['type'])
             # display(field['sqlType'])
             # print('---')
 
-            # IndicatorCode is coming in as a date Field make the correct
-
-            if field['name'] == 'target_descEN':
-                field['type'] = 'esriFieldTypeString'
-                field['sqlType'] = 'sqlTypeNVarchar'
-
-            if field['name'] == 'indicator_reference':
-                field['type'] = 'esriFieldTypeString'
-                field['sqlType'] = 'sqlTypeNVarchar'
-
-            elif field['name'] == 'target_code':
-                field['type'] = 'esriFieldTypeString'
-                field['sqlType'] = 'sqlTypeNVarchar'
-
-            elif field['name'] == 'min_year':
+            if field['name'] == 'TIME_PERIOD':
                 field['type'] = 'esriFieldTypeInteger'
                 field['sqlType'] = 'sqlTypeInt'
 
-            elif field['name'] == 'max_year':
-                field['type'] = 'esriFieldTypeInteger'
-                field['sqlType'] = 'sqlTypeInt'
-
-            elif field['name'] == 'n_years':
-                field['type'] = 'esriFieldTypeInteger'
-                field['sqlType'] = 'sqlTypeInt'
-
-            elif field['name'] == 'valueDetails':
-                field['type'] = 'esriFieldTypeString'
-                field['sqlType'] = 'sqlTypeNVarchar'
-
-            elif field['name'].startswith('value_'):
-                field['type'] = 'esriFieldTypeDouble'
-                field['sqlType'] = 'sqlTypeFloat'
-
-            elif field['name'] == 'latest_value':
+            elif field['name'].startswith('OBS_VALUE'):
                 field['type'] = 'esriFieldTypeDouble'
                 field['sqlType'] = 'sqlTypeFloat'
 
@@ -446,16 +420,16 @@ def set_field_alias(field_name):
         return utils.camel_case_split(field_name.replace('_', ' ')).replace(' Desc', ' Description').title()
 
 
-def update_item_categories(item, goal, target, gis_online_connection):
-    update_url = gis_online_connection._url + "/sharing/rest/content/updateItems"
-    items = [{item["id"]:{"categories": [
-        "/Categories/Goal " + str(goal) + "/Target " + str(target)]}}]
-    update_params = {'f': 'json',
-                     'token': gis_online_connection._con.token,
-                     'items': json.dumps(items)}
-    r = requests.post(update_url, data=update_params)
-    update_json_data = json.loads(r.content.decode("UTF-8"))
-    print(update_json_data)
+# def update_item_categories(item, goal, target, gis_online_connection):
+#     update_url = gis_online_connection._url + "/sharing/rest/content/updateItems"
+#     items = [{item["id"]:{"categories": [
+#         "/Categories/Goal " + str(goal) + "/Target " + str(target)]}}]
+#     update_params = {'f': 'json',
+#                      'token': gis_online_connection._con.token,
+#                      'items': json.dumps(items)}
+#     r = requests.post(update_url, data=update_params)
+#     update_json_data = json.loads(r.content.decode("UTF-8"))
+#     print(update_json_data)
 
 
 def set_content_status(gis_online_connection, update_item, authoratative=True):
